@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_trading_confirm"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.TradingConfirmFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/trading_confirm_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/table_pad_v"
+                android:layout_marginBottom="@dimen/pad_v"
+                android:stretchColumns="1">
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label1"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value1"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label8"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value8"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label2"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value2"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label3"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value3"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label4"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value4"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_unit4"
+                        style="@style/Label.TBUnit"
+                        android:layout_column="2" />
+                </TableRow>
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label5"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value5"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_unit5"
+                        style="@style/Label.TBUnit"
+                        android:layout_column="2" />
+                </TableRow>
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label6"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value6"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_unit6"
+                        style="@style/Label.TBUnit"
+                        android:layout_column="2" />
+                </TableRow>
+
+
+
+                <TableRow style="@style/Row.Cell">
+
+                    <TextView
+                        android:id="@+id/row_confirm_label7"
+                        style="@style/Label.TBLabel"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_value7"
+                        style="@style/Label.TBValue"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:id="@+id/row_confirm_unit7"
+                        style="@style/Label.TBUnit"
+                        android:layout_column="2" />
+                </TableRow>
+            </TableLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d10">
+
+                <Button
+                    android:id="@+id/btn_confirm_trade_close"
+                    style="@style/Button.Default"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/d10"
+                    android:text="@string/btn_close"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.75" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

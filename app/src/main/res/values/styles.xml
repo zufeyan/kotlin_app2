@@ -1,0 +1,973 @@
+<resources>
+    <!-- Base application theme. Theme.AppCompat.Light.NoActionBar-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="android:actionBarStyle">@style/Toolbar.Theme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:actionMenuTextColor">@color/tint</item>
+        <item name="colorControlNormal">@color/tint</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/Toolbar.Theme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Support AlertDialog compatibility -->
+        <item name="android:alertDialogTheme">@style/Dialog.Theme</item>
+    </style>
+
+    <!--Under construction-->
+    <style name="Construct">
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/page_404</item>
+    </style>
+
+    <!--Toolbar-->
+    <style name="Toolbar" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Toolbar.Theme">
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="android:actionMenuTextColor">@color/tint</item>
+        <!-- Tints the input fields like checkboxes and text fields -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!-- Applies to views in their normal state. -->
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <!-- Applies to views in their activated state (i.e checked or switches) -->
+        <item name="colorControlActivated">@color/controlActivated</item>
+        <!-- Applied to framework control highlights (i.e ripples or list selectors) -->
+        <item name="colorControlHighlight">@color/controlActivated</item>
+    </style>
+
+    <style name="Toolbar.Back" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <!--Tab bar-->
+    <style name="TabLayout" />
+
+    <style name="TabLayout.Theme">
+        <item name="backgroundColor">@color/white</item>
+        <item name="tabIndicatorColor">@color/tint</item>
+        <item name="tabIndicator">@null</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabSelectedTextColor">@color/tab_select</item>
+        <item name="tabIconTint">@color/color_tab</item>
+        <item name="tabIconTintMode">src_in</item>
+        <item name="android:textColor">@color/tab_normal</item>
+        <item name="android:textSize">@dimen/fs8</item>
+    </style>
+
+    <!--    <style name="TabLayout.Port">-->
+    <!--        <item name="backgroundColor">@color/white_80</item>-->
+    <!--        <item name="tabIndicatorColor">@color/tint</item>-->
+    <!--        <item name="tabIndicator">@null</item>-->
+    <!--        <item name="tabIndicatorHeight">0dp</item>-->
+    <!--        <item name="tabSelectedTextColor">@color/white</item>-->
+    <!--        <item name="tabIconTint">@color/color_tab</item>-->
+    <!--        <item name="tabIconTintMode">src_in</item>-->
+    <!--        <item name="android:textColor">@color/text</item>-->
+    <!--        <item name="android:textSize">@dimen/fs8</item>-->
+    <!--    </style>-->
+
+    <!--Dialog-->
+    <style name="Dialog" parent="@android:style/Theme.Dialog" />
+
+    <style name="Dialog.Theme">
+        <item name="android:windowNoTitle">true</item>
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="Dialog.Master">
+        <item name="android:windowNoTitle">true</item>
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/g77</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertImage" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/gf6</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--Image style-->
+    <style name="Image" />
+
+    <style name="Image.HomeNews">
+        <item name="android:layout_width">@dimen/card_news_photo_width</item>
+        <item name="android:layout_height">@dimen/card_news_photo_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <style name="Image.Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <style name="Image.FitWide">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <style name="Image.FitStart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <style name="Image.Single">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Image.More">
+        <item name="android:layout_width">@dimen/icon_more_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <style name="Image.Pay">
+        <item name="android:layout_width">@dimen/icon_pay_width</item>
+        <item name="android:layout_height">@dimen/icon_pay_width</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <!--card style-->
+    <style name="Card" parent="CardView" />
+
+    <style name="Card.Theme">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="Card.Grid">
+        <item name="cardCornerRadius">@dimen/d4</item>
+        <item name="cardElevation">@dimen/d2</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="android:layout_marginBottom">@dimen/d4</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Card.Table">
+        <item name="cardBackgroundColor">@color/bg_de</item>
+        <item name="cardCornerRadius">1dp</item>
+        <item name="cardElevation">@dimen/d1</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="android:layout_marginBottom">@dimen/d1</item>
+    </style>
+
+    <style name="Card.Color">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Card.More">
+        <item name="cardBackgroundColor">@color/png</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:padding">@dimen/neu_btn_pad_v</item>
+    </style>
+
+    <style name="Card.Settings">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardMaxElevation">1dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Cards" />
+
+    <style name="Cards.First">
+        <item name="android:background">@drawable/card_box</item>
+        <item name="android:layout_marginTop">@dimen/d4</item>
+        <item name="android:layout_marginEnd">@dimen/d2</item>
+        <item name="android:layout_marginBottom">@dimen/d2</item>
+        <item name="android:layout_marginStart">@dimen/d2</item>
+    </style>
+
+    <style name="Cards.Normal">
+        <item name="android:background">@drawable/card_box</item>
+        <item name="android:layout_margin">@dimen/d2</item>
+    </style>
+
+    <!--row style-->
+    <style name="Row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Row.Header">
+        <item name="android:background">@color/tint</item>
+        <item name="android:padding">@dimen/pad_all</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Row.Normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/row_height</item>
+        <item name="android:background">@drawable/bg_cell</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">@dimen/pad_h</item>
+        <item name="android:paddingEnd">@dimen/pad_h</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+
+    <style name="Row.ActionSheet">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/row_height</item>
+        <item name="android:background">@drawable/bg_cell</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Row.Indicator">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:gravity">center_vertical|end</item>
+    </style>
+
+    <style name="Row.Cell">
+        <item name="android:padding">@dimen/row_pad_cell</item>
+    </style>
+
+    <style name="Row.Column" parent="Row">
+        <item name="android:padding">@dimen/row_pad_cell</item>
+    </style>
+
+    <!--cell style-->
+    <style name="Cell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Cell.Border" parent="Cell">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="Cell.BorderLast" parent="Cell">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+    </style>
+
+    <!--Fragment style-->
+    <style name="Fragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>
+    </style>
+
+    <style name="Fragment.Default">
+        <item name="android:background">@drawable/bg_main</item>
+    </style>
+
+    <!--Segment Control Style-->
+    <style name="Segment" parent="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
+
+    <style name="Segment.Group" parent="Segment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/btn_seg_bg</item>
+        <item name="android:padding">@dimen/seg_a</item>
+        <item name="android:layout_marginBottom">@dimen/seg_b</item>
+
+    </style>
+
+    <style name="Segment.Trade" parent="Segment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/btn_seg_active</item>
+        <item name="android:paddingTop">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingBottom">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:textSize">@dimen/lb_segment_trade_size</item>
+        <item name="android:textColor">@drawable/btn_seg_text</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Segment.GroupPrice" parent="Segment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/btn_seg_bg</item>
+    </style>
+
+    <style name="Segment.Sell" parent="Segment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/btn_seg_sell</item>
+        <item name="android:paddingTop">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingBottom">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:textSize">@dimen/btn_title_size</item>
+        <item name="android:textColor">@color/pm_sell</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Segment.Buy" parent="Segment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/btn_seg_buy</item>
+        <item name="android:paddingTop">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingBottom">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:textSize">@dimen/btn_title_size</item>
+        <item name="android:textColor">@color/pm_buy</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--Progress Bar Style - Horizontal -->
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal" />
+
+    <style name="ProgressBar.Sell" parent="ProgressBar">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:max">100</item>
+        <item name="cornerRadius">@dimen/btn_corner</item>
+        <item name="colorAccent">@color/m_red</item>
+    </style>
+
+    <style name="ProgressBar.Buy" parent="ProgressBar">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:max">100</item>
+        <item name="cornerRadius">@dimen/btn_corner</item>
+        <item name="colorAccent">@color/m_green</item>
+    </style>
+
+    <!--Button style-->
+    <style name="Button" parent="Base.Widget.AppCompat.Button.Borderless" />
+
+    <style name="Button.Default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_neu</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_title_size</item>
+        <item name="android:textColor">@color/wo</item>
+        <item name="android:padding">@dimen/neu_btn_pad_v</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.Stroke">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_primary_border</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_qty_size</item>
+        <item name="android:textColor">@color/tint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.Price">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_primary</item>
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_price_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.Back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_back</item>
+        <item name="android:fontFamily">@font/pridi_medium</item>
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/fs16</item>
+        <item name="android:drawableStart">@drawable/ic_back_arrow</item>
+        <item name="android:layout_marginEnd">@dimen/d10</item>
+        <item name="android:paddingStart">@dimen/d10</item>
+        <item name="android:paddingEnd">@dimen/d10</item>
+    </style>
+
+    <style name="Button.Default.Fit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_btn_neu</item>
+        <!--        <item name="android:autoSizeTextType">uniform</item>-->
+        <!--        <item name="autoSizeMinTextSize">@dimen/btn_min_size</item>-->
+        <!--        <item name="autoSizeMaxTextSize">@dimen/btn_min_size</item>-->
+        <!--        <item name="autoSizeStepGranularity">@dimen/btn_step_size</item>-->
+        <!--        <item name="android:textAlignment">center</item>-->
+        <item name="android:textColor">@color/wo</item>
+        <!--        <item name="android:padding">@dimen/neu_btn_pad_v</item>-->
+        <!--        <item name="android:singleLine">true</item>-->
+        <!--        <item name="android:maxLines">1</item>-->
+    </style>
+
+    <style name="Button.Stroke.Fit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--        <item name="android:layout_gravity">center_vertical</item>-->
+        <item name="android:background">@drawable/bg_btn_primary_border</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <!--        <item name="android:minWidth">@dimen/s100</item>-->
+        <!--        <item name="android:textSize">@dimen/btn_qty_size</item>-->
+        <item name="android:textColor">@color/tint</item>
+    </style>
+
+    <style name="Button.Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lb_contact</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/tint</item>
+    </style>
+
+    <!--Date Time Picker-->
+    <style name="DateTime" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+    </style>
+
+    <style name="DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!--Edit Text style-->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditText.Default">
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorHint">@color/g9b</item>
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_edit_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">@dimen/edit_text_bottom</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="EditText.PassCode">
+        <item name="android:textColor">@color/pin_dot</item>
+        <item name="android:textColorHint">@color/g9b</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_pin_text</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:textSize">@dimen/pass_code_size</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <!--Spinner style-->
+    <style name="Spinner">
+        <item name="android:theme">@android:style/Theme.Holo.Light.DarkActionBar</item>
+    </style>
+
+    <style name="Spinner.Default">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_spinner</item>
+    </style>
+
+    <!--Label style-->
+    <style name="Label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+    </style>
+
+    <style name="Label.Status">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/lb_status_size</item>
+        <item name="android:paddingTop">@dimen/lb_status_pad</item>
+        <item name="android:paddingBottom">@dimen/lb_status_pad</item>
+        <item name="android:textColor">@color/tint</item>
+    </style>
+
+    <style name="Label.Version">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/lb_version_size</item>
+        <item name="android:paddingTop">@dimen/lb_version_pad</item>
+        <item name="android:paddingBottom">@dimen/lb_version_pad</item>
+        <item name="android:textColor">@color/version</item>
+    </style>
+
+    <style name="Label.Header">
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+    </style>
+
+    <style name="Label.Price1">
+        <!--        <item name="android:textSize">@dimen/lb_home_price</item>-->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="paddingStart">@dimen/row_space</item>-->
+        <!--        <item name="paddingEnd">@dimen/row_space</item>-->
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+    </style>
+
+    <style name="Label.PriceHome">
+        <!--        <item name="android:textSize">@dimen/lb_home_price</item>-->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+<!--        <item name="android:paddingStart">@dimen/row_space</item>-->
+        <item name="android:paddingEnd">@dimen/row_space</item>
+    </style>
+
+    <style name="Label.News">
+        <item name="android:textSize">@dimen/lb_sub</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingTop">@dimen/pad_all</item>
+        <item name="android:paddingStart">@dimen/pad_h</item>
+        <item name="android:paddingEnd">@dimen/pad_h</item>
+        <item name="android:paddingBottom">@dimen/pad_c</item>
+    </style>
+
+    <style name="Label.Row">
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Label.Row.Fit">
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">@dimen/btn_min_size</item>
+        <item name="autoSizeMaxTextSize">@dimen/lb_text</item>
+        <item name="autoSizeStepGranularity">@dimen/btn_step_size</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Label.TitleNews">
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.SubNews">
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:textSize">@dimen/lb_sub</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+    </style>
+
+    <style name="Label.Tag">
+        <!--        <item name="android:fontFamily">@font/pridi_light</item>-->
+        <item name="android:textSize">@dimen/lb_tag</item>
+        <item name="android:textColor">@color/text_tag</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.TitleTrade">
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">@dimen/seg_b</item>
+    </style>
+
+    <style name="Label.TitleSide">
+        <item name="android:textSize">@dimen/lb_side</item>
+        <item name="android:textColor">@color/text</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Label.Credit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Label.Prefix">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_v</item>
+    </style>
+
+    <style name="Label.Postfix">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>
+    </style>
+
+    <style name="Label.ActionSheet">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/lb_segment_trade_pad_v</item>
+    </style>
+
+    <style name="Label.TBLead">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_h</item>
+    </style>
+
+    <style name="Label.TBLabel">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
+    </style>
+
+    <style name="Label.TBValueFit">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/tint</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">@dimen/btn_min_size</item>
+        <item name="autoSizeMaxTextSize">@dimen/lb_text</item>
+        <item name="autoSizeStepGranularity">@dimen/btn_step_size</item>
+    </style>
+
+    <style name="Label.TBValue">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/tint</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>
+    </style>
+
+    <style name="Label.TBUnit">
+        <item name="android:minWidth">@dimen/unit_width</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/fs15</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/lb_cell</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <!--        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_v</item>-->
+        <!--        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>-->
+    </style>
+
+    <style name="Label.Count">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/count_height</item>
+        <item name="android:layout_marginTop">@dimen/count_top</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/lb_count</item>
+        <item name="android:textColor">@color/count</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Label.Second">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/count</item>
+    </style>
+
+    <style name="Label.Card">
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.CardLight">
+        <!--        <item name="android:fontFamily">@font/pridi_light</item>-->
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.Card.Fit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">@dimen/btn_min_size</item>
+        <item name="autoSizeMaxTextSize">@dimen/lb_text</item>
+        <item name="autoSizeStepGranularity">@dimen/btn_step_size</item>
+
+    </style>
+
+    <style name="Label.More">
+        <!--        <item name="android:fontFamily">@font/pridi_light</item>-->
+        <item name="android:textSize">@dimen/lb_more</item>
+        <item name="android:textColor">@color/more</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.Topic">
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.Sub">
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:textSize">@dimen/lb_sub</item>
+        <item name="android:textColor">@color/text_tag</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+    </style>
+
+    <style name="Label.Contact">
+        <item name="android:textSize">@dimen/lb_contact</item>
+        <item name="android:textColor">@color/tint</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Label.Brand">
+        <item name="android:textSize">@dimen/lb_brand</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Label.Normal">
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Label.CollapseTitle">
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.ExpandedTitle">
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Label.ExpandedBody">
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="Label.TBMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Label.TBSide">
+        <item name="android:padding">@dimen/row_pad_v</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--Icon-->
+    <style name="Icon" />
+
+    <style name="Icon.Notice">
+        <item name="android:layout_width">@dimen/indicator_size</item>
+        <item name="android:layout_height">@dimen/indicator_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="Icon.Next">
+        <item name="android:layout_width">@dimen/indicator_size</item>
+        <item name="android:layout_height">@dimen/indicator_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:contentDescription">@string/photo</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/ic_v_next</item>
+    </style>
+
+    <style name="Icon.Edit">
+        <item name="android:layout_width">@dimen/edit_size</item>
+        <item name="android:layout_height">@dimen/edit_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:contentDescription">@string/photo</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/ic_v_menu</item>
+        <item name="tint">@color/row_indicator</item>
+    </style>
+
+    <!--Keyboard Pass Code-->
+    <style name="Keyboard" />
+
+    <style name="Keyboard.Row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@drawable/keyboard_divider</item>
+        <item name="android:gravity">center</item>
+        <item name="android:showDividers">beginning|middle|end</item>
+        <item name="android:paddingBottom">@dimen/keyboard_pad_bottom</item>
+    </style>
+
+    <style name="Keyboard.Cell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Keyboard.Key">
+        <item name="android:layout_width">@dimen/keyboard_btn_size</item>
+        <item name="android:layout_height">@dimen/keyboard_btn_size</item>
+        <item name="android:background">@drawable/keyboard_button_bg</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/keyboard_text_size</item>
+        <item name="android:textColor">@color/pin_text</item>
+    </style>
+
+    <style name="Keyboard.Empty">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@color/png</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/keyboard_text_size</item>
+    </style>
+
+    <declare-styleable name="NumericKeyboard">
+        <attr name="field" format="reference" />
+        <attr name="fieldMaxLength" format="integer" />
+        <attr name="keyHeight" format="dimension" />
+        <attr name="keyTextSize" format="dimension" />
+        <attr name="keyTextColor" format="color" />
+        <attr name="keySpecial" format="string" />
+    </declare-styleable>
+
+</resources>

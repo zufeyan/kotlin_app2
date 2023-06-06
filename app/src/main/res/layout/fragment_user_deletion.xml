@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_user_del"
+    style="@style/Fragment.Default"
+    android:padding="@dimen/pad_h"
+    tools:context="com.sctgold.ltsgold.android.fragments.UserDeletionFragment">
+
+    <LinearLayout
+        android:id="@+id/del_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_pad"
+        app:layout_constraintBaseline_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/del_header"
+            style="@style/Label.Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_h"
+            android:text="@string/ud_title"
+            android:textColor="@color/wo" />
+
+        <TextView
+            android:id="@+id/del_info"
+            style="@style/Label.Sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ud_info" />
+
+        <EditText
+            android:id="@+id/del_name"
+            style="@style/EditText.Default"
+            android:hint="@string/ud_input_name"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/del_user"
+            style="@style/EditText.Default"
+            android:hint="@string/ud_input_user"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/del_emails"
+            style="@style/EditText.Default"
+            android:hint="@string/ud_input_mail"
+            android:importantForAutofill="no"
+            android:inputType="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/card_pad"
+            android:paddingBottom="@dimen/card_pad">
+
+            <TextView
+                android:id="@+id/del_lb_switcher"
+                style="@style/Label.Topic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ud_lb_del"
+                android:textColor="@color/wo" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/del_switch_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="center_vertical|end" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/del_lb_confirm"
+            style="@style/Label.Sub"
+            android:text="@string/ud_info2" />
+
+        <Button
+            android:id="@+id/del_confirm"
+            style="@style/Button.Default"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d20"
+            android:text="@string/ud_submit" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

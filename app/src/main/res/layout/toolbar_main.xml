@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/actionBarSize"
+    android:translationZ="1px">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_main">
+
+        <TextView
+            android:id="@+id/title_main_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/title"
+            android:textSize="@dimen/title_size" />
+
+        <RadioGroup
+            android:id="@+id/clear_port_sl_order"
+            style="@style/Segment.GroupPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="@dimen/pad_h"
+            android:checkedButton="@+id/clear_port_sl_sell"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/clear_port_sl_sell"
+                style="@style/Segment.Sell"
+                android:layout_width="wrap_content"
+                android:text="@string/SELL"
+                android:textColor="@color/bright_all"
+                android:textSize="@dimen/lb_sub" />
+
+            <RadioButton
+                android:id="@+id/clear_port_sl_buy"
+                style="@style/Segment.Buy"
+                android:layout_width="wrap_content"
+                android:text="@string/BUY"
+                android:textSize="@dimen/lb_sub" />
+
+        </RadioGroup>
+    </androidx.appcompat.widget.Toolbar>
+
+</RelativeLayout>

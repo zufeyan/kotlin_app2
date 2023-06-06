@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "BUNDLE",
+    "kind": "RegularFile"
+  },
+  "applicationId": "com.clevel.tmgold.android",
+  "variantName": "sctmobileDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "outputFile": "../../../outputs/bundle/sctmobileDebug/app-sctmobile-debug.aab"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/pgb_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/sell_percent"
+            style="@style/Label.Credit"
+            android:minWidth="@dimen/min_percent_width"
+            android:textColor="@color/m_red" />
+
+        <ProgressBar
+            android:id="@+id/sell_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:progressDrawable="@drawable/progressbar_sell"
+            android:theme="@style/ProgressBar.Sell" />
+
+        <TextView
+            android:id="@+id/sell_credit"
+            style="@style/Label.Credit"
+            android:minWidth="@dimen/min_value_width"
+            android:textAlignment="textEnd"
+            android:textColor="@color/m_red" />
+
+        <TextView
+            android:id="@+id/sell_max"
+            style="@style/Label.Credit"
+            android:minWidth="@dimen/min_max_width" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/pgb_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/buy_percent"
+            style="@style/Label.Credit"
+            android:minWidth="@dimen/min_percent_width"
+            android:textColor="@color/m_green" />
+
+        <ProgressBar
+            android:id="@+id/buy_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:progressDrawable="@drawable/progressbar_buy"
+            android:theme="@style/ProgressBar.Buy" />
+
+        <TextView
+            android:id="@+id/buy_credit"
+            style="@style/Label.Credit"
+            android:minWidth="@dimen/min_value_width"
+            android:textAlignment="textEnd"
+            android:textColor="@color/m_green" />
+
+        <TextView
+            android:id="@+id/buy_max"
+            style="@style/Label.Credit"
+            android:minWidth="@dimen/min_max_width" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_select_amount"
+        style="@style/Label.TitleTrade"
+        android:text="@string/ws_amount" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_qty_label"
+            style="@style/Label.Prefix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/btn_qty_select"
+            style="@style/Button.Stroke.Fit"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/fs54"
+            android:layout_weight="2"
+            android:maxLines="1"
+            android:text="@string/btn_select"
+            app:autoSizeMaxTextSize="@dimen/btn_qty_size"
+            app:autoSizeMinTextSize="@dimen/btn_min_size"
+            app:autoSizeStepGranularity="@dimen/btn_step_size"
+            app:autoSizeTextType="uniform" />
+        <!--   @dimen/btn_qty_size     android:layout_gravity="center"-->
+
+        <EditText
+            android:id="@+id/edit_qty"
+            style="@style/EditText.Default"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/fs54"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:hint="@string/un_qtys_edit"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            />
+
+
+        <TextView
+            android:id="@+id/text_qty_unit"
+            style="@style/Label.Postfix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/field_price_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_price_label"
+            style="@style/Label.Prefix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edit_price_select"
+            style="@style/EditText.Default"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/fs54"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:hint="@string/un_here"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/text_price_unit"
+            style="@style/Label.Postfix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d10">
+
+        <Button
+            android:id="@+id/btn_confirm_trade"
+            style="@style/Button.Default"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d10"
+            android:text="@string/btn_confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.75" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

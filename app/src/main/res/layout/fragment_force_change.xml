@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_force_change"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.ForceChangeFragment">
+
+    <ImageView
+        android:id="@+id/logo_app_fc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/brand"
+        app:layout_constraintBottom_toTopOf="@id/force_change_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="@dimen/logo_width" />
+
+    <LinearLayout
+        android:id="@+id/force_change_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_app_fc"
+        app:layout_constraintWidth_percent="0.85">
+
+        <TextView
+            android:id="@+id/lb_force_change"
+            style="@style/Label.Status"
+            android:layout_marginBottom="@dimen/lb_status_pad"
+            android:text="@string/alert_change_new" />
+
+        <EditText
+            android:id="@+id/new_password"
+            style="@style/EditText.Default"
+            android:hint="@string/npass"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            style="@style/EditText.Default"
+            android:hint="@string/cpass"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/new_pin"
+            style="@style/EditText.Default"
+            android:hint="@string/npin"
+            android:importantForAutofill="no"
+            android:inputType="numberPassword" />
+
+        <EditText
+            android:id="@+id/confirm_pin"
+            style="@style/EditText.Default"
+            android:hint="@string/cpin"
+            android:importantForAutofill="no"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/sign_in"
+            style="@style/Button.Default"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d20"
+            android:hint="@string/pass"
+            android:text="@string/btn_confirm" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

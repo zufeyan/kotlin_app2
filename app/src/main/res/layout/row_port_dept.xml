@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/port_dept_card"
+    style="@style/Card.Theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/port_dept_row_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tint"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/port_dept_lb"
+            style="@style/Label.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad_h"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/lb_header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/port_dept_val"
+            style="@style/Label.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/pad_h"
+            android:textAlignment="center"
+            android:textColor="@color/tint"
+            android:textSize="@dimen/lb_header"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

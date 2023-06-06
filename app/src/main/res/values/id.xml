@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- id for TAB -->
+    <item type="id" name="tab_home"/>
+    <item type="id" name="tab_portfolio"/>
+    <item type="id" name="tab_history"/>
+    <item type="id" name="tab_more"/>
+
+    <item type="id" name="pagetitle"/>
+    <item type="id" name="backButton"/>
+    <item type="id" name="layout_form_alert_simple" />
+</resources>

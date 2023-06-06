@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--theme set-->
+    <color name="colorPrimary">#ffE2C67F</color>
+    <color name="colorPrimaryDark">#ff111111</color>
+    <color name="colorAccent">#ffE2C67F</color>
+
+    <color name="title">#ffF3F3F3</color>
+    <color name="tint">#ffE2C67F</color>
+    <color name="tab_normal">#ffFFFFFF</color>
+    <color name="tab_select">#ffE2C67F</color>
+    <color name="header">#ffE2C67F</color>
+    <color name="text">#fff3f3f3</color>
+    <color name="text_light">#ffB3B3B3</color>
+    <color name="text_tag">#ffA0A0A0</color>
+    <color name="row_indicator">#C7C7C7</color>
+    <color name="row_bg">#202020</color>
+    <color name="row_bg_disabled">#333333</color>
+    <color name="row_line">#555555</color>
+    <color name="count">#ffFF8500</color>
+    <color name="more">#ff232323</color>
+    <color name="version">#ffA0A0A0</color>
+
+    <color name="pin_dot">#ffffffff</color>
+    <color name="pin_text">#ff232323</color>
+    <color name="pin_bg">#ffE2C67F</color>
+    <color name="pin_light_shadow">#40FFE49F</color>
+    <color name="pin_dark_shadow">#4063542F</color>
+    <color name="pin_press">#40AA9152</color>
+
+    <color name="segment_bg">#ffE2C67F</color>
+    <color name="segment_txt_normal">#ffE2C67F</color>
+    <color name="segment_txt_select">#232323</color>
+
+    <color name="more_bg">#ffE2C67F</color>
+    <color name="more_light_border">#33E2C67F</color>
+    <color name="more_light_shadow">#40FFE49F</color>
+    <color name="more_dark_shadow">#40AA9152</color>
+    <color name="more_press">#40AA9152</color>
+
+    <!--background Default-->
+    <color name="bg_de">#232323</color>
+
+    <!--background PLACE ORDER-->
+    <color name="bg_po">#001B36</color>
+
+    <!--background STOP ORDER-->
+    <color name="bg_so">#3E2E0C</color>
+
+    <!--background gradient-->
+    <color name="bg_gd1">#232323</color>
+    <color name="bg_gd2">#232323</color>
+    <color name="bg_gd3">#232323</color>
+    <color name="bg_gd4">#232323</color>
+    <color name="bg_gd5">#232323</color>
+
+    <!--primary color-->
+    <color name="pm_blue">#03B6D1</color>
+    <color name="pm_sell">#990000</color>
+    <color name="pm_buy">#007C00</color>
+    <color name="pm_paid">#FFAB0F</color>
+    <color name="pm_partial">#FBF400</color>
+    <color name="pm_sell_light">#FFFFE5E8</color>
+    <color name="pm_buy_light">#FFF5FFEF</color>
+    <color name="pm_track">#FF555555</color>
+
+    <!--back set-->
+    <color name="back_normal">#ffc10000</color>
+    <color name="back_pressed">#ff990000</color>
+
+    <!--products-->
+    <color name="g999">#FFEFD56F</color>
+    <color name="g965">#FFE4BC1E</color>
+    <color name="s999">#FFBCBCBC</color>
+
+    <!--act blue-->
+    <color name="d_blue">#178295</color>
+    <color name="m_blue">#30bbcc</color>
+    <color name="l_blue">#a2ecf5</color>
+
+    <color name="dp_blue">#219efc</color>
+    <color name="mp_blue">#ffcc00</color>
+    <color name="lp_blue">#ff7700</color>
+
+    <!--act green-->
+    <color name="d_green">#007C00</color>
+    <color name="m_green">#31b431</color>
+    <color name="l_green">#85d285</color>
+
+    <!--act red-->
+    <color name="d_red">#990000</color>
+    <color name="m_red">#cc0000</color>
+    <color name="l_red">#ff0000</color>
+
+    <!--act segment-->
+    <color name="press">#ffE2C67F</color>
+    <color name="select">#ffE2C67F</color>
+
+    <color name="normal">#ffffff</color>
+    <color name="active">#000000</color>
+
+    <!--control set-->
+    <color name="cursorAccent">#ffffcc00</color>
+    <color name="controlNormal">#ffffcc00</color>
+    <color name="controlActivated">#ffff7700</color>
+
+    <!--action set-->
+    <color name="step1">#FFDE59</color>
+    <color name="step2">#ffffcc00</color>
+    <color name="step3">#ffD8A201</color>
+    <color name="step4">#ffFF8D0A</color>
+
+    <!--grey set-->
+    <color name="g4a">#B5B5B5</color>
+    <color name="g42">#BDBDBD</color>
+    <color name="g77">#888888</color>
+    <color name="g9b">#9b9b9b</color>
+    <color name="gc0">#646464</color>
+    <color name="ge4">#1B1B1B</color>
+    <color name="gec">#131313</color>
+    <color name="gee">#111111</color>
+    <color name="gef">#101010</color>
+    <color name="gf2">#0D0D0D</color>
+    <color name="gf6">#090909</color>
+    <color name="gfa">#050505</color>
+
+    <!--custom color-->
+    <color name="white">#ff000000</color>
+    <color name="black">#ffffffff</color>
+
+    <color name="wo">#ffffffff</color>
+    <color name="bo">#ff000000</color>
+
+    <!--neumorphism color-->
+    <color name="neu_bg">#ff232323</color>
+    <color name="neu_light_border">#33fefefe</color>
+    <color name="neu_light_shadow">#40404040</color>
+    <color name="neu_dark_shadow">#40000000</color>
+    <color name="neu_press">#ff000000</color>
+    <color name="neu_press_key">#ff999999</color>
+    <color name="neu_pass_code">#ffffffff</color>
+
+    <!--transparent color-->
+    <color name="png">#00000000</color>
+    <color name="white_93">#ee212121</color>
+    <color name="white_87">#dd212121</color>
+    <color name="white_80">#cc212121</color>
+    <color name="white_f6_87">#dd090909</color>
+    <color name="black_15">#26ffffff</color>
+    <color name="black_10">#1Affffff</color>
+    <color name="black_5">#0Dffffff</color>
+    <color name="blue_67">#aaffcc00</color>
+
+    <color name="white_norm">#ffffffff</color>
+    <color name="black_norm">#ff000000</color>
+    <color name="bd_match">#cc212121</color>
+
+    <!--actions color-->
+    <color name="hole_chart">#ff000000</color>
+    <color name="bright_all">#ffffff</color>
+    <color name="dark_all">#2c2c2c</color>
+    <color name="bg_seg_all">#33FFFFFF</color>
+</resources>

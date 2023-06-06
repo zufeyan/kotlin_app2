@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //theme shape
+    <dimen name="app_size">90dp</dimen>
+    <dimen name="splash_size">300dp</dimen>
+    <dimen name="corners">30dp</dimen>
+    <dimen name="color_corner">21dp</dimen>
+    <dimen name="sp_side_trade">40dp</dimen>
+    <dimen name="min_percent_width">120dp</dimen>
+    <dimen name="min_value_width">120dp</dimen>
+    <dimen name="min_max_width">120dp</dimen>
+    <dimen name="btn_height">84dp</dimen>
+    <dimen name="ok_height">120dp</dimen>
+    <dimen name="ok_corners">60dp</dimen>
+    <dimen name="count_height">180dp</dimen>
+    <dimen name="count_top">-50dp</dimen>
+    <dimen name="icon_more_width">90dp</dimen>
+    <dimen name="brand_width">220dp</dimen>
+    <dimen name="icon_pay_width">110dp</dimen>
+    <dimen name="dot_size">10dp</dimen>
+
+    //theme logo width
+    <dimen name="logo_width_pin">0.4</dimen>
+    <dimen name="logo_pad_bottom">36dp</dimen>
+
+    //theme pin size
+    <dimen name="pass_code_size">120sp</dimen>
+    <dimen name="keyboard_btn_size">92dp</dimen>
+    <dimen name="keyboard_text_size">48sp</dimen>
+    <dimen name="keyboard_pad_bottom">24dp</dimen>
+
+    //theme font size
+    <dimen name="lb_size">24sp</dimen>
+
+    //theme edit text
+    <dimen name="edit_text_size">26sp</dimen>
+    <dimen name="edit_text_bottom">16dp</dimen>
+
+    //theme button
+    <dimen name="btn_title_size">28sp</dimen>
+    <dimen name="btn_price_size">60sp</dimen>
+    <dimen name="btn_qty_size">36sp</dimen>
+    <dimen name="btn_stroke_width">4dp</dimen>
+
+    //theme padding cell and card
+    <dimen name="frag_bottom">20dp</dimen>
+    <dimen name="seg_corner">34dp</dimen>
+    <dimen name="btn_corner">30dp</dimen>
+    <dimen name="card_corner">30dp</dimen>
+    <dimen name="card_pad">28dp</dimen>
+    <dimen name="pad_v">28dp</dimen>
+    <dimen name="pad_h">32dp</dimen>
+    <dimen name="pad_all">32dp</dimen>
+    <dimen name="seg_a">2dp</dimen>
+    <dimen name="seg_b">12dp</dimen>
+    <dimen name="lb_status_pad">30dp</dimen>
+    <dimen name="lb_version_pad">24dp</dimen>
+    <dimen name="lb_segment_trade_pad_h">30dp</dimen>
+    <dimen name="lb_segment_trade_pad_v">16dp</dimen>
+    <dimen name="pgb_margin">20dp</dimen>
+
+    //row
+    <dimen name="row_height">78dp</dimen>
+    <dimen name="indicator_size">26dp</dimen>
+    <dimen name="unit_width">150dp</dimen>
+    <dimen name="row_space">24dp</dimen>
+
+    //card
+    <dimen name="card_news">720dp</dimen>
+    <dimen name="card_news_photo_width">300dp</dimen>
+    <dimen name="card_news_photo_height">180dp</dimen>
+    <dimen name="card_history_color_width">80dp</dimen>
+
+    //text
+    <dimen name="lb_header">32sp</dimen>
+    <dimen name="lb_home_price">35sp</dimen>
+    <dimen name="lb_trade_price">36sp</dimen>
+    <dimen name="lb_text">28sp</dimen>
+    <dimen name="lb_sub">21sp</dimen>
+    <dimen name="lb_tag">16sp</dimen>
+    <dimen name="lb_status_size">24sp</dimen>
+    <dimen name="lb_version_size">18sp</dimen>
+    <dimen name="lb_segment_trade_size">26sp</dimen>
+    <dimen name="lb_cell">28sp</dimen>
+    <dimen name="lb_side">30sp</dimen>
+    <dimen name="lb_count">200sp</dimen>
+    <dimen name="lb_more">16sp</dimen>
+    <dimen name="lb_contact">30sp</dimen>
+    <dimen name="lb_brand">28sp</dimen>
+    <dimen name="lb_total">34sp</dimen>
+    <dimen name="lb_dot">90sp</dimen>
+
+    <dimen name="cd_side">24sp</dimen>
+    <dimen name="cd_price">30sp</dimen>
+    <dimen name="cd_state">20sp</dimen>
+    <dimen name="cd_date">16sp</dimen>
+
+    //neumorphism
+    <dimen name="shadow_none">0dp</dimen>
+    <dimen name="shadow_space">4dp</dimen>
+    <dimen name="shadow_radius">12dp</dimen>
+    <dimen name="inner_radius">10dp</dimen>
+    <dimen name="neu_pad_v">10dp</dimen>
+    <dimen name="neu_pad_h">15dp</dimen>
+    <dimen name="neu_btn_pad_v">10dp</dimen>
+    <dimen name="neu_btn_pad_h">15dp</dimen>
+
+    <dimen name="hole_divider_width">95dp</dimen>
+    <dimen name="hole_divider_height">2dp</dimen>
+
+</resources>

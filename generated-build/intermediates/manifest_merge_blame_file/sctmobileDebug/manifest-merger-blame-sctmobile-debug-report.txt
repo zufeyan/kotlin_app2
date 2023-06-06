@@ -1,0 +1,864 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.clevel.tmgold.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+12-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:7:5-75
+12-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:7:22-72
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:9:5-66
+14-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:9:22-63
+15    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+15-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:10:5-98
+15-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:10:22-95
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:11:5-81
+16-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:12:5-79
+17-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:13:5-69
+18-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:13:22-66
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:14:5-80
+19-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:15:5-17:40
+20-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:16:9-65
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:18:5-65
+21-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:18:22-62
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:19:5-79
+22-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:19:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:20:5-76
+23-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:20:22-73
+24    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+24-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:21:5-23:47
+24-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:22:9-64
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:9:5-66
+25-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:9:22-63
+26    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+26-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:25:5-72
+26-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:25:22-69
+27    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+27-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:26:5-85
+27-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:26:22-82
+28    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+28-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:27:5-74
+28-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:27:22-71
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:28:5-82
+29-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:28:22-79
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:29:5-68
+30-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:29:22-65
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:30:5-75
+31-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:30:22-72
+32    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+32-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:31:5-32:47
+32-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:31:22-90
+33    <!-- Samsung -->
+34    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+34-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:34:5-86
+34-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:34:22-83
+35    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+35-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:35:5-87
+35-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:35:22-84
+36
+37    <!-- Sony -->
+38    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+38-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:38:5-88
+38-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:38:22-85
+39
+40    <!-- HTC -->
+41    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+41-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:41:5-81
+41-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:41:22-78
+42    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+42-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:42:5-83
+42-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:42:22-80
+43
+44    <uses-feature
+44-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:44:5-45:34
+45        android:glEsVersion="0x00020000"
+45-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:44:19-51
+46        android:required="true" />
+46-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:45:9-32
+47    <uses-feature android:name="android.hardware.screen.portrait" />
+47-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:46:5-69
+47-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:46:19-66
+48    <uses-feature android:name="android.hardware.location.gps" />
+48-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:47:5-66
+48-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:47:19-63
+49    <uses-feature
+49-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:48:5-50:36
+50        android:name="android.hardware.camera"
+50-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:49:9-47
+51        android:required="false" />
+51-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:50:9-33
+52
+53    <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+54    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+54-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:26:5-77
+54-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:26:22-74
+55    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+55-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+55-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+56
+57    <application
+57-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:52:5-213:19
+58        android:allowBackup="true"
+58-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:53:9-35
+59        android:allowClearUserData="true"
+59-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:54:9-42
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.3.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\4a9ac399dab61d959408842b38f236c4\core-1.3.2\AndroidManifest.xml:24:18-86
+61        android:configChanges="locale"
+61-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:66:9-39
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:icon="@mipmap/ic_launcher"
+64-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:55:9-43
+65        android:label=""
+65-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:56:9-25
+66        android:launchMode="singleInstance"
+66-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:57:9-44
+67        android:networkSecurityConfig="@xml/network_security_config"
+67-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:58:9-69
+68        android:noHistory="true"
+68-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:59:9-33
+69        android:requestLegacyExternalStorage="true"
+69-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:60:9-52
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:61:9-54
+71        android:supportsRtl="true"
+71-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:62:9-35
+72        android:theme="@style/AppTheme"
+72-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:63:9-40
+73        android:usesCleartextTraffic="true" >
+73-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:64:9-44
+74        <uses-library
+74-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:67:9-88
+75            android:name="org.apache.http.legacy"
+75-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:67:23-60
+76            android:required="false" />
+76-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:67:61-85
+77
+78        <!-- &lt;!&ndash;        <meta-data&ndash;&gt; -->
+79        <!-- &lt;!&ndash;            android:name="com.clevel.tmgold.android.MORE_MENU_VISIBLE"&ndash;&gt; -->
+80        <!-- &lt;!&ndash;            android:value="${MORE_MENU_LIST}" tools:replace="android:value"/>&ndash;&gt; -->
+81        <!-- <meta-data -->
+82        <!-- android:name="com.google.android.gms.version" -->
+83        <!-- android:value="12451000" tools:replace="android:value"/> -->
+84        <!-- <meta-data -->
+85        <!-- android:name="com.google.android.geo.API_KE" -->
+86        <!-- android:value="AIzaSyBPGOFKmVqKEuuti6l0CG2-blgRJBafQH4"/> -->
+87        <!-- <meta-data -->
+88        <!-- android:name="com.clevel.tmgold.android.SECURITY_BASE_URL" -->
+89        <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/api/v3.0/secure" tools:replace="android:value"/> -->
+90        <!-- <meta-data -->
+91        <!-- android:name="com.clevel.tmgold.android.API_BASE_URL" -->
+92        <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/api/v3.0" tools:replace="android:value"/> -->
+93        <!-- &lt;!&ndash;        <meta-data&ndash;&gt; -->
+94        <!-- &lt;!&ndash;            android:name="com.clevel.tmgold.android.FILE_UPLOAD_URL"&ndash;&gt; -->
+95        <!-- &lt;!&ndash;            android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/upload" tools:replace="android:value"/>&ndash;&gt; -->
+96        <!-- <meta-data -->
+97        <!-- android:name="com.clevel.tmgold.android.BRANCH_CODE" -->
+98        <!-- android:value="${API_BRANCH_CODE}"/> -->
+99        <!-- &lt;!&ndash;        &lt;!&ndash;        ws://localhost:8080/sctgoldFO/primepush/productPrice/100/ONLINE/A&ndash;&gt;&ndash;&gt; -->
+100        <!-- <meta-data -->
+101        <!-- android:name="com.clevel.tmgold.android.FEED_SOCKET_URL" -->
+102        <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/productPrice/${API_BRANCH_CODE}/ONLINE" tools:replace="android:value"/> -->
+103        <!-- <meta-data -->
+104        <!-- android:name="com.clevel.tmgold.android.CONFIG_SOCKET_URL" -->
+105        <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/mobileSystemUpdate" tools:replace="android:value"/> -->
+106        <!-- <meta-data -->
+107        <!-- android:name="com.clevel.tmgold.android.EVENT_SOCKET_URL" -->
+108        <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/mobileEventNotify" tools:replace="android:value"/> -->
+109        <!-- <meta-data -->
+110        <!-- android:name="com.clevel.tmgold.android.SCT_API_URL" -->
+111        <!-- android:value="http://www.sctgoldgroup.com:8080/sctAPIMobile/rest"/> -->
+112
+113        <meta-data
+113-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:106:9-108:50
+114            android:name="com.google.android.actions"
+114-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:107:13-54
+115            android:resource="@xml/file_paths" />
+115-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:108:13-47
+116
+117        <activity
+117-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:113:9-120:20
+118            android:name="com.clevel.tmgold.android.activities.LauncherActivity"
+118-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:113:19-62
+119            android:exported="true"
+119-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:115:13-36
+120            android:windowSoftInputMode="stateVisible" >
+120-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:114:13-55
+121            <intent-filter>
+121-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:116:13-119:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:117:17-69
+122-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:117:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:118:17-77
+124-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:118:27-74
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:122:9-132:20
+128            android:name="com.clevel.tmgold.android.activities.MainActivity"
+128-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:124:13-52
+129            android:configChanges="uiMode"
+129-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:125:13-43
+130            android:exported="true"
+130-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:123:13-36
+131            android:launchMode="singleTop"
+131-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:126:13-43
+132            android:windowSoftInputMode="stateHidden|adjustResize" >
+132-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:127:13-67
+133            <intent-filter>
+133-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:128:13-131:29
+134                <action android:name=".MainActivity" />
+134-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:129:17-56
+134-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:129:25-53
+135                <action android:name="android.intent.action.VIEW" />
+135-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:130:17-69
+135-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:130:25-66
+136            </intent-filter>
+137        </activity>
+138        <activity
+138-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:134:9-136:46
+139            android:name="com.clevel.tmgold.android.activities.HomeActivity"
+139-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:135:13-52
+140            android:configChanges="uiMode" />
+140-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:136:13-43
+141
+142        <provider
+143            android:name="androidx.core.content.FileProvider"
+143-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:140:13-62
+144            android:authorities="com.clevel.tmgold.android.provider"
+144-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:141:13-60
+145            android:exported="false"
+145-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:142:13-37
+146            android:grantUriPermissions="true" >
+146-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:143:13-47
+147            <meta-data
+147-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:144:13-146:54
+148                android:name="android.support.FILE_PROVIDER_PATHS"
+148-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:145:17-67
+149                android:resource="@xml/file_paths" />
+149-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:146:17-51
+150        </provider>
+151
+152        <service
+152-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:150:9-156:19
+153            android:name="com.clevel.tmgold.android.fcm.MyFirebaseInstanceIDService"
+153-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:151:13-91
+154            android:exported="false" >
+154-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:152:13-37
+155            <intent-filter>
+155-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:153:13-155:29
+156                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+156-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:154:17-80
+156-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:154:25-77
+157            </intent-filter>
+158        </service>
+159        <service
+159-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:158:9-164:19
+160            android:name="com.clevel.tmgold.android.fcm.MyFirebaseMessagingService"
+160-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:159:13-59
+161            android:exported="false" >
+161-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:160:13-37
+162            <intent-filter>
+162-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:161:13-163:29
+163                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+163-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:162:17-78
+163-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:162:25-75
+164            </intent-filter>
+165        </service>
+166
+167        <!-- <receiver android:name=".BootReceiver" -->
+168        <!-- android:exported="false"> -->
+169        <!-- <intent-filter> -->
+170        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+171        <!-- </intent-filter> -->
+172        <!-- </receiver> -->
+173
+174        <meta-data
+174-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:173:9-175:71
+175            android:name="com.google.firebase.messaging.default_notification_channel_id"
+175-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:174:13-89
+176            android:value="@string/default_notification_channel_id" />
+176-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:175:13-68
+177        <meta-data
+177-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:177:9-179:54
+178            android:name="com.google.firebase.messaging.default_notification_icon"
+178-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:178:13-83
+179            android:resource="@mipmap/ic_launcher" />
+179-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:179:13-51
+180        <meta-data
+180-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:181:9-183:47
+181            android:name="com.google.firebase.messaging.default_notification_color"
+181-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:182:13-84
+182            android:resource="@color/white" />
+182-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:183:13-44
+183        <meta-data
+183-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:185:9-187:66
+184            android:name="com.google.android.geo.API_KEY"
+184-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:186:13-58
+185            android:value="@string/google_android_map_api_key" />
+185-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:187:13-63
+186        <meta-data
+186-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:189:9-191:37
+187            android:name="firebase_messaging_auto_init_enabled"
+187-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:190:13-64
+188            android:value="false" />
+188-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:191:13-34
+189        <meta-data
+189-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:192:9-194:37
+190            android:name="firebase_analytics_collection_enabled"
+190-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:193:13-65
+191            android:value="false" />
+191-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:194:13-34
+192
+193        <activity android:name="com.clevel.tmgold.android.activities.DetailsActivity" />
+193-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:196:9-64
+193-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:196:19-61
+194
+195        <service android:name="com.clevel.tmgold.android.service.MobilePricingService" />
+195-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:198:9-64
+195-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:198:18-62
+196
+197        <receiver
+197-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:200:9-211:20
+198            android:name="com.clevel.tmgold.android.ReplyReceiver"
+198-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:200:19-48
+199            android:enabled="true"
+199-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:201:13-35
+200            android:exported="false"
+200-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:202:13-37
+201            android:stopWithTask="false" >
+201-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:201:37-65
+202            <intent-filter>
+202-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:203:13-210:29
+203                <action android:name="com.simplemobiletools.applauncher.sendbroadcast" />
+203-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:204:17-90
+203-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:204:25-87
+204                <action android:name="android.intent.action.BOOT_COMPLETED" />
+204-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:205:17-79
+204-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:205:25-76
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:206:17-76
+206-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:206:27-73
+207
+208                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+208-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:207:17-81
+208-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:207:25-79
+209                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+209-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:208:17-85
+209-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:208:25-82
+210            </intent-filter>
+211        </receiver>
+212
+213        <service
+213-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:29:9-32:45
+214            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+214-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:30:13-80
+215            android:enabled="false"
+215-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:31:13-36
+216            android:process=":leakcanary" />
+216-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:32:13-42
+217        <service
+217-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:33:9-36:45
+218            android:name="com.squareup.leakcanary.DisplayLeakService"
+218-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:34:13-70
+219            android:enabled="false"
+219-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:35:13-36
+220            android:process=":leakcanary" />
+220-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:36:13-42
+221
+222        <provider
+222-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:38:9-46:20
+223            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+223-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:39:13-83
+224            android:authorities="com.squareup.leakcanary.fileprovider.com.clevel.tmgold.android"
+224-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:40:13-88
+225            android:exported="false"
+225-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:41:13-37
+226            android:grantUriPermissions="true" >
+226-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:42:13-47
+227            <meta-data
+227-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:144:13-146:54
+228                android:name="android.support.FILE_PROVIDER_PATHS"
+228-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:145:17-67
+229                android:resource="@xml/leak_canary_file_paths" />
+229-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:146:17-51
+230        </provider>
+231
+232        <activity
+232-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:48:9-61:20
+233            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+233-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:49:13-80
+234            android:enabled="false"
+234-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:50:13-36
+235            android:icon="@mipmap/leak_canary_icon"
+235-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:51:13-52
+236            android:label="@string/leak_canary_display_activity_label"
+236-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:52:13-71
+237            android:process=":leakcanary"
+237-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:53:13-42
+238            android:taskAffinity="com.squareup.leakcanary.com.clevel.tmgold.android"
+238-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:54:13-76
+239            android:theme="@style/leak_canary_LeakCanary.Base" >
+239-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:55:13-63
+240            <intent-filter>
+240-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:116:13-119:29
+241                <action android:name="android.intent.action.MAIN" />
+241-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:117:17-69
+241-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:117:25-66
+242
+243                <category android:name="android.intent.category.LAUNCHER" />
+243-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:118:17-77
+243-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:118:27-74
+244            </intent-filter>
+245        </activity>
+246        <activity
+246-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:62:9-71:68
+247            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+247-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:63:13-93
+248            android:enabled="false"
+248-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:64:13-36
+249            android:excludeFromRecents="true"
+249-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:65:13-46
+250            android:icon="@mipmap/leak_canary_icon"
+250-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:66:13-52
+251            android:label="@string/leak_canary_storage_permission_activity_label"
+251-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:67:13-82
+252            android:process=":leakcanary"
+252-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:68:13-42
+253            android:roundIcon="@mipmap/leak_canary_icon"
+253-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:69:13-57
+254            android:taskAffinity="com.squareup.leakcanary.com.clevel.tmgold.android"
+254-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:70:13-76
+255            android:theme="@style/leak_canary_Theme.Transparent" />
+255-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:71:13-65
+256
+257        <provider
+257-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:14:9-18:39
+258            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+258-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:15:13-82
+259            android:authorities="com.clevel.tmgold.android.firebaseperfprovider"
+259-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:16:13-72
+260            android:exported="false"
+260-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:17:13-37
+261            android:initOrder="101" />
+261-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:18:13-36
+262
+263        <service
+263-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:20:9-26:19
+264            android:name="com.google.firebase.components.ComponentDiscoveryService"
+264-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:21:13-84
+265            android:directBootAware="true"
+265-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+266            android:exported="false" >
+266-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:22:13-37
+267            <meta-data
+267-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:23:13-25:85
+268                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+268-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:24:17-109
+269                android:value="com.google.firebase.components.ComponentRegistrar" />
+269-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:25:17-82
+270            <meta-data
+270-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+271                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+271-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+272                android:value="com.google.firebase.components.ComponentRegistrar" />
+272-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+273            <meta-data
+273-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+274                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+274-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+275                android:value="com.google.firebase.components.ComponentRegistrar" />
+275-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+276            <meta-data
+276-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\a855d2c5ff1b643607c4052388edda29\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+277                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+277-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\a855d2c5ff1b643607c4052388edda29\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+278                android:value="com.google.firebase.components.ComponentRegistrar" />
+278-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\a855d2c5ff1b643607c4052388edda29\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+279            <meta-data
+279-->[com.google.firebase:firebase-config:20.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5a74c413772eb76e5ea9c52e91fa02ad\jetified-firebase-config-20.0.2\AndroidManifest.xml:32:13-34:85
+280                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+280-->[com.google.firebase:firebase-config:20.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5a74c413772eb76e5ea9c52e91fa02ad\jetified-firebase-config-20.0.2\AndroidManifest.xml:33:17-117
+281                android:value="com.google.firebase.components.ComponentRegistrar" />
+281-->[com.google.firebase:firebase-config:20.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5a74c413772eb76e5ea9c52e91fa02ad\jetified-firebase-config-20.0.2\AndroidManifest.xml:34:17-82
+282            <meta-data
+282-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\08b26f7b139b2ed1ae1a8651005ae4e3\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+283                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+283-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\08b26f7b139b2ed1ae1a8651005ae4e3\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+284                android:value="com.google.firebase.components.ComponentRegistrar" />
+284-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\08b26f7b139b2ed1ae1a8651005ae4e3\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+285            <meta-data
+285-->[com.google.firebase:firebase-datatransport:17.0.11] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\0e818313dd9a3437fdd51377093ca1d9\jetified-firebase-datatransport-17.0.11\AndroidManifest.xml:28:13-30:85
+286                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+286-->[com.google.firebase:firebase-datatransport:17.0.11] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\0e818313dd9a3437fdd51377093ca1d9\jetified-firebase-datatransport-17.0.11\AndroidManifest.xml:29:17-115
+287                android:value="com.google.firebase.components.ComponentRegistrar" />
+287-->[com.google.firebase:firebase-datatransport:17.0.11] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\0e818313dd9a3437fdd51377093ca1d9\jetified-firebase-datatransport-17.0.11\AndroidManifest.xml:30:17-82
+288            <meta-data
+288-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\35af13d4622bbe652ec243e72177dbc9\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
+289                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+289-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\35af13d4622bbe652ec243e72177dbc9\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\35af13d4622bbe652ec243e72177dbc9\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
+291            <!--
+292                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+293                clients to use it as well, by defining this registrar in their own core/common library.
+294            -->
+295            <meta-data
+295-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+296                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+296-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+297                android:value="com.google.firebase.components.ComponentRegistrar" />
+297-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+298        </service>
+299        <!--
+300             FirebaseMessagingService performs security checks at runtime,
+301             but set to not exported to explicitly avoid allowing another app to call it.
+302        -->
+303        <service
+303-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+304            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+304-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+305            android:directBootAware="true"
+305-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+306            android:exported="false" >
+306-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\12225036eaf46d48711f8e845d5074c9\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+307            <intent-filter android:priority="-500" >
+307-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:161:13-163:29
+308                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+308-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:162:17-78
+308-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:162:25-75
+309            </intent-filter>
+310        </service>
+311
+312        <receiver
+312-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+313            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+313-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+314            android:exported="true"
+314-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+315            android:permission="com.google.android.c2dm.permission.SEND" >
+315-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+316            <intent-filter>
+316-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+317                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+317-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+317-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\2319824fdb92d8ae5b74c2229e4545f7\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+318            </intent-filter>
+319        </receiver>
+320
+321        <activity
+321-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5fa275d31c26aba428934b6b5546d0d4\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+322            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+322-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5fa275d31c26aba428934b6b5546d0d4\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+323            android:exported="false"
+323-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5fa275d31c26aba428934b6b5546d0d4\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+324            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+324-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5fa275d31c26aba428934b6b5546d0d4\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+325        <!--
+326             Receives GooglePlay execution requests and forwards them to the
+327             appropriate internal service.
+328        -->
+329        <service
+329-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:38:9-45:19
+330            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+330-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:39:13-73
+331            android:exported="true"
+331-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:40:13-36
+332            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+332-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:41:13-93
+333            <intent-filter>
+333-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:42:13-44:29
+334                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+334-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:43:17-87
+334-->[com.firebase:firebase-jobdispatcher:0.8.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\6aff0eeb286b3ff78871b6a060422691\jetified-firebase-jobdispatcher-0.8.6\AndroidManifest.xml:43:25-84
+335            </intent-filter>
+336        </service>
+337
+338        <receiver
+338-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+339            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+339-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+341            android:exported="false" >
+341-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+342        </receiver>
+343
+344        <service
+344-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+345            android:name="com.google.android.gms.measurement.AppMeasurementService"
+345-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+346            android:enabled="true"
+346-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+347            android:exported="false" />
+347-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+348        <service
+348-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+349            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+349-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+350            android:enabled="true"
+350-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+352            android:permission="android.permission.BIND_JOB_SERVICE" />
+352-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7933b8c785b3521e75d593496f37f6c3\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+353
+354        <provider
+354-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:28:9-34:35
+355            android:name="androidx.work.impl.WorkManagerInitializer"
+355-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:29:13-69
+356            android:authorities="com.clevel.tmgold.android.workmanager-init"
+356-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:30:13-68
+357            android:directBootAware="false"
+357-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:31:13-44
+358            android:exported="false"
+358-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:32:13-37
+359            android:multiprocess="true" />
+359-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:33:13-40
+360
+361        <service
+361-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:36:9-41:35
+362            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+362-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:37:13-88
+363            android:directBootAware="false"
+363-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:38:13-44
+364            android:enabled="@bool/enable_system_alarm_service_default"
+364-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:39:13-72
+365            android:exported="false" />
+365-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:40:13-37
+366        <service
+366-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:42:9-48:35
+367            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+367-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:43:13-84
+368            android:directBootAware="false"
+368-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:44:13-44
+369            android:enabled="@bool/enable_system_job_service_default"
+369-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:45:13-70
+370            android:exported="true"
+370-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:46:13-36
+371            android:permission="android.permission.BIND_JOB_SERVICE" />
+371-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:47:13-69
+372
+373        <receiver
+373-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:50:9-55:35
+374            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+374-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:51:13-88
+375            android:directBootAware="false"
+375-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:52:13-44
+376            android:enabled="true"
+376-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:53:13-35
+377            android:exported="false" />
+377-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:54:13-37
+378        <receiver
+378-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:56:9-66:20
+379            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+379-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:57:13-106
+380            android:directBootAware="false"
+380-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:58:13-44
+381            android:enabled="false"
+381-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:59:13-36
+382            android:exported="false" >
+382-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:60:13-37
+383            <intent-filter>
+383-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:62:13-65:29
+384                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+384-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:63:17-87
+384-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:63:25-84
+385                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+385-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:64:17-90
+385-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:64:25-87
+386            </intent-filter>
+387        </receiver>
+388        <receiver
+388-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:67:9-77:20
+389            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+389-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:68:13-104
+390            android:directBootAware="false"
+390-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:69:13-44
+391            android:enabled="false"
+391-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:70:13-36
+392            android:exported="false" >
+392-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:71:13-37
+393            <intent-filter>
+393-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:73:13-76:29
+394                <action android:name="android.intent.action.BATTERY_OKAY" />
+394-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:74:17-77
+394-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:74:25-74
+395                <action android:name="android.intent.action.BATTERY_LOW" />
+395-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:75:17-76
+395-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:75:25-73
+396            </intent-filter>
+397        </receiver>
+398        <receiver
+398-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:78:9-88:20
+399            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+399-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:79:13-104
+400            android:directBootAware="false"
+400-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:80:13-44
+401            android:enabled="false"
+401-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:81:13-36
+402            android:exported="false" >
+402-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:82:13-37
+403            <intent-filter>
+403-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:84:13-87:29
+404                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+404-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:85:17-83
+404-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:85:25-80
+405                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+405-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:86:17-82
+405-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:86:25-79
+406            </intent-filter>
+407        </receiver>
+408        <receiver
+408-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:89:9-98:20
+409            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+409-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:90:13-103
+410            android:directBootAware="false"
+410-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:91:13-44
+411            android:enabled="false"
+411-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:92:13-36
+412            android:exported="false" >
+412-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:93:13-37
+413            <intent-filter>
+413-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:95:13-97:29
+414                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+414-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:96:17-79
+414-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:96:25-76
+415            </intent-filter>
+416        </receiver>
+417        <receiver
+417-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:99:9-110:20
+418            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+418-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:100:13-88
+419            android:directBootAware="false"
+419-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:101:13-44
+420            android:enabled="false"
+420-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:102:13-36
+421            android:exported="false" >
+421-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:103:13-37
+422            <intent-filter>
+422-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:105:13-109:29
+423                <action android:name="android.intent.action.BOOT_COMPLETED" />
+423-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:205:17-79
+423-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:205:25-76
+424                <action android:name="android.intent.action.TIME_SET" />
+424-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:107:17-73
+424-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:107:25-70
+425                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+425-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:108:17-81
+425-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:108:25-78
+426            </intent-filter>
+427        </receiver>
+428        <receiver
+428-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:111:9-120:20
+429            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+429-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:112:13-99
+430            android:directBootAware="false"
+430-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:113:13-44
+431            android:enabled="@bool/enable_system_alarm_service_default"
+431-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:114:13-72
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:115:13-37
+433            <intent-filter>
+433-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:117:13-119:29
+434                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+434-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:118:17-98
+434-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:118:25-95
+435            </intent-filter>
+436        </receiver>
+437
+438        <provider
+438-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+439            android:name="com.google.firebase.provider.FirebaseInitProvider"
+439-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+440            android:authorities="com.clevel.tmgold.android.firebaseinitprovider"
+440-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+441            android:directBootAware="true"
+441-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+442            android:exported="false"
+442-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+443            android:initOrder="100" />
+443-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+444
+445        <meta-data
+445-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7fc39696524f58dd558dfe6507fce353\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+446            android:name="com.google.android.gms.version"
+446-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7fc39696524f58dd558dfe6507fce353\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+447            android:value="@integer/google_play_services_version" />
+447-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\7fc39696524f58dd558dfe6507fce353\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+448
+449        <service
+449-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\93dc430d509428841f7d1fce6013317c\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+450            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+450-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\93dc430d509428841f7d1fce6013317c\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+451            android:exported="false" >
+451-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\93dc430d509428841f7d1fce6013317c\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+452            <meta-data
+452-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\93dc430d509428841f7d1fce6013317c\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+453                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+453-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\93dc430d509428841f7d1fce6013317c\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+454                android:value="cct" />
+454-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\93dc430d509428841f7d1fce6013317c\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+455        </service>
+456        <service
+456-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+457            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+457-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+458            android:exported="false"
+458-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+459            android:permission="android.permission.BIND_JOB_SERVICE" >
+459-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+460        </service>
+461
+462        <receiver
+462-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+463            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+463-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+464            android:exported="false" />
+464-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\e7cadc19201d599a7b07cc28589fe88a\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+465
+466        <provider
+466-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+467            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+467-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+468            android:authorities="com.clevel.tmgold.android.lifecycle-process"
+468-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+469            android:exported="false"
+469-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+470            android:multiprocess="true" />
+470-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+471    </application>
+472
+473</manifest>

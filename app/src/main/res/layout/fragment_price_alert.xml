@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_price_alert"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.PriceAlertFragment"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:id="@+id/price_alert_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_pad" >
+
+        <TextView
+            android:id="@+id/price_alert_title1"
+            style="@style/Label.Header"
+            android:text="@string/pa_head"
+            android:textAlignment="center"
+            android:textColor="@color/tint"
+            android:textSize="@dimen/cd_price"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/table_pad_v"
+            android:layout_marginBottom="@dimen/table_pad_v"
+            android:stretchColumns="1">
+
+            <TableRow style="@style/Row.Column">
+
+                <TextView
+                    android:id="@+id/price_alert_lb_order"
+                    style="@style/Label.TBLead"
+                    android:layout_column="0"
+                    android:text="@string/pa_type"
+                    android:textColor="@color/wo" />
+
+                <RadioGroup
+                    android:id="@+id/price_alert_sl_order"
+                    style="@style/Segment.GroupPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:checkedButton="@+id/price_alert_sl_sell"
+                    android:gravity="center_vertical">
+
+                    <RadioButton
+                        android:id="@+id/price_alert_sl_sell"
+                        style="@style/Segment.Sell"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/SELL"
+                        android:textColor="@color/white" />
+
+                    <RadioButton
+                        android:id="@+id/price_alert_sl_buy"
+                        style="@style/Segment.Buy"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/BUY" />
+
+                </RadioGroup>
+
+            </TableRow>
+
+            <TableRow style="@style/Row.Column">
+
+                <TextView
+                    android:id="@+id/price_alert_lb_product"
+                    style="@style/Label.TBLead"
+                    android:layout_column="0"
+                    android:text="@string/prod"
+                    android:textColor="@color/wo"/>
+
+                <Button
+                    android:id="@+id/price_alert_btn_sl_product"
+                    style="@style/Button.Stroke"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/btn_select"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow style="@style/Row.Column">
+
+                <TextView
+                    android:id="@+id/price_alert_lb_price"
+                    style="@style/Label.TBLead"
+                    android:layout_column="0"
+                    android:text="@string/un_price"
+                    android:textColor="@color/wo" />
+
+                <EditText
+                    android:id="@+id/price_alert_add_price"
+                    style="@style/EditText.Default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:hint="@string/pa_add"
+                    android:importantForAutofill="no"
+                    android:inputType="number" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d10">
+
+            <Button
+                android:id="@+id/price_alert_confirm"
+                style="@style/Button.Default"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:text="@string/btn_add"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.75" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/price_alert_title2"
+            style="@style/Label.Header"
+            android:layout_marginTop="@dimen/table_pad_v"
+            android:text="@string/pa_list"
+            android:textAlignment="center"
+            android:textColor="@color/tint"
+            android:textSize="@dimen/cd_price"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/price_alert_lists"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/pad_v"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</FrameLayout>

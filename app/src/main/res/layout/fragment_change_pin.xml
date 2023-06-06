@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_change_pin"
+    style="@style/Fragment.Default"
+    android:padding="@dimen/pad_h"
+    tools:context="com.sctgold.ltsgold.android.fragments.ChangePinFragment">
+
+    <LinearLayout
+        android:id="@+id/change_pin_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_pad"
+        app:layout_constraintBaseline_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/change_pin_current"
+            style="@style/EditText.Default"
+            android:hint="@string/crpin"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/change_pin_new"
+            style="@style/EditText.Default"
+            android:hint="@string/npin"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/change_pin_confirm"
+            style="@style/EditText.Default"
+            android:hint="@string/conf_cpin"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/change_pin_save"
+            style="@style/Button.Default"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/d20"
+            android:text="@string/btn_confirm" />
+
+        <TextView
+            android:id="@+id/testmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/wo" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

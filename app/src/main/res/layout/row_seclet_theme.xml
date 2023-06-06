@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card.Settings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/settings_select_theme_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_pad">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/pad_h"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/settings_select_theme_topic"
+                style="@style/Label.Topic" />
+
+            <TextView
+                android:id="@+id/settings_select_theme_sub"
+                style="@style/Label.Sub" />
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/select_theme"
+            style="@style/Segment.Group"
+            android:checkedButton="@+id/select_real_time">
+
+            <RadioButton
+                android:id="@+id/select_auto"
+                style="@style/Segment.Trade"
+                android:text="@string/tauto" />
+
+            <RadioButton
+                android:id="@+id/select_light"
+                style="@style/Segment.Trade"
+                android:text="@string/tlight" />
+
+            <RadioButton
+                android:id="@+id/select_dark"
+                style="@style/Segment.Trade"
+                android:text="@string/tdark" />
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

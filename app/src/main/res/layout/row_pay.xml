@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card.Theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pay_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_v">
+
+        <ImageView
+            android:id="@+id/pay_photo"
+            style="@style/Image.Pay"
+            android:layout_marginEnd="@dimen/pad_h"
+            android:contentDescription="@string/photo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pay_title"
+                style="@style/Label.TitleNews"
+                android:textColor="@color/tint" />
+
+            <TextView
+                android:id="@+id/pay_sub"
+                style="@style/Label.SubNews" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/pay_action"
+            style="@style/Icon.Next" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

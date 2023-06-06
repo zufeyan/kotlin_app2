@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/matching_card"
+    style="@style/Card.Theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/matching_row_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/matching_row_code"
+            style="@style/Label.Card.Fit"
+            android:layout_margin="@dimen/pad_v"
+            android:textAlignment="center"
+            android:textColor="@color/bright_all"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/matching_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow android:id="@+id/matching_row_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/matching_cell_1"
+                    style="@style/Cell.Border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/matching_lb_due"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                    <TextView
+                        android:id="@+id/matching_val_due"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/matching_cell_2"
+                    style="@style/Cell.Border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/matching_lb_product"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                    <TextView
+                        android:id="@+id/matching_val_product"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/matching_cell_3"
+                    style="@style/Cell.BorderLast"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/matching_lb_qty"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                    <TextView
+                        android:id="@+id/matching_val_qty"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/matching_row_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/matching_cell_4"
+                    style="@style/Cell.Border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/matching_lb_price"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                    <TextView
+                        android:id="@+id/matching_val_price"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/matching_cell_5"
+                    style="@style/Cell.Border"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/matching_lb_total"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                    <TextView
+                        android:id="@+id/matching_val_total"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/matching_cell_6"
+                    style="@style/Cell.BorderLast"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/matching_lb_over"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                    <TextView
+                        android:id="@+id/matching_val_over"
+                        style="@style/Label.TBMatch"
+                        android:textSize="@dimen/lb_sub" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/port_folio_card"
+    style="@style/Card.Theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/port_folio_row_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/port_folio_cell_prod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/port_folio_lb_prod"
+                style="@style/Label.TBSide"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:maxLines="1"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="@dimen/btn_min_size"
+                app:autoSizeMaxTextSize="@dimen/lb_header"
+                app:autoSizeStepGranularity="@dimen/btn_step_size" />
+
+            <LinearLayout
+                android:id="@+id/port_folio_res_con"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="@dimen/pad_v">
+
+                <TextView
+                    android:id="@+id/port_folio_res_lb"
+                    style="@style/Label.TBLead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bright_all"
+                    android:textSize="@dimen/lb_sub" />
+
+                <TextView
+                    android:id="@+id/port_folio_res_val"
+                    style="@style/Label.TBValue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/bright_all"
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="@dimen/btn_min_size"
+                    app:autoSizeMaxTextSize="@dimen/lb_text"
+                    app:autoSizeStepGranularity="@dimen/btn_step_size"
+                    tools:ignore="NestedWeights" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_h"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pie_chart_sell"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pie_chart_size"
+                    android:foregroundGravity="center"
+                    android:padding="@dimen/pad_v" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pie_chart_percent_sell"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/lb_text"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/pie_chart_use_sell"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/lb_version_size" />
+
+                        <View
+                            android:id="@+id/pie_chart_divider_sell"
+                            android:layout_width="@dimen/hole_divider_width"
+                            android:layout_height="@dimen/hole_divider_height"
+                            android:layout_gravity="center"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:id="@+id/pie_chart_max_sell"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/lb_version_size" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pie_chart_buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pie_chart_size"
+                    android:foregroundGravity="center"
+                    android:padding="@dimen/pad_v" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pie_chart_percent_buy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/lb_text"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/pie_chart_use_buy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/lb_version_size" />
+
+                        <View
+                            android:id="@+id/pie_chart_divider_buy"
+                            android:layout_width="@dimen/hole_divider_width"
+                            android:layout_height="@dimen/hole_divider_height"
+                            android:layout_gravity="center"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:id="@+id/pie_chart_max_buy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/lb_version_size" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/port_folio_next"
+                style="@style/Icon.Next" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

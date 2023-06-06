@@ -1,0 +1,13 @@
+#Fri Mar 11 08:35:07 ICT 2022
+path.3=classes3.dex
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+base.3=C\:\\Users\\nunnapat.t\\Desktop\\New folder (2)\\SCTGold\\generated-build\\intermediates\\dex\\sctmobileDebug\\mergeExtDexSctmobileDebug\\classes3.dex
+base.2=C\:\\Users\\nunnapat.t\\Desktop\\New folder (2)\\SCTGold\\generated-build\\intermediates\\dex\\sctmobileDebug\\mergeExtDexSctmobileDebug\\classes2.dex
+base.1=C\:\\Users\\nunnapat.t\\Desktop\\New folder (2)\\SCTGold\\generated-build\\intermediates\\dex\\sctmobileDebug\\mergeProjectDexSctmobileDebug\\classes.dex
+base.0=C\:\\Users\\nunnapat.t\\Desktop\\New folder (2)\\SCTGold\\generated-build\\intermediates\\dex\\sctmobileDebug\\mergeExtDexSctmobileDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

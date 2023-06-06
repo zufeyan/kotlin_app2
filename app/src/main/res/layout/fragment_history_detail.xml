@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_history_detail"
+    style="@style/Fragment.Default"
+    android:clickable="true"
+    tools:context="com.sctgold.ltsgold.android.fragments.HistoryDetailFragment">
+
+    <androidx.cardview.widget.CardView
+        style="@style/Card.Theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/table_pad_v"
+            android:layout_marginBottom="@dimen/table_pad_v"
+            android:clickable="false"
+            android:stretchColumns="1">
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label1"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value1"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label2"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value2"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label3"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value3"
+                    style="@style/Label.TBValueFit"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label4"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value4"
+                    style="@style/Label.TBValueFit"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_text"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label5"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value5"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label6"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value6"
+                    style="@style/Label.TBValueFit"
+                    android:layout_column="1"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/row_detail_unit6"
+                    style="@style/Label.TBUnit"
+                    android:layout_column="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label7"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value7"
+                    style="@style/Label.TBValueFit"
+                    android:layout_column="1"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/row_detail_unit7"
+                    style="@style/Label.TBUnit"
+                    android:layout_column="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label8"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value8"
+                    style="@style/Label.TBValueFit"
+                    android:layout_column="1"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/row_detail_unit8"
+                    style="@style/Label.TBUnit"
+                    android:layout_column="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label9"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value9"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label10"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value10"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label11"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value11"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+            <TableRow style="@style/Row.Cell">
+
+                <TextView
+                    android:id="@+id/row_detail_label12"
+                    style="@style/Label.TBLabel"
+                    android:layout_column="0" />
+
+                <TextView
+                    android:id="@+id/row_detail_value12"
+                    style="@style/Label.TBValue"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    app:autoSizeMaxTextSize="@dimen/lb_cell"
+                    app:autoSizeMinTextSize="@dimen/lb_tag"
+                    app:autoSizeStepGranularity="2sp"
+                    app:autoSizeTextType="uniform" />
+            </TableRow>
+
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

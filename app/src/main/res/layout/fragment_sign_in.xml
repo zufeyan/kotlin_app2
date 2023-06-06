@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_sign_in"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.SignInFragment">
+
+    <ImageView
+        android:id="@+id/logo_app"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/brand"
+        app:layout_constraintBottom_toTopOf="@id/sign_in_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="@dimen/logo_width" />
+
+    <LinearLayout
+        android:id="@+id/sign_in_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/lb_version"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_app"
+        app:layout_constraintWidth_percent="0.85">
+
+        <TextView
+            android:id="@+id/lb_status_sign_in"
+            style="@style/Label.Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_authen" />
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/EditText.Default"
+            android:hint="@string/user"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/EditText.Default"
+            android:hint="@string/pass"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/sign_in"
+            style="@style/Button.Default"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/d20"
+            android:text="@string/btn_sign_in" />
+
+        <LinearLayout
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d20"
+            android:layout_marginBottom="@dimen/d20"
+            android:orientation="horizontal">
+
+            <!--            <Button-->
+            <!--                android:id="@+id/forget_password"-->
+            <!--                style="@style/Button.Default"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_marginEnd="@dimen/d10"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="@string/btn_forget" />-->
+
+            <!--            <Button-->
+            <!--                android:id="@+id/open_account"-->
+            <!--                style="@style/Button.Default"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="@string/btn_open" />-->
+
+            <TextView
+                android:id="@+id/forget_password"
+                style="@style/Button.Default.Fit"
+                android:layout_width="356dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/d10"
+                android:layout_weight="1"
+                android:text="@string/btn_forget"
+                app:autoSizeMaxTextSize="@dimen/btn_max_size"
+                app:autoSizeMinTextSize="@dimen/btn_min_size"
+                app:autoSizeStepGranularity="@dimen/btn_step_size"
+                app:autoSizeTextType="uniform" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/open_account"-->
+            <!--                style="@style/Button.Default.Fit"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="@string/btn_open"-->
+            <!--                app:autoSizeTextType="uniform"-->
+            <!--                app:autoSizeMinTextSize="@dimen/btn_min_size"-->
+            <!--                app:autoSizeMaxTextSize="@dimen/btn_max_size"-->
+            <!--                app:autoSizeStepGranularity="@dimen/btn_step_size"/>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lb_version"
+        style="@style/Label.Version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sign_in_form" />
+        <!--app:layout_constraintTop_toBottomOf="@id/sign_in_form"-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

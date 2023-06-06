@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_news_detail"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.NewsDetailFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card.Theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/news_detail_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/pad_h">
+
+                <ImageView
+                    android:id="@+id/news_detail_photo"
+                    style="@style/Image.FitWide"
+                    android:layout_marginBottom="@dimen/pad_h"
+                    android:contentDescription="@string/photo" />
+
+                <TextView
+                    android:id="@+id/news_detail_header"
+                    style="@style/Label.Header"
+                    android:layout_marginBottom="@dimen/pad_v"
+                    android:textColor="@color/tint" />
+
+                <TextView
+                    android:id="@+id/news_detail_body"
+                    style="@style/Label.Normal"
+                    android:layout_marginBottom="@dimen/pad_v" />
+
+                <TextView
+                    android:id="@+id/news_detail_post"
+                    style="@style/Label.Tag"
+                    android:layout_marginBottom="@dimen/pad_v" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

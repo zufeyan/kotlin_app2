@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Card.Theme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/history_row_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_pad">
+
+        <View
+            android:id="@+id/history_row_color"
+            android:layout_width="@dimen/card_history_color_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_view" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/pad_h"
+            android:paddingEnd="@dimen/pad_h">
+
+            <TextView
+                android:id="@+id/history_row_type"
+                style="@style/Label.Card"
+                android:textSize="@dimen/cd_side"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/history_row_price"
+                style="@style/Label.Card"
+                android:textColor="@color/text"
+                android:textSize="@dimen/cd_price"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/history_row_state"
+                style="@style/Label.CardLight"
+                android:textColor="@color/text_tag"
+                android:textSize="@dimen/cd_state" />
+
+            <TextView
+                android:id="@+id/history_row_date"
+                style="@style/Label.CardLight"
+                android:textColor="@color/text_tag"
+                android:textSize="@dimen/cd_date" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/history_row_next"
+            style="@style/Icon.Next" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

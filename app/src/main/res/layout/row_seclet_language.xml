@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card.Settings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/settings_select_lang_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_pad">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/pad_h"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/settings_select_lang_topic"
+                style="@style/Label.Topic" />
+
+            <TextView
+                android:id="@+id/settings_select_lang_sub"
+                style="@style/Label.Sub" />
+
+        </LinearLayout>
+
+
+            <RadioGroup
+                android:id="@+id/select_language"
+                style="@style/Segment.Group"
+                android:checkedButton="@+id/select_row_language">
+
+                <RadioButton
+                    android:id="@+id/select_th"
+                    style="@style/Segment.Trade"
+                    android:text="TH" />
+
+                <RadioButton
+                    android:id="@+id/select_en"
+                    style="@style/Segment.Trade"
+                    android:text="EN" />
+
+            </RadioGroup>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

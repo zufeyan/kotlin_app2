@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_port_send"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.PortSendingFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_post_sending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/port_send_header"
+            style="@style/Label.Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad_h"
+            android:textColor="@color/wo"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/port_send_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/row_pad_v"
+            android:layout_marginEnd="@dimen/row_pad_v"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/text_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="591dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="TextView"
+            android:textSize="@dimen/lb_header" />
+
+    </LinearLayout>
+
+</FrameLayout>

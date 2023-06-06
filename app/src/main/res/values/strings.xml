@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LTS Gold</string>
+    <string name="version">\u00a9 Powered by SCT Gold - </string>
+
+    <!--google-->
+    <string name="google_android_map_api_key">AIzaSyDIQv7d3q6IpxrW6dtvQb67ZCohgfvAByw</string>
+
+    <!--unicode text-->
+    <string name="dot">\u2022</string>
+
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_404">Page is under construction.</string>
+    <string name="photo">Photo</string>
+
+    <!-- page -->
+    <string name="tpin">Pin</string>
+    <string name="tforce">Force Change</string>
+    <string name="tforget">Forget Password</string>
+    <string name="topen">Open Account</string>
+    <string name="thome">Home</string>
+    <string name="thistory">History</string>
+    <string name="thisdetail">Detail</string>
+    <string name="tmore">More</string>
+    <string name="tsett">Settings</string>
+    <string name="tpric">Price Alert</string>
+    <string name="tnews">News</string>
+    <string name="tnewd">News Detail</string>
+    <string name="tanal">Analysis</string>
+    <string name="tgrap">Graph</string>
+    <string name="tcont">Contact</string>
+    <string name="tpaym">Payment</string>
+    <string name="tguid">Guideline</string>
+    <string name="tnoti">Notices</string>
+    <string name="tclea">Clear Port</string>
+    <string name="tlang">Change Language</string>
+    <string name="tauto">Auto</string>
+    <string name="tlight">Light</string>
+    <string name="tdark">Dark</string>
+
+    <!-- settings -->
+    <string name="ms_sec1">Saving Account Control</string>
+    <string name="ms_sec2">Security Account Control</string>
+    <string name="ms_sec3">Current User</string>
+    <string name="sub_user">Remember username</string>
+    <string name="sub_pin">Remember pin code</string>
+    <string name="sub_bio">Applicable on 13+ and able to use only when you already enable feature “Fingerprint / Face ID \u0026 Passcode” and add your fingerprint in iPhone’s settings. (Settings >> Touch ID / Face ID \u0026 Password >> Add a Fingerprint / Face ID).</string>
+    <string name="sub_always">Prevent the system from putting the device into a sleep state after application not receives user input for a period of time.</string>
+    <string name="sub_cpass">Change new password</string>
+    <string name="sub_cpin">Change new PIN</string>
+    <string name="sub_account">Account</string>
+    <string name="authen">authenticating..</string>
+    <string name="bio">Biometric Authentication</string>
+    <string name="always">Always ON</string>
+    <string name="crpwd">Current Password</string>
+    <string name="crpin">Current PIN</string>
+    <string name="vl_all">New password must be compound with</string>
+    <string name="vl_1">1. At least 6 characters</string>
+    <string name="vl_2">2. At least an uppercase letter</string>
+    <string name="vl_3">3. At least a lowercase letter </string>
+    <string name="vl_4">4. At least a digit</string>
+    <string name="dark_mode">Change Theme</string>
+    <string name="sub_dark_mode">Open the dark mode for saving energy</string>
+    <string name="sub_lang">Change Language</string>
+
+    <!-- tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_port">Portfolio</string>
+    <string name="tab_hist">History</string>
+    <string name="tab_more">More</string>
+
+    <!-- unit -->
+    <string name="un_rt">Real Time</string>
+    <string name="un_po">Place Order</string>
+    <string name="un_so">Stop Order</string>
+    <string name="un_qty">QTY</string>
+    <string name="un_qtys">Select Quantity</string>
+    <string name="un_gram">gram</string>
+    <string name="un_baht">BG</string>
+    <string name="un_kilo">KG</string>
+    <string name="un_mb">Baht</string>
+    <string name="un_price">Price</string>
+    <string name="un_usd">USD</string>
+    <string name="un_thb">THB</string>
+    <string name="un_here">Fill here</string>
+    <string name="un_qtys_edit">Fill here</string>
+    <string name="un_b">B</string>
+
+    <!-- general -->
+    <string name="lang">EN</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="npass">New Password</string>
+    <string name="cpass">Change Password</string>
+    <string name="conf_cpass">Confirm New Password</string>
+    <string name="conf_cpin">Confirm New PIN</string>
+    <string name="npin">New PIN</string>
+    <string name="cpin">Change PIN</string>
+    <string name="regis_email">Registered email</string>
+    <string name="manage">Edit Products</string>
+    <string name="prod">Product</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+    <string name="ws_type">Select Type</string>
+    <string name="ws_order">Select Order Type</string>
+    <string name="ws_credit">Credit Limit</string>
+    <string name="ws_amount">Select Amount</string>
+    <string name="ws_product">Select Product</string>
+    <string name="read_all">Mask all as read</string>
+    <string name="delete_order">Delete Order</string>
+
+    <!-- price alert -->
+    <string name="pa_head">Price Alert Settings</string>
+    <string name="pa_type">Order Type</string>
+    <string name="pa_add">Fill Price</string>
+    <string name="pa_list">Price Alert List</string>
+
+    <!-- news -->
+    <string name="nws_head">Headline News</string>
+    <string name="nws_detail">News Detail</string>
+    <string name="nws_label">Highlights</string>
+    <string name="nws_all"><u>Read more</u></string>
+
+    <!-- trade / history -->
+    <string name="usr_acc">A/C</string>
+    <!--    <string name="usr_iv">IV</string>-->
+    <string name="usr_qu">QU</string>
+    <string name="usr_typ">Type</string>
+    <string name="usr_ord">Order</string>
+    <string name="usr_spo">Spot</string>
+    <string name="usr_pri">Price</string>
+    <string name="usr_qty">QTY</string>
+    <string name="usr_tot">Total</string>
+    <string name="usr_all_tot">Total</string>
+    <string name="usr_dat">Date</string>
+    <string name="usr_bs">BU/SE</string>
+    <string name="usr_due">Due</string>
+    <string name="usr_sta">Status</string>
+    <string name="usr_fif">FIFO</string>
+    <string name="usr_pay">Pay</string>
+    <string name="do_lead">You have </string>
+    <string name="do_trail"> seconds for confirming order.</string>
+    <string name="do_sec">Seconds</string>
+    <string name="detail">Detail</string>
+    <string name="display">Display</string>
+    <string name="hidden">Hidden</string>
+    <string name="no_item">No Item</string>
+
+    <!-- payment -->
+    <string name="py_head">Easy Payment Confirm</string>
+    <string name="py_cam">Camera</string>
+    <string name="py_gal">Gallery</string>
+    <string name="py_cams">Attach your payment by take a photo</string>
+    <string name="py_gals">Attach your payment by chosen from gallery</string>
+    <string name="py_bind">Preview Attachments</string>
+    <string name="py_none">No Preview</string>
+
+    <!-- clear port -->
+    <string name="cp_select">Please Select Transferring</string>
+    <string name="cp_port">My Portfoilio</string>
+    <string name="cp_bank">Transfer/Receive</string>
+    <string name="cp_tot">Total</string>
+    <string name="cp_due">Due date</string>
+    <string name="cp_pro">Product</string>
+    <string name="cp_qty">Quantity</string>
+    <string name="cp_pri">Price</string>
+    <string name="cp_ovd">Overdue</string>
+
+    <!-- portfolio -->
+    <string name="port_unr">Unrealized P/L</string>
+    <string name="port_rea">Realized P/L</string>
+    <string name="port_cre">Credit</string>
+    <string name="port_res">Result</string>
+    <string name="port_avg">Average</string>
+    <string name="port_qty">Quantity</string>
+    <string name="port_mar">Market Price</string>
+    <string name="port_prl">Profit/Loss</string>
+    <string name="port_pro">Products which deposited with company (All deposite types)</string>
+    <string name="port_mag">Margin</string>
+    <string name="port_dfs">Deposite for Sell</string>
+    <string name="port_dfb">Deposite from Buy</string>
+    <string name="port_fix">Fixed</string>
+    <string name="port_mon">Money which deposited with company (All deposite types)</string>
+    <string name="port_mon_hd">Money</string>
+    <string name="port_deb">Deposit Balance</string>
+    <string name="port_avb">Available Balance</string>
+    <string name="port_nus">Net Usable</string>
+    <string name="port_nub">Net Unusable</string>
+    <string name="port_out">Money Outstanding</string>
+    <string name="port_cus">Customer Outstanding</string>
+    <string name="port_com">Company Outstanding</string>
+    <string name="port_sto">Stock Outstanding</string>
+    <string name="port_not">No Trading Data</string>
+    <string name="port_not_data">No Data Found.</string>
+
+    <!-- alert -->
+    <string name="alert_authen">Please fill your authentications below.</string>
+    <string name="alert_change_new">Please change a new password.</string>
+    <string name="alert_forget">New password will be sent to register email</string>
+    <string name="alert_sign_in">Authentication failed, Please try again.</string>
+    <string name="alert_pass_code">Enter PIN code</string>
+    <string name="alert_hotline">Gold Trading Hotline</string>
+
+    <!-- button -->
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_call">Call</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_out">Sign out</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_del">Delete</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_forget">Forget Password</string>
+    <string name="btn_open">Open Account</string>
+    <string name="btn_chat">Line Chat</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_backspace">Back</string>
+
+    <!-- prefix || suffix -->
+    <string name="pf_post">Posted : </string>
+
+    <!-- contact -->v
+    <string name="latitude">16.874069125132273</string>
+    <string name="longtitude">99.12410475476511</string>
+    <string name="branch">LTS Gold</string>
+    <string name="company">LTS Gold Co.,Ltd.</string>
+    <string name="brand">LTS Gold</string>
+    <string name="contact">Contact us</string>
+    <string name="info">LTS Gold Co.,Ltd.\n16-18 Soi Si Wiang, Prasart Withi Road, Mae Sot Subdistrict, Mae Sot District, Tak Province 63110\nTel. 055508928-9\n\nOrasa Gold 1\n765, 767, 769 Taksin Road, Rahang Subdistrict, Muang District, Tak 63000\nTel. 055-515998, 055-512623\n\nOrasa Gold 2\n23 Moo 14, Takaok Subdistrict, Bantak District, Tak 63120\nTel. 055-591292\n\nOrasa Gold 3\n24 Soi Sriwiang, Prasatwithi Road, Mae Sot Subdistrict, Mae Sot District, Tak 63110\nTel. 055-508791-2s\n\nFacebook : LTS Gold\nLine : @ltsgold</string>
+    <string name="website">Website</string>
+
+    <string name="title_confirm">Confirmation</string>
+    <string name="msg_confirm_out">Do you want to exit now?</string>
+    <string name="msg_confirm_send">Do you want to send now?</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Trade</string>
+    <string name="msg_confirm_order">Please review your order, Order cannot be canceled once is confirmed.</string>
+    <string name="msg_confirm_delete_order">Do you want to delete order?</string>
+    <string name="title_mask_as_read">Mask as read</string>
+    <string name="msg_mask_as_read">All unread notices will be mark as read.</string>
+    <string name="msg_check_network">Mobile network is NOT connected. Please check.</string>
+
+    <string name="upload_success">Your payment information was sent successfully.</string>
+
+    <string name="failed">Failed</string>
+    <string name="send_again">Please try again later.</string>
+
+    <string name="btn_call_contact">Contact us</string>
+    <string name="btn_call_contact_now">Would you contact us now?</string>
+    <string name="btn_call_hotline">Call Hotline</string>
+
+
+    <!-- Preferences Key-->
+    <string name="key_prefs_session_initialized">goldspot_session_pref</string>
+    <string name="key_pref_versionname">pref_app_version_name</string>
+    <string name="key_session_account_id">session_account_id</string>
+    <string name="key_session_customer_grade">session_customer_grade</string>
+    <string name="key_session_feedURL">session_feed_url</string>
+    <string name="key_session_eventURL">session_event_url</string>
+    <string name="key_session_systemURL">session_system_url</string>
+    <string name="key_session_is_register_token">session_is_register_token</string>
+
+    <string name="key_prefs_setting_initialized">goldspot_pref_setting</string>
+    <string name="key_pref_account_control">pref_account_control</string>
+    <string name="key_pref_is_save_username">pref_is_save_username</string>
+    <string name="key_pref_val_save_username">pref_save_username</string>
+    <string name="key_pref_is_save_pin">pref_is_save_pin</string>
+    <string name="key_pref_val_save_pin">pref_val_save_pin</string>
+    <string name="key_pref_is_touch_id">pref_is_touch_id</string>
+    <string name="key_pref_val_touch_id">pref_val_touch_id</string>
+    <string name="key_pref_is_always_on">pref_is_always_on</string>
+
+    <string name="MATCH">MATCH</string>
+    <string name="UNMATCH">UNMATCH</string>
+    <string name="PAID">PAID</string>
+    <string name="PARTIAL">PARTIAL</string>
+    <string name="UNPAID">UNPAID</string>
+    <string name="BUY">BUY</string>
+    <string name="SELL">SELL</string>
+
+    <!-- label for payment-->
+    <string name="lbl_pay_easy">Easy Payment Confirm</string>
+    <string name="msg_upload_file">Upload...</string>
+    <string name="msg_dialog_upload_success">Upload Completed</string>
+    <string name="msg_dialog_upload_fail">Upload Fail, please try again.</string>
+    <string name="lbl_btn_form_camera">Camera</string>
+    <string name="lbl_btn_form_gallery">Gallery</string>
+
+    <!-- Alert Dialog -->
+    <string name="title_dialog_error">Fail !</string>
+    <string name="title_dialog_success">Success</string>
+    <string name="lbl_dialog_ok">OK</string>
+    <string name="lbl_dialog_confirm">Confirm</string>
+    <string name="lbl_dialog_cancel">Cancel</string>
+    <string name="msg_dialog_noconnectivity_found">Mobile network is NOT connected. Please check.</string>
+
+    <string name="msg_unexpected_error">Unexpected Exception, Please try again</string>
+
+    <string name="msg_main_INVALID_CREDENTIAL">Your credential is invalid. Login is required.</string>
+    <string name="msg_nodata_avai">No data is currently available.</string>
+    <string name="msg_price_alert_list_error">Get Price Alert list is failed, Please try again</string>
+    <string name="msg_price_alert_add_error">Price Alert cannot be added, Please try again</string>
+    <string name="msg_price_alert_delete_error">Delete Error. Please try again</string>
+
+    <string name="msg_price_less_than_realprice">Price must less than Realtimes Price</string>
+    <string name="msg_price_grater_than_realprice">Price must grater than Realtimes Price</string>
+
+    <string name="alert_ok">Completed</string>
+    <string name="alert_pass">Would you confirm new password now?</string>
+    <string name="alert_pin">Would you confirm new PIN now?</string>
+
+    <string name="LOGIN_FAIL">Username/Password was unauthenticated.</string>
+    <string name="SYSTEM_CLOSE">SYSTEM CLOSE</string>
+    <string name="APPROVAL_REQUIRED">Please contact Administrator</string>
+
+    <string name="title_new_version">Version Update</string>
+    <string name="new_version_message_true">Version %1$s is available. Please update now.</string>
+    <string name="new_version_message_false">Version %1$s is available. Would you like to update now?</string>
+    <string name="new_version_confirm_button">Update</string>
+    <string name="new_version_cancel_button">Later</string>
+    <string name="title_version_null">System maintenance</string>
+    <string name="version_message_null">The system is not available.</string>
+
+    <!--  user deletion  -->
+    <string name="ud_page">Account Deletion</string>
+    <string name="ud_title">Account Deletion Form</string>
+    <string name="ud_info">Use this form to make a delete request regarding your data. Enter your details and switching on the delete account data button, then submit the form.</string>
+    <string name="ud_title2">Data Subject Details</string>
+    <string name="ud_info2">Data Subject Details: We need your name, username and email address in order to process your request and safeguard your data. We will use the data gathered here only to process your request and for record-keeping as required by law.\nYou will receive an email to verify your information within 48 hrs. Follow the instructions you will receive to complete processing of your request.</string>
+    <string name="ud_input_name">Firstname Lastname</string>
+    <string name="ud_input_user">Username</string>
+    <string name="ud_input_mail">Email Address</string>
+    <string name="ud_title_del">Type of Request</string>
+    <string name="ud_lb_del">delete account data</string>
+    <string name="ud_sub_del">Delete your account data found in our systems</string>
+    <string name="ud_input_add">Additional information</string>
+    <string name="ud_submit">Submit Request</string>
+</resources>

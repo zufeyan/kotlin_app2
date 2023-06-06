@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">แอล ที เอส โกลด์ </string>
+    <string name="version">\u00a9 Powered by SCT Gold - </string>
+    <!--    <string name="version">\u00a9 Powered by SCT Gold - App Version</string>-->
+    <!--google-->
+    <string name="google_android_map_api_key">AIzaSyDIQv7d3q6IpxrW6dtvQb67ZCohgfvAByw</string>
+
+    <!--unicode text-->
+    <string name="dot">\u2022</string>
+
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="btn_clear">ล้าง</string>
+    <string name="btn_backspace">ลบ</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_404">Page is under construction.</string>
+    <string name="photo">Photo</string>
+
+    <!-- page -->
+    <string name="tpin">รหัสพิน</string>
+    <string name="tforce">รหัสผ่านใหม่</string>
+    <string name="tforget">ลืมรหัสผ่าน</string>
+    <string name="topen">เปิดบัญชี</string>
+    <string name="thome">หน้าหลัก</string>
+    <string name="thistory">ประวัติ</string>
+    <string name="thisdetail">รายละเอียด</string>
+    <string name="tmore">อื่นๆ</string>
+    <string name="tsett">ตั้งค่า</string>
+    <string name="tpric">ตั้งเตือน</string>
+    <string name="tnews">ข่าวสาร</string>
+    <string name="tnewd">รายละเอียดข่าว</string>
+    <string name="tanal">บทวิเคราะห์</string>
+    <string name="tgrap">กราฟ</string>
+    <string name="tcont">ติดต่อเรา</string>
+    <string name="tpaym">ส่งเอกสาร</string>
+    <string name="tguid">คู่มือ</string>
+    <string name="tnoti">ประกาศ</string>
+    <string name="tclea">จัดการพอร์ต</string>
+    <string name="tlang">เปลี่ยนภาษา</string>
+    <string name="tauto">อัตโนมัติ</string>
+    <string name="tlight">สว่าง</string>
+    <string name="tdark">มืด</string>
+
+    <!-- settings -->
+    <string name="ms_sec1">ระบบจดจำ</string>
+    <string name="ms_sec2">จัดการรหัสผ่าน</string>
+    <string name="ms_sec3">ผู้ใข้งานปัจจุบัน</string>
+    <string name="sub_user">จดจำชื่อผู้ใช้งาน</string>
+    <string name="sub_pin">จดจำรหัส PIN</string>
+    <string name="sub_bio">เปิด/ปิด ฟีเจอร์อนุญาตให้ใช้งานเข้าสู่ระบบด้วยการสแกนลายนิ้วมือ หรือ สแกนใบหน้า</string>
+    <string name="sub_always">เปิด/ปิด ฟีเจอร์ป้องกันแอพฯตัดขาดสถานะเข้าสู่ระบบของผู้ใช้งาน</string>
+    <string name="sub_cpass">เปลี่ยนรหัสผ่านใหม่</string>
+    <string name="sub_cpin">เปลี่ยนรหัส PIN ใหม่</string>
+    <string name="conf_cpass">ยืนยันรหัสผ่านใหม่</string>
+    <string name="conf_cpin">ยืนยันรหัส PIN ใหม่</string>
+    <string name="sub_account">บัญชีผู้ใช้งาน</string>
+    <string name="authen">กำลังตรวจสอบ..</string>
+    <string name="bio">เข้าสู่ระบบด้วยการสแกน</string>
+    <string name="always">คงสถานะเข้าสู่ระบบ</string>
+    <string name="crpwd">รหัสผ่านปัจจุบัน</string>
+    <string name="crpin">รหัส PIN ปัจจุบัน</string>
+    <string name="vl_all">รหัสผ่านใหม่ต้องประกอบด้วย</string>
+    <string name="vl_1">1. มีความยาวรหัสไม่น้อยกว่า 6 ตัวและเป็นภาษาอังกฤษผสมตัวเลขเท่านั้น</string>
+    <string name="vl_2">2. มีตัวอักษรพิมพ์ใหญ่ประกอบอย่างน้อย 1 ตัว</string>
+    <string name="vl_3">3. มีตัวอักษรพิมพ์เล็กประกอบอย่างน้อย 1 ตัว</string>
+    <string name="vl_4">4. มีตัวเลขประกอบอย่างน้อย 1 ตัว</string>
+    <string name="dark_mode">เปลี่ยนธีม</string>
+    <string name="sub_dark_mode">เปิดใช้งาน dark mode เพื่อประหยัดพลังงาน</string>
+    <string name="sub_lang">เปลี่ยนภาษา</string>
+    <!-- tabs -->
+    <string name="tab_home">หน้าหลัก</string>
+    <string name="tab_port">พอร์ต</string>
+    <string name="tab_hist">ประวัติ</string>
+    <string name="tab_more">อื่นๆ</string>
+
+    <!-- unit -->
+    <string name="un_rt">ราคาล่าสุด</string>
+    <string name="un_po">ราคา place</string>
+    <string name="un_so">ราคา stop</string>
+    <string name="un_qty">จำนวน</string>
+    <string name="un_qtys">เลือกจำนวน</string>
+    <string name="un_gram">กรัม</string>
+    <string name="un_baht">บาททอง</string>
+    <string name="un_kilo">กิโลกรัม</string>
+    <string name="un_mb">บาท</string>
+    <string name="un_price">ราคา</string>
+    <string name="un_usd">ดอลล่าร์</string>
+    <string name="un_thb">บาท</string>
+    <string name="un_here">กรอกราคา</string>
+    <string name="un_qtys_edit">กรอกจำนวน</string>
+    <string name="un_b">บาท</string>
+
+    <!-- general -->
+    <string name="lang">TH</string>
+    <string name="user">ผู้ใช้งาน</string>
+    <string name="pass">รหัสผ่าน</string>
+    <string name="npass">รหัสผ่านใหม่</string>
+    <string name="cpass">เปลี่ยนรหัสผ่าน</string>
+    <string name="npin">รหัส PIN ใหม่</string>
+    <string name="cpin">เปลี่ยนรหัส PIN</string>
+    <string name="regis_email">อีเมลลงทะเบียน</string>
+    <string name="manage">จัดการสินค้า</string>
+    <string name="prod">สินค้า</string>
+    <string name="sell">ขาย</string>
+    <string name="buy">ซื้อ</string>
+    <string name="ws_type">เลือกประเภท</string>
+    <string name="ws_order">เลือกคำสั่ง</string>
+    <string name="ws_credit">จำนวนเครดิต</string>
+    <string name="ws_amount">เลือกจำนวน</string>
+    <string name="ws_product">เลือกสินค้า</string>
+    <string name="read_all">อ่านแล้วทั้งหมด</string>
+    <string name="delete_order">ยกเลิกออเดอร์</string>
+
+    <!-- price alert -->
+    <string name="pa_head">ตั้งแจ้งเตือนราคาล่วงหน้า</string>
+    <string name="pa_type">เลือกคำสั่ง</string>
+    <string name="pa_add">กรอกราคาที่นี่</string>
+    <string name="pa_list">รายการแจ้งเตือน</string>
+
+    <!-- news -->
+    <string name="nws_head">หัวข้อข่าว</string>
+    <string name="nws_detail">เนื้อหาข่าว</string>
+    <string name="nws_label">ไฮไลท์</string>
+    <string name="nws_all"><u>ดูทั้งหมด</u></string>
+
+    <!-- trade / history -->
+    <string name="usr_acc">บัญชี</string>
+    <!--    <string name="usr_iv">IV</string>-->
+    <string name="usr_qu">QU</string>
+    <string name="usr_typ">ประเภท</string>
+    <string name="usr_ord">คำสั่ง</string>
+    <string name="usr_spo">Spot</string>
+    <string name="usr_pri">ราคา</string>
+    <string name="usr_qty">จำนวน</string>
+    <string name="usr_tot">รวม</string>
+    <string name="usr_all_tot">ยอดรวม</string>
+    <string name="usr_dat">วันที่</string>
+    <string name="usr_bs">ซื้อ/ขาย</string>
+    <string name="usr_due">ครบกำหนด</string>
+    <string name="usr_sta">สถานะ</string>
+    <string name="usr_fif">FIFO</string>
+    <string name="usr_pay">ชำระ</string>
+    <string name="do_lead">คุณมีเวลา </string>
+    <string name="do_trail"> เพื่อยืนยันคำสั่ง</string>
+    <string name="do_sec">วินาที</string>
+    <string name="detail">รายละเอียด</string>
+    <string name="display">แสดง</string>
+    <string name="hidden">ซ่อน</string>
+    <string name="no_item">ว่าง</string>
+
+    <!-- payment -->
+    <string name="py_head">แนบภาพยืนยันการชำระด้วย</string>
+    <string name="py_cam">กล้อง</string>
+    <string name="py_gal">คลังภาพ</string>
+    <string name="py_cams">แนบไฟล์ภาพการชำระด้วยการถ่ายภาพ</string>
+    <string name="py_gals">แนบไฟล์ภาพการชำระด้วยการเลือกจากคลังภาพ</string>
+    <string name="py_bind">ตัวอย่างไฟล์แนบ</string>
+    <string name="py_none">ไม่พบไฟล์แนบ</string>
+
+    <!-- clear port -->
+    <string name="cp_select">กรุณาเลือกรูปแบบการโอนเงิน</string>
+    <string name="cp_port">เข้าพอร์ตของฉัน</string>
+    <string name="cp_bank">โอน/รับ</string>
+    <string name="cp_tot">ยอดรวม</string>
+    <string name="cp_due">วันครบกำหนด</string>
+    <string name="cp_pro">สินค้า</string>
+    <string name="cp_qty">จำนวน</string>
+    <string name="cp_pri">ราคา</string>
+    <string name="cp_ovd">ยอดเกินกำหนด</string>
+
+    <!-- portfolio -->
+    <string name="port_unr">กำไร/ขาดทุน ที่ยังไม่ปิดสถานะ</string>
+    <string name="port_rea">กำไร/ขาดทุน ที่ปิดสถานะ</string>
+    <string name="port_cre">เครดิต</string>
+    <string name="port_res">สรุป</string>
+    <string name="port_avg">ราคาเฉลี่ย</string>
+    <string name="port_qty">จำนวน</string>
+    <string name="port_mar">ราคาตลาด</string>
+    <string name="port_prl">กำไร/ขาดทุน</string>
+    <string name="port_pro">จำนวนสินค้าที่ฝากไว้กับบริษัทฯ (รวมการฝากทุกประเภท)</string>
+    <string name="port_mag">เงินประกัน</string>
+    <string name="port_dfs">ฝากจากการขาย</string>
+    <string name="port_dfb">ฝากจากการซื้อ</string>
+    <string name="port_fix">ราคา Fixed</string>
+    <string name="port_mon">จำนวนเงินที่ฝากไว้กับบริษัทฯ (รวมการฝากทุกประเภท)</string>
+    <string name="port_mon_hd">เงิน</string>
+    <string name="port_deb">ยอดเงินฝาก</string>
+    <string name="port_avb">ยอดเงินฝากใช้ได้จริง</string>
+    <string name="port_nus">เงินฝากที่ใช้ได้</string>
+    <string name="port_nub">เงินฝากที่ใช้ไม่ได้</string>
+    <string name="port_out">จำนวนเงินที่ลูกค้าค้างชำระ/ค้างจ่าย</string>
+    <string name="port_cus">จำนวนสินค้าที่ลูกค้าค้างชำระ (AR)</string>
+    <string name="port_com">จำนวนสินค้าที่บริษัทค้างจ่าย (AP)</string>
+    <string name="port_sto">จำนวนสินค้าที่ลูกค้าค้างรับ/ค้างส่ง</string>
+    <string name="port_not">ไม่พบข้อมูลซื้อ-ขาย</string>
+    <string name="port_not_data">ไม่พบข้อมูล</string>
+
+    <!-- alert -->
+    <string name="alert_authen">กรุณากรอกบัญชีผู้ใช้งานและรหัสผ่านของคุณ</string>
+    <string name="alert_change_new">กรุณาตั้งชุดรหัสผ่านใหม่ของคุณเอง</string>
+    <string name="alert_forget">ระบบจะส่งรายละเอียดไปยังอีเมลของท่าน</string>
+    <string name="alert_sign_in">ไม่สามารถตรวจสอบได้ กรุณาลองใหม่อีกครั้ง</string>
+    <string name="alert_pass_code">กรอกรหัสพิน</string>
+    <string name="alert_hotline">สายด่วน</string>
+
+
+    <!-- button -->
+    <string name="btn_confirm">ยืนยัน</string>
+    <string name="btn_close">ปิด</string>
+    <string name="btn_ok">ตกลง</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="btn_exit">ออก</string>
+    <string name="btn_call">โทร</string>
+    <string name="btn_select">เลือก</string>
+    <string name="btn_back">กลับ</string>
+    <string name="btn_out">ออกจากระบบ</string>
+    <string name="btn_add">เพิ่ม</string>
+    <string name="btn_del">ลบ</string>
+    <string name="btn_sign_in">เข้าสู่ระบบ</string>
+    <string name="btn_forget">ลืมรหัสผ่าน</string>
+    <string name="btn_open">เปิดบัญชี</string>
+    <string name="btn_chat">ติดต่อผ่านไลน์แชท</string>
+
+    <!-- prefix || suffix -->
+    <string name="pf_post">โพสต์ : </string>
+
+    <!-- contact -->
+    <string name="latitude">16.874069125132273</string>
+    <string name="longtitude">99.12410475476511</string>
+    <string name="branch">ห้างทองอรสา</string>
+    <string name="company">บริษัท แอล ที เอส โกลด์ จำกัดด</string>
+    <string name="brand">ห้างทองอรสา</string>
+    <string name="contact">ติดต่อเรา</string>
+    <string name="info">บริษัท แอล ที เอส โกลด์ จำกัด\n16-18 ซอยศรีเวียง ถนนประสาทวิถี ตำบลแม่สอด อำเภอแม่สอด จังหวัดตาก 63110\nโทร. 055-508928-9\n\nห้างทองอรสา 1\n765, 767, 769 ถนนตากสิน ตำบลระแหง อำเภอเมืองตาก จังหวัดตาก 63000\nโทร. 055-515998, 055-512623\n\nnห้างทองอรสา 2\n23 หมู่ 14 ตำบลตากออก อำเภอบ้านตาก จังหวัดตาก 63120\nโทร. 055-591292\n\nห้างทองอรสา 3\n24 ซอยศรีเวียง ถนนประสาทวิถี ตำบลแม่สอด อำเภอแม่สอด จังหวัดตาก 63110\nโทร. 055-508791-2\n\nFacebook : LTS GOLD\nLine : @ltsgold</string>
+    <string name="website">เว็บไซต์</string>
+
+    <string name="title_confirm">Confirmation</string>
+    <string name="msg_confirm_out">คุณต้องการออกจากระบบตอนนี้</string>
+    <string name="msg_confirm_send">คุณต้องการส่งตอนนี้หรือไม่?</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Trade</string>
+    <string name="msg_confirm_order">โปรดตรวจสอบคำสั่งซื้อของคุณไม่สามารถยกเลิกคำสั่งซื้อได้เมื่อได้รับการยืนยันแล้ว</string>
+    <string name="msg_confirm_delete_order">คุณต้องการลบรายการนี้หรือไม่?</string>
+    <string name="title_mask_as_read">ทำเครื่องหมายว่าอ่าน</string>
+    <string name="msg_mask_as_read">การแจ้งเตือนที่ยังไม่ได้อ่านทั้งหมดจะถูกทำเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="msg_check_network">Mobile network is NOT connected.\nPlease check.</string>
+
+    <string name="upload_success">คุณส่งได้สำเร็จเรียบร้อยแล้ว</string>
+
+    <string name="failed">ไม่สำเร็จ</string>
+    <string name="send_again">กรุณาลองใหม่อีกครั้ง</string>
+
+    <string name="btn_call_contact">โทรติดต่อเรา</string>
+    <string name="btn_call_contact_now">คุณต้องการติดต่อเราตอนนี้</string>
+    <string name="btn_call_hotline">โทรสายด่วน</string>
+
+    <!-- Preferences Key-->
+    <string name="key_prefs_session_initialized">goldspot_session_pref</string>
+    <string name="key_pref_versionname">pref_app_version_name</string>
+    <string name="key_session_account_id">session_account_id</string>
+    <string name="key_session_customer_grade">session_customer_grade</string>
+    <string name="key_session_feedURL">session_feed_url</string>
+    <string name="key_session_eventURL">session_event_url</string>
+    <string name="key_session_systemURL">session_system_url</string>
+    <string name="key_session_is_register_token">session_is_register_token</string>
+
+    <string name="key_prefs_setting_initialized">goldspot_pref_setting</string>
+    <string name="key_pref_account_control">pref_account_control</string>
+    <string name="key_pref_is_save_username">pref_is_save_username</string>
+    <string name="key_pref_val_save_username">pref_save_username</string>
+    <string name="key_pref_is_save_pin">pref_is_save_pin</string>
+    <string name="key_pref_val_save_pin">pref_val_save_pin</string>
+    <string name="key_pref_is_touch_id">pref_is_touch_id</string>
+    <string name="key_pref_val_touch_id">pref_val_touch_id</string>
+    <string name="key_pref_is_always_on">pref_is_always_on</string>
+
+    <string name="MATCH">อนุมัติ</string>
+    <string name="UNMATCH">ไม่อนุมัติ</string>
+    <string name="PAID">ชำระเต็มจำนวน</string>
+    <string name="PARTIAL">ชำระบางส่วน</string>
+    <string name="UNPAID">ยังไม่ชำระ</string>
+    <string name="BUY">ลูกค้าซื้อ</string>
+    <string name="SELL">ลูกค้าขาย</string>
+
+    <!-- label for payment-->
+    <string name="lbl_pay_easy">แนบภาพยืนยันการชำระด้วย</string>
+    <string name="msg_upload_file">อัพโหลด...</string>
+    <string name="msg_dialog_upload_success">Upload Completed</string>
+    <string name="msg_dialog_upload_fail">Upload Fail, please try again.</string>
+    <string name="lbl_btn_form_camera">กล้อง</string>
+    <string name="lbl_btn_form_gallery">คลังภาพ</string>
+
+    <!-- Alert Dialog -->
+    <string name="title_dialog_error">Fail !</string>
+    <string name="title_dialog_success">เสร็จสิ้น</string>
+    <string name="lbl_dialog_ok">OK</string>
+    <string name="lbl_dialog_confirm">ยืนยัน</string>
+    <string name="lbl_dialog_cancel">ยกเลิก</string>
+    <string name="msg_dialog_noconnectivity_found">Mobile network is NOT connected. Please check.</string>
+
+    <string name="msg_unexpected_error">Unexpected Exception, Please try again</string>
+    <string name="msg_main_INVALID_CREDENTIAL">Your credential is invalid. Login is required.</string>
+    <string name="msg_nodata_avai">No data is currently available.</string>
+    <string name="msg_price_alert_list_error">Get Price Alert list is failed, Please try again</string>
+    <string name="msg_price_alert_add_error">Price Alert cannot be added, Please try again</string>
+    <string name="msg_price_alert_delete_error">Delete Error. Please try again</string>
+
+    <string name="msg_price_less_than_realprice">ราคาต้องน้อยกว่าราคาล่าสุด</string>
+    <string name="msg_price_grater_than_realprice">ราคาต้องมากกว่าราคาล่าสุด</string>
+
+    <string name="alert_ok">สำเร็จ</string>
+    <string name="alert_pass">คุณยืนยันการเปลี่ยนรหัสผ่านครั้งนี้</string>
+    <string name="alert_pin">คุณยืนยันการเปลี่ยนรหัส PIN ครั้งนี้</string>
+
+    <string name="LOGIN_FAIL">ผู้ใช้งาน/รหัสผ่าน ไม่สามารถตรวจสอบได้.</string>
+    <string name="APPROVAL_REQUIRED">กรุณาติตต่อบริษัท</string>
+    <string name="SYSTEM_CLOSE">ระบบปิดกรุณาลองใหม่อีกครั้งในภายหลัง</string>
+
+    <string name="title_new_version">เวอร์ชั่นอัปเดต</string>
+    <string name="new_version_message_true">เวอร์ชั่น %1$s พร้อมใช้งาน อัปเดตตอนนี้</string>
+    <string name="new_version_message_false">เวอร์ชั่น %1$s พร้อมใช้งาน คุณต้องการที่จะอัปเดตตอนนี้?</string>
+    <string name="new_version_confirm_button">อัปเดต</string>
+    <string name="new_version_cancel_button">ภายหลัง</string>
+    <string name="title_version_null">System maintenance</string>
+    <string name="version_message_null">The system is not available.</string>
+
+    <!--  user deletion  -->
+    <string name="ud_page">ลบข้อมูลบัญชี</string>
+    <string name="ud_title">แบบฟอร์มคำร้องขอลบข้อมูลบัญชี</string>
+    <string name="ud_info">กรุณากรอกแบบฟอร์มและกดเปิดสวิตช์ยืนยันการลบ เพื่อทำการยืนยันคำร้องการลบข้อมูลบัญชีออกจากระบบ</string>
+    <string name="ud_title2">รายละเอียดมีดังนี้</string>
+    <string name="ud_info2">คุณจะได้รับอีเมลเพื่อยืนยันตามคำร้องภายในเวลา 48 ชั่วโมง กรุณาทำตามคำแนะนำที่คุณได้รับเพื่อให้คำขอของคุณเสร็จสิ้นกระบวนการ</string>
+    <string name="ud_input_name">ชื่อ นามสกุล</string>
+    <string name="ud_input_user">รหัสผู้ใช้งาน</string>
+    <string name="ud_input_mail">อีเมล</string>
+    <string name="ud_title_del">ประเภทคำร้อง</string>
+    <string name="ud_lb_del">ยืนยันการลบข้อมูลบัญชี</string>
+    <string name="ud_sub_del">ระบบจะทำการลบข้อมูลบัญชีของคุณออกจากระบบ</string>
+    <string name="ud_input_add">ข้อมูลเพิ่มเติม</string>
+    <string name="ud_submit">ยืนยันคำร้อง</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card.Settings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/pad_v">
+
+    <LinearLayout
+        android:id="@+id/settings_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_pad">
+
+        <TextView
+            android:id="@+id/settings_header"
+            style="@style/Label.Header"
+            android:textColor="@color/tint" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

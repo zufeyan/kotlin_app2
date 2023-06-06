@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_open_account"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.OpenAccountFragment">
+
+    <WebView
+        android:id="@+id/web_open_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

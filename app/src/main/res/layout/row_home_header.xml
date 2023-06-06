@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_sec_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/header"
+    android:orientation="horizontal"
+    android:padding="@dimen/pad_h">
+
+    <TextView
+        android:id="@+id/home_sec_name"
+        style="@style/Label.Header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/wo" />
+
+    <TextView
+        android:id="@+id/home_sec_sell"
+        style="@style/Label.Header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/wo" />
+
+    <TextView
+        android:id="@+id/home_sec_buy"
+        style="@style/Label.Header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/wo" />
+
+    <View
+        android:id="@+id/home_product_trade"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+</LinearLayout>

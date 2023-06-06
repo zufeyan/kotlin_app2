@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_more"
+    style="@style/Card.More"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_more_icon"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/more_icons_notice"
+            style="@style/Image.More"
+            android:contentDescription="@string/photo"
+            android:layout_gravity="right" />
+
+        <ImageView
+            android:id="@+id/more_icons"
+            style="@style/Image.More"
+            android:contentDescription="@string/photo"
+            android:paddingTop="@dimen/pad_v" />
+
+        <TextView
+            android:id="@+id/more_names"
+            style="@style/Label.More"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_v" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_port_folio"
+    style="@style/Fragment.Default"
+    tools:context="com.sctgold.ltsgold.android.fragments.PortfolioFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/port_folio_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/pad_v">
+
+            <androidx.cardview.widget.CardView
+                style="@style/Card.Theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/port_folio_top_row"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/port_folio_con_un"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/tint"
+                            android:orientation="vertical"
+                            android:padding="@dimen/pad_v">
+
+                            <TextView
+                                android:id="@+id/port_folio_lb_un"
+                                style="@style/Label.Row.Fit"
+                                android:textAlignment="center"
+                                android:maxLines="1"
+                                android:textColor="@color/bright_all"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/port_folio_val_un"
+                                style="@style/Label.Row"
+                                android:textAlignment="center"
+                                android:textColor="@color/bright_all" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/port_folio_con_re"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/tint"
+                            android:orientation="vertical"
+                            android:padding="@dimen/pad_v">
+
+                            <TextView
+                                android:id="@+id/port_folio_lb_re"
+                                style="@style/Label.Row.Fit"
+                                android:textAlignment="center"
+                                android:maxLines="1"
+                                android:textColor="@color/bright_all"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/port_folio_val_re"
+                                style="@style/Label.Row"
+                                android:textAlignment="center"
+                                android:textColor="@color/bright_all" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/port_folio_pie_chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/pie_main_height"
+                        android:padding="@dimen/pad_v" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Card.Theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/port_folio_hd_row"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/port_folio_con_cs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/pad_v">
+
+                        <TextView
+                            android:id="@+id/port_folio_hc_sell"
+                            style="@style/Label.Row"
+                            android:textAlignment="center"
+                            android:textColor="@color/text" />
+
+                        <TextView
+                            android:id="@+id/port_folio_ht_sell"
+                            style="@style/Label.Row"
+                            android:textAlignment="center"
+                            android:textColor="@color/pm_sell"
+                            android:textSize="@dimen/lb_header"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/port_folio_con_cb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/pad_v">
+
+                        <TextView
+                            android:id="@+id/port_folio_hc_buy"
+                            style="@style/Label.Row"
+                            android:textAlignment="center"
+                            android:textColor="@color/text" />
+
+                        <TextView
+                            android:id="@+id/port_folio_ht_buy"
+                            style="@style/Label.Row"
+                            android:textAlignment="center"
+                            android:textColor="@color/pm_buy"
+                            android:textSize="@dimen/lb_header"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/port_folio_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

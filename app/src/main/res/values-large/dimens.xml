@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //theme shape
+    <dimen name="app_size">90dp</dimen>
+    <dimen name="splash_size">220dp</dimen>
+    <dimen name="corners">18dp</dimen>
+    <dimen name="color_corner">12dp</dimen>
+    <dimen name="sp_side_trade">30dp</dimen>
+    <dimen name="min_percent_width">90dp</dimen>
+    <dimen name="min_value_width">90dp</dimen>
+    <dimen name="min_max_width">90dp</dimen>
+    <dimen name="btn_height">64dp</dimen>
+    <dimen name="ok_height">80dp</dimen>
+    <dimen name="ok_corners">40dp</dimen>
+    <dimen name="count_height">150dp</dimen>
+    <dimen name="count_top">-40dp</dimen>
+    <dimen name="icon_more_width">72dp</dimen>
+    <dimen name="brand_width">150dp</dimen>
+    <dimen name="icon_pay_width">90dp</dimen>
+    <dimen name="dot_size">6dp</dimen>
+
+    //theme logo width
+    <dimen name="logo_width_pin">0.4</dimen>
+    <dimen name="logo_pad_bottom">24dp</dimen>
+
+    //theme pin size
+    <dimen name="pass_code_size">72sp</dimen>
+    <dimen name="keyboard_btn_size">72dp</dimen>
+    <dimen name="keyboard_text_size">38sp</dimen>
+    <dimen name="keyboard_pad_bottom">16dp</dimen>
+
+    //theme font size
+    <dimen name="lb_size">18sp</dimen>
+
+    //theme edit text
+    <dimen name="edit_text_size">21sp</dimen>
+    <dimen name="edit_text_bottom">12dp</dimen>
+
+    //theme button
+    <dimen name="btn_title_size">22sp</dimen>
+    <dimen name="btn_price_size">44sp</dimen>
+    <dimen name="btn_qty_size">28sp</dimen>
+    <dimen name="btn_stroke_width">3dp</dimen>
+    <dimen name="btn_icon_size">34dp</dimen>
+
+    //theme padding cell and car
+    <dimen name="frag_bottom">15dp</dimen>
+    <dimen name="seg_corner">22dp</dimen>
+    <dimen name="btn_corner">18dp</dimen>
+    <dimen name="card_corner">18dp</dimen>
+    <dimen name="card_pad">20dp</dimen>
+    <dimen name="pad_v">16dp</dimen>
+    <dimen name="pad_h">20dp</dimen>
+    <dimen name="pad_all">20dp</dimen>
+    <dimen name="seg_a">2dp</dimen>
+    <dimen name="seg_b">12dp</dimen>
+    <dimen name="lb_status_pad">20dp</dimen>
+    <dimen name="lb_version_pad">18dp</dimen>
+    <dimen name="lb_segment_trade_pad_h">24dp</dimen>
+    <dimen name="lb_segment_trade_pad_v">12dp</dimen>
+    <dimen name="pgb_margin">12dp</dimen>
+
+    //row
+    <dimen name="row_height">64dp</dimen>
+    <dimen name="indicator_size">20dp</dimen>
+    <dimen name="unit_width">120dp</dimen>
+    <dimen name="row_space">20dp</dimen>
+
+    //card
+    <dimen name="card_news">480dp</dimen>
+    <dimen name="card_news_photo_width">200dp</dimen>
+    <dimen name="card_news_photo_height">120dp</dimen>
+    <dimen name="card_history_color_width">50dp</dimen>
+
+    //text
+    <dimen name="lb_header">24sp</dimen>
+    <dimen name="lb_home_price">27sp</dimen>
+    <dimen name="lb_trade_price">28sp</dimen>
+    <dimen name="lb_text">21sp</dimen>
+    <dimen name="lb_sub">16sp</dimen>
+    <dimen name="lb_tag">12sp</dimen>
+    <dimen name="lb_status_size">18sp</dimen>
+    <dimen name="lb_version_size">15sp</dimen>
+    <dimen name="lb_segment_trade_size">17sp</dimen>
+    <dimen name="lb_cell">24sp</dimen>
+    <dimen name="lb_side">22sp</dimen>
+    <dimen name="lb_count">140sp</dimen>
+    <dimen name="lb_more">12sp</dimen>
+    <dimen name="lb_contact">22sp</dimen>
+    <dimen name="lb_brand">21sp</dimen>
+    <dimen name="lb_total">26sp</dimen>
+    <dimen name="lb_dot">60sp</dimen>
+
+    <dimen name="cd_side">18sp</dimen>
+    <dimen name="cd_price">24sp</dimen>
+    <dimen name="cd_state">16sp</dimen>
+    <dimen name="cd_date">12sp</dimen>
+
+    //neumorphism
+    <dimen name="shadow_none">0dp</dimen>
+    <dimen name="shadow_space">3dp</dimen>
+    <dimen name="shadow_radius">10dp</dimen>
+    <dimen name="inner_radius">8dp</dimen>
+    <dimen name="neu_pad_v">10dp</dimen>
+    <dimen name="neu_pad_h">15dp</dimen>
+    <dimen name="neu_btn_pad_v">12dp</dimen>
+    <dimen name="neu_btn_pad_h">18dp</dimen>
+
+    <dimen name="hole_divider_width">75dp</dimen>
+    <dimen name="hole_divider_height">1.5dp</dimen>
+
+</resources>
