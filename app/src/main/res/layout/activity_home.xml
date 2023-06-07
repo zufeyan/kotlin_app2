@@ -8,51 +8,58 @@
     android:fitsSystemWindows="true"
     tools:context=".activities.HomeActivity">
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/root_home"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="0dp"
-            android:paddingEnd="0dp">
+            android:paddingEnd="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/container_home"
+            app:layout_constraintTop_toTopOf="parent">
 
             <include
                 layout="@layout/toolbar_main"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tabs"
-                style="@style/TabLayout.Theme"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
-                android:minHeight="?attr/actionBarSize"
-                app:tabGravity="fill"
-                app:tabMaxWidth="0dp"
-                app:tabMode="fixed"
-                app:tabSelectedTextColor="@color/tint"
-                app:tabTextColor="@color/text" />
-
         </com.google.android.material.appbar.AppBarLayout>
 
         <FrameLayout
             android:id="@+id/container_home"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            android:layout_height="0dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="58dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/viewPager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
         </FrameLayout>
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/tab"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/container_home"
+            app:tabGravity="fill"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/tint"
+            app:tabTextColor="@color/text"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

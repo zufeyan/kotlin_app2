@@ -9,7 +9,7 @@
         android:id="@+id/port_dept_row_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/tint"
+        android:background="@color/port_dept_blue"
         android:orientation="vertical">
 
         <TextView
@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/pad_h"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:background="@color/port_dept_blue"
+            android:textColor="@color/port_dept_text_white"
             android:textSize="@dimen/lb_header"
             android:textStyle="bold" />
 
@@ -28,10 +29,10 @@
             style="@style/Label.Card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/port_dept_white"
             android:padding="@dimen/pad_h"
             android:textAlignment="center"
-            android:textColor="@color/tint"
+            android:textColor="@color/port_dept_text_blue"
             android:textSize="@dimen/lb_header"
             android:textStyle="bold" />
 

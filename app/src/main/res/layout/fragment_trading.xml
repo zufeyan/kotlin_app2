@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_trade"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.TradingFragment"
+    style="@style/Fragment.main_color"
+    tools:context="com.sctgold.wgold.android.fragments.TradingFragment"
     android:imeOptions="actionDone">
 
 <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
@@ -42,21 +42,21 @@
 
                     <RadioButton
                         android:id="@+id/select_real_time"
-                        style="@style/Segment.Trade"
+                        style="@style/Segment.Trade_wg"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:text="@string/un_rt" />
 
                     <RadioButton
                         android:id="@+id/select_place_order"
-                        style="@style/Segment.Trade"
+                        style="@style/Segment.Trade_wg"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:text="@string/un_po" />
 
                     <RadioButton
                         android:id="@+id/select_stop_order"
-                        style="@style/Segment.Trade"
+                        style="@style/Segment.Trade_wg"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:text="@string/un_so" />

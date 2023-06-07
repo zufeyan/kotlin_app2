@@ -15,7 +15,7 @@
         <TextView
             android:id="@+id/settings_header"
             style="@style/Label.Header"
-            android:textColor="@color/tint" />
+            android:textColor="@color/tint_headerbar_text" />
 
     </LinearLayout>
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/gc0" />
+                    <corners android:radius="@dimen/btn_corner" />
+                    <stroke android:width="@dimen/btn_stroke_width" android:color="@color/tint_line_border_button" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/gc0" />
+                    <corners android:radius="@dimen/btn_corner" />
+                    <stroke android:width="@dimen/btn_stroke_width" android:color="@color/tint_line_border_button" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/tint_line_bg_button" />
+                    <corners android:radius="@dimen/btn_corner" />
+                    <stroke android:width="@dimen/btn_stroke_width" android:color="@color/tint_line_border_button" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

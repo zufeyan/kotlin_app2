@@ -2,8 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_port_folio"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.PortfolioFragment">
+    style="@style/Fragment.color_grey"
+    tools:context="com.sctgold.wgold.android.fragments.PortfolioFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -46,8 +46,8 @@
                             <TextView
                                 android:id="@+id/port_folio_lb_un"
                                 style="@style/Label.Row.Fit"
-                                android:textAlignment="center"
                                 android:maxLines="1"
+                                android:textAlignment="center"
                                 android:textColor="@color/bright_all"
                                 android:textStyle="bold" />
 
@@ -72,8 +72,8 @@
                             <TextView
                                 android:id="@+id/port_folio_lb_re"
                                 style="@style/Label.Row.Fit"
-                                android:textAlignment="center"
                                 android:maxLines="1"
+                                android:textAlignment="center"
                                 android:textColor="@color/bright_all"
                                 android:textStyle="bold" />
 
@@ -91,6 +91,7 @@
                         android:id="@+id/port_folio_pie_chart"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/pie_main_height"
+                        android:background="@color/port_grey_bg"
                         android:padding="@dimen/pad_v" />
 
                 </LinearLayout>
@@ -121,7 +122,7 @@
                             android:id="@+id/port_folio_hc_sell"
                             style="@style/Label.Row"
                             android:textAlignment="center"
-                            android:textColor="@color/text" />
+                            android:textColor="@color/port_black_text" />
 
                         <TextView
                             android:id="@+id/port_folio_ht_sell"
@@ -145,7 +146,7 @@
                             android:id="@+id/port_folio_hc_buy"
                             style="@style/Label.Row"
                             android:textAlignment="center"
-                            android:textColor="@color/text" />
+                            android:textColor="@color/port_black_text" />
 
                         <TextView
                             android:id="@+id/port_folio_ht_buy"
@@ -164,7 +165,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/port_folio_view"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical" />
 

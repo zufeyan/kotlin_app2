@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/frag_clear_port_action"
     style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.ClearPortActionFragment"
+    tools:context="com.sctgold.wgold.android.fragments.ClearPortActionFragment"
     android:clickable="true">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

@@ -2,15 +2,15 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_news_detail"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.NewsDetailFragment">
+    style="@style/Fragment.main_color"
+    tools:context="com.sctgold.wgold.android.fragments.NewsDetailFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
-            style="@style/Card.Theme"
+            style="@style/Card.Theme_defualt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -31,7 +31,7 @@
                     android:id="@+id/news_detail_header"
                     style="@style/Label.Header"
                     android:layout_marginBottom="@dimen/pad_v"
-                    android:textColor="@color/tint" />
+                    android:textColor="@color/tint_news_detail_title" />
 
                 <TextView
                     android:id="@+id/news_detail_body"

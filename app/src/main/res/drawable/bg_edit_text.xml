@@ -25,7 +25,7 @@
             <item android:bottom="@dimen/shadow_space" android:end="@dimen/shadow_space" android:start="@dimen/shadow_space" android:top="@dimen/shadow_space">
                 <shape android:shape="rectangle">
                     <padding android:bottom="@dimen/neu_pad_v" android:left="@dimen/neu_pad_h" android:right="@dimen/neu_pad_h" android:top="@dimen/neu_pad_v" />
-                    <solid android:color="@color/white" />
+                    <solid android:color="@color/white_edit_text" />
                     <corners android:radius="@dimen/inner_radius" />
                 </shape>
             </item>

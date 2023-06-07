@@ -1,58 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--theme set-->
-    <color name="colorPrimary">#ffE2C67F</color>
-    <color name="colorPrimaryDark">#ff5D0715</color>
-    <color name="colorAccent">#ff620715</color>
+    <color name="colorPrimary">#FFCB31</color>///#0364B3
+    <color name="colorPrimaryDark">#FFCB31</color>
+    <color name="colorAccent">#FFCB31</color>///#ff620715
 
     <color name="title">#ffF3F3F3</color>
-    <color name="tint">#ffE2C67F</color>
-    <color name="tab_normal">#ffA41E28</color>
-    <color name="tab_select">#ffE2C67F</color>
-    <color name="header">#ff620715</color>
-    <color name="text">#ff2c2c2c</color>
+    <color name="tab">#990000</color>
+    <color name="tint">#0364B3</color>///#FFFFFF
+    <color name="tint_news_detail_title">#FFCB31</color>
+    <color name="tint_headerbar_text">#000000</color>
+    <color name="tint_headerbar_payment_text">#000000</color>
+    <color name="tint_payment">#000000</color>
+    <color name="tint_alert_label">#000000</color>
+    <color name="tint_contract">#000000</color>
+    <color name="tint_status">#000000</color>
+    <color name="tint_line_border_button">#000000</color>
+    <color name="tint_line_bg_button">#F5F5F5</color>
+    <color name="tint_line_text_button">#000000</color>
+    <color name="tint_status_trad_dicision">#FFFFFF</color>
+    <color name="tint2">#FFCB31</color>
+    <color name="tint3">#CC0102</color>
+    <color name="tab_normal">#969696</color>///#ffA41E28
+    <color name="tab_select">#FFFFFF</color>#ffE2C67F
+    <color name="header">#990000</color>///#ff620715
+    <color name="text">#FFFFFF</color>///#595858
+    <color name="text_black">#000000</color>
+    <color name="text_product_name">#000000</color>///#595858
+    <color name="text_credit_limit">#000000</color>///#595858
+    <color name="text_credit_limit_red">#F90606</color>///#595858
+    <color name="text_news_title">#000000</color>
+    <color name="text_edit_product">#000000</color>///6104AB
+    <color name="text_contract">#000000</color>
+    <color name="text2_detail">#595858</color>///#595858
+    <color name="text3_edit_text">#595858</color>///#595858
+    <color name="text_card">#040404</color>///#595858
+    <color name="text_clear_port">#040404</color>///#595858
     <color name="text_light">#ff4c4c4c</color>
-    <color name="text_tag">#ff989898</color>
+    <color name="text_tag">#969696</color>///#ff989898
+    <color name="text_tag2">#B6B6B6</color>///#ff989898
+    <color name="dot_normal">#000000</color>///#ff989898 B6B6B6
+    <color name="dot_select">#FFFFFF</color>///#6104AB
     <color name="row_indicator">#CCCCCC</color>
     <color name="row_bg">#FFFFFF</color>
     <color name="row_bg_disabled">#DDDDDD</color>
     <color name="row_line">#DDDDDD</color>
-    <color name="count">#ff0066b3</color>
-    <color name="more">#ff232323</color>
-    <color name="version">#ffA0A0A0</color>
+    <color name="count">#FFFFFF</color>///#ff0066b3
+    <color name="more">#000000</color>///#ff232323
+    <color name="version">#000000</color>
 
-    <color name="pin_dot">#ffffffff</color>
-    <color name="pin_text">#ff620715</color>
-    <color name="pin_bg">#ffE2C67F</color>
+    <color name="pin_dot">#000000</color>
+    <color name="pin_text">#000000</color>///#ff620715
+    <color name="pin_bg">#FFCB31</color>
     <color name="pin_light_shadow">#40FFE49F</color>
     <color name="pin_dark_shadow">#40AA9152</color>
-    <color name="pin_press">#40AA9152</color>
+    <color name="pin_press">#D7D7D7</color>///#40AA9152
 
     <color name="segment_bg">#ff620715</color>
     <color name="segment_txt_normal">#ff620715</color>
-    <color name="segment_txt_select">#ffffffff</color>
+    <color name="segment_txt_normal_trad">#FFFFFF</color>
+    <color name="segment_txt_select">#FFFFFF</color>///#ffffffff
 
-    <color name="more_bg">#ffE2C67F</color>
+    <color name="more_bg">#FFCB31</color>
     <color name="more_light_border">#33E2C67F</color>
     <color name="more_light_shadow">#40FFE49F</color>
     <color name="more_dark_shadow">#40AA9152</color>
     <color name="more_press">#40AA9152</color>
 
     <!--background Default-->
-    <color name="bg_de">#D69B9D</color>
+    <color name="bg_de">#FFFFFF</color>///#D69B9D
+    <color name="bg_de2_start">#FFFFFF</color>
+    <color name="bg_de2">#D7D7D7</color>
+    <color name="bg_de2_onecolor">#000000</color>
+
 
     <!--background PLACE ORDER-->
-    <color name="bg_po">#FFEBC9</color>
+    <color name="bg_po">#FEE8C7</color>///FFEBC9
 
     <!--background STOP ORDER-->
-    <color name="bg_so">#D5E9FF</color>
+    <color name="bg_so">#D4E8FF</color>///D5E9FF
 
     <!--background gradient-->
-    <color name="bg_gd1">#5D0715</color>
-    <color name="bg_gd2">#620715</color>
-    <color name="bg_gd3">#7F1E28</color>
-    <color name="bg_gd4">#A41E28</color>
-    <color name="bg_gd5">#D6373F</color>
+    <color name="bg_gd1">#FFFFFF</color>
+    <color name="bg_gd2">#212121</color>
+    <color name="bg_gd3">#F3F3F3</color>
+    <color name="bg_gd4">#4d4d4d</color>
+    <color name="bg_gd5">#B2B2B2</color>
+
+    <!--background custom fragment-->
+    <color name="bg_1">#990000</color>
+    <color name="bg_2">#E2E2E2</color>
+    <color name="bg_3">#FEE8C7</color>
+    <color name="bg_4">#D4E8FF</color>
+    <color name="bg_home">#FFFFFF</color>
+    <color name="bg_alert">#FFFFFF</color>
 
     <!--primary color-->
     <color name="pm_blue">#03B6D1</color>
@@ -94,8 +135,10 @@
     <color name="l_red">#ff0000</color>
 
     <!--act segment-->
-    <color name="press">#ff5D0715</color>
-    <color name="select">#ff620715</color>
+    <color name="press">#FFCB31</color>///#ff5D0715 0364B3
+    <color name="select">#FFCB31</color>///#ff620715 0364B3
+    <color name="select_tard">#000000</color>///#ff620715
+    <color name="press_trad">#000000</color>///#ff5D0715
 
     <color name="normal">#ffffff</color>
     <color name="active">#000000</color>
@@ -127,22 +170,34 @@
 
     <!--custom color-->
     <color name="white">#ffffffff</color>
+    <color name="white_black_card">#ffffffff</color>
+    <color name="white_home_header">#FFCB31</color>
+    <color name="white_history_detail">#FFFFFF</color>
+    <color name="white_card_contact">#FFFFFF</color>
     <color name="black">#ff000000</color>
+    <color name="white_edit_text">#ffffffff</color>
+    <color name="white_edit_text_price_alert">#EFEFEF</color>
 
-    <color name="wo">#ffffffff</color>
+    <color name="wo">#000000</color>
+    <color name="wo1">#000000</color>
+    <color name="wo2">#6A6A6A</color>//ใช้หน้าprice_alert
     <color name="bo">#ff000000</color>
 
     <!--neu-morphism color-->
-    <color name="neu_bg">#ffA41E28</color>
+    <color name="neu_bg">#D7D7D7</color>///#ffA41E28
+    <color name="neu_bg_price_alert">#EFEFEF</color>
     <color name="neu_light_border">#33ffffff</color>
     <color name="neu_light_shadow">#40A41E28</color>
     <color name="neu_dark_shadow">#40620715</color>
     <color name="neu_press">#ffE0E0E0</color>
+    <color name="neu_press_price_alert">#ffE0E0E0</color>
     <color name="neu_press_key">#ffdadada</color>
-    <color name="neu_pass_code">#ffffffff</color>
+    <color name="neu_pass_code">#000000</color>
 
     <!--transparent color-->
     <color name="png">#00000000</color>
+    <color name="png_trad">#B6B6B6</color>
+    <color name="alert_bt_bg">#E5E5E5</color>
     <color name="white_93">#eeffffff</color>
     <color name="white_87">#ddffffff</color>
     <color name="white_80">#ccffffff</color>
@@ -165,4 +220,63 @@
     <color name="alert_button_color">#004e89</color>
     <color name="alert_font_color">#FFFFFF</color>
     <color name="alert_header_bg_color">#004e89</color>
+
+    <!--custom toolbar color-->
+    <color name="toolbar_bg">#FFCB31</color>
+    <color name="toolbar_text_bg">#000000</color>
+
+    <!--custom button authenticate fragment color-->
+    <color name="neu_authen_bg">#FFCB31</color>
+
+    <!--custom button logout more fragment color-->
+    <color name="logout_button_bg">#F6F6F6</color>
+    <color name="logout_button_text">#000000</color>
+
+    <!--custom icon background color-->
+    <color name="checked_icon_bg">#000000</color>
+    <color name="hamberger_icon_bg">#000000</color>
+    <color name="www_icon_bg">#000000</color>
+    <color name="alert_icon_bg">#000000</color>
+    <color name="tel_icon_bg">#000000</color>
+    <color name="email_icon_bg">#000000</color>
+
+    <!--custom paymentFragment icon background color-->
+    <color name="payment_icon_bg">#000000</color>///#0364B3
+
+    <!--custom พอร์ต port color-->
+    <color name="port_grey_bg">#E2E2E2</color>
+    <color name="port_black_text">#000000</color>
+    <color name="port_black_text1">#000000</color>
+    <color name="port_green_text">#3DA403</color>
+    <color name="port_red_text">#CC0000</color>
+
+    <!--custom พอร์ต-05 port_dept color-->
+    <color name="port_dept_blue">#FFCB31</color>///#0364B3
+    <color name="port_dept_white">#FFFFFF</color>
+    <color name="port_dept_text_blue">#000000</color>///0364B3
+    <color name="port_dept_text_white">#000000</color>///FFFFFF
+
+    <!--custom พอร์ต-02 fragment_port_detail.xml , row_port_state , PortDetailFragment.kt color-->
+    <color name="port_white_bg">#FFFFFF</color>
+    <color name="port_white_text">#FFFFFF</color>
+    <color name="port_blue_text">#0364B3</color>
+
+    <!--custom ประกาศ notice color-->
+    <color name="notice_yellow">#FFCB31</color>
+    <color name="notice_black">#000000</color>
+
+    <!--custom ใช้ใน NoticeFragment.kt เพื่อแก้ของใน notice color-->
+    <color name="tint_notice_unread_title">#000000</color>
+    <color name="tint_notice_read_title">#C0C0C0</color>
+    <color name="email_unread_icon_bg">#000000</color>///660099
+    <color name="email_read_icon_bg">#C0C0C0</color>
+    <color name="tint_card_bg">#FFCB31</color>
+    <color name="title_card_text">#000000</color>
+
+    <!--custom row alert color-->
+    <color name="text_row_alert">#000000</color>
+    <color name="bg_row_alert">#FFFFFF</color>
+
+    <!--custom home ใช้เปลี่ยนสีอักษรไฮต์ไลต์ข่าว(style.label.news) color-->
+    <color name="text_home_highlight">#000000</color>
 </resources>

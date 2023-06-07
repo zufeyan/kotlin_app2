@@ -149,7 +149,7 @@
 
         <TextView
             android:id="@+id/text_price_label"
-            style="@style/Label.Prefix"
+            style="@style/Label.Prefix_price"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
@@ -169,7 +169,7 @@
 
         <TextView
             android:id="@+id/text_price_unit"
-            style="@style/Label.Postfix"
+            style="@style/Label.Postfix_price"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />

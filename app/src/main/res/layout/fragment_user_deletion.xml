@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_user_del"
-    style="@style/Fragment.Default"
+    style="@style/Fragment.main_color"
     android:padding="@dimen/pad_h"
-    tools:context="com.sctgold.ltsgold.android.fragments.UserDeletionFragment">
+    tools:context="com.sctgold.wgold.android.fragments.UserDeletionFragment">
 
     <LinearLayout
         android:id="@+id/del_container"
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="@dimen/pad_h"
             android:text="@string/ud_title"
-            android:textColor="@color/wo" />
+            android:textColor="@color/toolbar_text_bg" />
 
         <TextView
             android:id="@+id/del_info"
@@ -84,7 +84,7 @@
 
         <Button
             android:id="@+id/del_confirm"
-            style="@style/Button.Default"
+            style="@style/Button.authen"
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/d20"

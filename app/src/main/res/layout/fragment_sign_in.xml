@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_sign_in"
     style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.SignInFragment">
+    tools:context="com.sctgold.wgold.android.fragments.SignInFragment">
 
     <ImageView
         android:id="@+id/logo_app"
@@ -36,7 +36,7 @@
 
         <TextView
             android:id="@+id/lb_status_sign_in"
-            style="@style/Label.Status"
+            style="@style/Label.Status_sign_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/alert_authen" />
@@ -57,7 +57,7 @@
 
         <Button
             android:id="@+id/sign_in"
-            style="@style/Button.Default"
+            style="@style/Button.authen"
             android:layout_width="match_parent"
             android:layout_marginTop="@dimen/d20"
             android:text="@string/btn_sign_in" />
@@ -88,7 +88,7 @@
 
             <TextView
                 android:id="@+id/forget_password"
-                style="@style/Button.Default.Fit"
+                style="@style/Button.authen"
                 android:layout_width="356dp"
                 android:layout_gravity="center"
                 android:layout_marginEnd="@dimen/d10"

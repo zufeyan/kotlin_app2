@@ -2,8 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_port_dept"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.PortDeptFragment">
+    style="@style/Fragment.color_grey"
+    tools:context="com.sctgold.wgold.android.fragments.PortDeptFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/pad_h"
+            android:background="@color/port_grey_bg"
             android:textColor="@color/wo"
             android:textStyle="bold" />
 
@@ -23,6 +24,7 @@
             android:id="@+id/port_dept_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:background="@color/port_grey_bg"
             android:layout_marginStart="@dimen/row_pad_v"
             android:layout_marginEnd="@dimen/row_pad_v"
             android:layout_weight="1"

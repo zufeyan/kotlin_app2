@@ -115,7 +115,7 @@
             android:resource="@xml/file_paths" />
 
         <activity
-            android:name="com.sctgold.ltsgold.ltsgold.activities.LauncherActivity"
+            android:name="com.sctgold.wgold.ltsgold.activities.LauncherActivity"
             android:exported="true"
             android:windowSoftInputMode="stateVisible" >
             <intent-filter>
@@ -125,7 +125,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sctgold.ltsgold.ltsgold.activities.MainActivity"
+            android:name="com.sctgold.wgold.ltsgold.activities.MainActivity"
             android:configChanges="uiMode"
             android:exported="true"
             android:launchMode="singleTop"
@@ -136,7 +136,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sctgold.ltsgold.ltsgold.activities.HomeActivity"
+            android:name="com.sctgold.wgold.ltsgold.activities.HomeActivity"
             android:configChanges="uiMode" />
 
         <provider
@@ -150,14 +150,14 @@
         </provider>
 
         <service
-            android:name="com.sctgold.ltsgold.ltsgold.fcm.MyFirebaseInstanceIDService"
+            android:name="com.sctgold.wgold.ltsgold.fcm.MyFirebaseInstanceIDService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.sctgold.ltsgold.ltsgold.fcm.MyFirebaseMessagingService"
+            android:name="com.sctgold.wgold.ltsgold.fcm.MyFirebaseMessagingService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -190,12 +190,12 @@
             android:name="firebase_analytics_collection_enabled"
             android:value="false" />
 
-        <activity android:name="com.sctgold.ltsgold.ltsgold.activities.DetailsActivity" />
+        <activity android:name="com.sctgold.wgold.ltsgold.activities.DetailsActivity" />
 
-        <service android:name="com.sctgold.ltsgold.ltsgold.service.MobilePricingService" />
+        <service android:name="com.sctgold.wgold.ltsgold.service.MobilePricingService" />
 
         <receiver
-            android:name="com.sctgold.ltsgold.ltsgold.ReplyReceiver"
+            android:name="com.sctgold.wgold.ltsgold.ReplyReceiver"
             android:enabled="true"
             android:exported="false"
             android:stopWithTask="false" >

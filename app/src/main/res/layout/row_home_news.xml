@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Card.Theme"
+    style="@style/Card.Theme_defualt"
     android:layout_width="@dimen/card_news"
     android:layout_height="wrap_content">
 

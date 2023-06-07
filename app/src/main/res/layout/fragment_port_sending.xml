@@ -2,8 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_port_send"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.PortSendingFragment">
+    style="@style/Fragment.color_grey"
+    tools:context="com.sctgold.wgold.android.fragments.PortSendingFragment">
 
     <LinearLayout
         android:id="@+id/layout_post_sending"
@@ -14,6 +14,7 @@
         <TextView
             android:id="@+id/port_send_header"
             style="@style/Label.Header"
+            android:background="@color/port_grey_bg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/pad_h"

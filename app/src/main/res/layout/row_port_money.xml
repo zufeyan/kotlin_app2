@@ -9,7 +9,7 @@
         android:id="@+id/port_money_row_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/port_white_bg"
         android:padding="@dimen/pad_h"
         android:orientation="vertical">
 
@@ -21,6 +21,7 @@
             <TextView
                 android:id="@+id/port_money_lb1"
                 style="@style/Label.TBLead"
+                android:textColor="@color/port_black_text"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/lb_text" />
@@ -31,7 +32,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textAlignment="textEnd"
-                android:textColor="@color/text"
+                android:textColor="@color/port_black_text"
                 android:textSize="@dimen/lb_text" />
 
         </LinearLayout>
@@ -45,6 +46,7 @@
             <TextView
                 android:id="@+id/port_money_lb2"
                 style="@style/Label.TBLead"
+                android:textColor="@color/port_black_text"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/lb_text" />
@@ -55,7 +57,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textAlignment="textEnd"
-                android:textColor="@color/text"
+                android:textColor="@color/port_black_text"
                 android:textSize="@dimen/lb_text" />
 
         </LinearLayout>
@@ -69,6 +71,7 @@
             <TextView
                 android:id="@+id/port_money_lb3"
                 style="@style/Label.TBLead"
+                android:textColor="@color/port_black_text"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/lb_text" />
@@ -79,7 +82,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textAlignment="textEnd"
-                android:textColor="@color/text"
+                android:textColor="@color/port_black_text"
                 android:textSize="@dimen/lb_text" />
 
         </LinearLayout>
@@ -93,6 +96,7 @@
             <TextView
                 android:id="@+id/port_money_lb4"
                 style="@style/Label.TBLead"
+                android:textColor="@color/port_black_text"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/lb_text" />
@@ -103,7 +107,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textAlignment="textEnd"
-                android:textColor="@color/text"
+                android:textColor="@color/port_black_text"
                 android:textSize="@dimen/lb_text" />
 
         </LinearLayout>
@@ -117,6 +121,7 @@
             <TextView
                 android:id="@+id/port_money_lb5"
                 style="@style/Label.TBLead"
+                android:textColor="@color/port_black_text"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/lb_text" />
@@ -127,7 +132,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textAlignment="textEnd"
-                android:textColor="@color/text"
+                android:textColor="@color/port_black_text"
                 android:textSize="@dimen/lb_text" />
 
         </LinearLayout>

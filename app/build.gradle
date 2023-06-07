@@ -27,13 +27,12 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.sctgold.ltsgold.android"
+        applicationId "com.clevel.tmgold.android"
+        //applicationId "com.sctgold.wgold.android"
         minSdkVersion 28
         targetSdkVersion 33
-        //versionCode 700004 edit 18.04.23 by Chalermphan
-        versionCode 7000041 // config 18.04.23 by Chalermphan
-        //versionName "7.0.4" edit 18.04.23 by Chalermphan
-        versionName "7.0.4.1" // config 18.04.23 by Chalermphan
+        versionCode 700001
+        versionName "7.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
 //        manifestPlaceholders = [API_BRANCH_CODE : "100",
@@ -52,7 +51,8 @@ android {
 //        }
         release {
 //        shrinkResources true
-            minifyEnabled true
+            //minifyEnabled true
+            minifyEnabled false
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
@@ -84,11 +84,14 @@ android {
         maven { url "https://maven.google.com" }
     }
 
-    lintOptions {
-        checkReleaseBuilds false
-        // Or, if you prefer, you can continue to check for errors in release builds,
-        // but continue the build even when errors are found:
+    namespace 'com.sctgold.wgold.android'
+    buildFeatures {
+        viewBinding = true
+        dataBinding true
+    }
+    lint {
         abortOnError false
+        checkReleaseBuilds false
     }
 }
 

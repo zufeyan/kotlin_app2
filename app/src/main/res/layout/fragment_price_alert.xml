@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_price_alert"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.PriceAlertFragment"
+    style="@style/Fragment.alert_page_color"
+    tools:context="com.sctgold.wgold.android.fragments.PriceAlertFragment"
     android:clickable="true" >
 
     <LinearLayout
@@ -19,7 +19,7 @@
             style="@style/Label.Header"
             android:text="@string/pa_head"
             android:textAlignment="center"
-            android:textColor="@color/tint"
+            android:textColor="@color/tint_alert_label"
             android:textSize="@dimen/cd_price"
             android:textStyle="bold" />
 
@@ -80,7 +80,7 @@
 
                 <Button
                     android:id="@+id/price_alert_btn_sl_product"
-                    style="@style/Button.Stroke"
+                    style="@style/Button.Stroke_alertpage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_column="1"
@@ -103,7 +103,7 @@
 
                 <EditText
                     android:id="@+id/price_alert_add_price"
-                    style="@style/EditText.Default"
+                    style="@style/EditText.Default_price_alert"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_column="1"
@@ -124,7 +124,7 @@
 
             <Button
                 android:id="@+id/price_alert_confirm"
-                style="@style/Button.Default"
+                style="@style/Button.Default_price_alert"
                 android:layout_width="0dp"
                 android:layout_gravity="center"
                 android:text="@string/btn_add"
@@ -142,7 +142,7 @@
             android:layout_marginTop="@dimen/table_pad_v"
             android:text="@string/pa_list"
             android:textAlignment="center"
-            android:textColor="@color/tint"
+            android:textColor="@color/tint_alert_label"
             android:textSize="@dimen/cd_price"
             android:textStyle="bold" />
 

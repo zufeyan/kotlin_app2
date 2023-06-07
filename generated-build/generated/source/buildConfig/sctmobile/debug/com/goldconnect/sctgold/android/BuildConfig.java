@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.sctgold.ltsgold.ltsgold;
+package com.sctgold.wgold.ltsgold;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

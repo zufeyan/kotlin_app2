@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">แอล ที เอส โกลด์ </string>
-    <string name="version">\u00a9 Powered by SCT Gold - </string>
+    <string name="app_name">โกลด์ อินเวสท์</string>
+    <string name="version">สงวนลิขสิทธิ์ \u00a9ของขวัญ เยาวราช ขอสงวนสิทธิ์ทั้งหมด\nแอพพลิเคชั่น โกลด์ อินเวสท์ </string>
+    <string name="version_text">เวอร์ชั่น </string>
     <!--    <string name="version">\u00a9 Powered by SCT Gold - App Version</string>-->
     <!--google-->
     <string name="google_android_map_api_key">AIzaSyDIQv7d3q6IpxrW6dtvQb67ZCohgfvAByw</string>
@@ -235,13 +236,13 @@
     <string name="pf_post">โพสต์ : </string>
 
     <!-- contact -->
-    <string name="latitude">16.874069125132273</string>
-    <string name="longtitude">99.12410475476511</string>
-    <string name="branch">ห้างทองอรสา</string>
-    <string name="company">บริษัท แอล ที เอส โกลด์ จำกัดด</string>
-    <string name="brand">ห้างทองอรสา</string>
+    <string name="latitude">13.65429406463696</string>
+    <string name="longtitude">100.52257892655302</string>
+    <string name="branch">ห้างสรรพสินค้า บิ๊กซี สาขาสุขสวัสดิ์</string>
+    <string name="company">บริษัท ของขวัญ เยาวราช จำกัด</string>
+    <string name="brand">ห้างสรรพสินค้า บิ๊กซี สาขาสุขสวัสดิ์</string>
     <string name="contact">ติดต่อเรา</string>
-    <string name="info">บริษัท แอล ที เอส โกลด์ จำกัด\n16-18 ซอยศรีเวียง ถนนประสาทวิถี ตำบลแม่สอด อำเภอแม่สอด จังหวัดตาก 63110\nโทร. 055-508928-9\n\nห้างทองอรสา 1\n765, 767, 769 ถนนตากสิน ตำบลระแหง อำเภอเมืองตาก จังหวัดตาก 63000\nโทร. 055-515998, 055-512623\n\nnห้างทองอรสา 2\n23 หมู่ 14 ตำบลตากออก อำเภอบ้านตาก จังหวัดตาก 63120\nโทร. 055-591292\n\nห้างทองอรสา 3\n24 ซอยศรีเวียง ถนนประสาทวิถี ตำบลแม่สอด อำเภอแม่สอด จังหวัดตาก 63110\nโทร. 055-508791-2\n\nFacebook : LTS GOLD\nLine : @ltsgold</string>
+    <string name="info">ที่อยู่: ห้างทองร้านของขวัญ 94 ห้างสรรพสินค้า บิ๊กซี สาขาสุขสวัสดิ์ ชั้น 2\nหมู่ที่ 18 ตำบลบางพึ่ง อำเภอพระประแดง\nจังหวัดสมุทรปราการ 10130\n\u25CF\t\tเบอร์โทร : 089-129-7478\n\t\t\t\t\t\t\t\t\t\t\t\t\t063-664-9646\n\u25CF\t\tอีเมล : info@goldinvestplus.com\n\u25CF\t\tเว็ปไซต์ : www.goldinvestplus.com\n\u25CF\t\tLine Official : @140anals\n\u25CF\t\tFacebook : Gold invest</string>
     <string name="website">เว็บไซต์</string>
 
     <string name="title_confirm">Confirmation</string>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.sctgold.ltsgold.android.ExpandableLayout
+    <com.sctgold.wgold.android.ExpandableLayout
         android:id="@+id/expand_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,17 +48,17 @@
                 android:id="@+id/notice_body"
                 style="@style/Label.ExpandedBody"
                 android:layout_marginTop="@dimen/pad_h"
-                android:textColor="@color/white" />
+                android:textColor="@color/notice_black" />
 
             <TextView
                 android:id="@+id/notice_post"
                 style="@style/Label.Tag"
                 android:layout_marginTop="@dimen/pad_v"
-                android:textColor="@color/white" />
+                android:textColor="@color/notice_black" />
 
         </LinearLayout>
 
 
-    </com.sctgold.ltsgold.android.ExpandableLayout>
+    </com.sctgold.wgold.android.ExpandableLayout>
 
 </androidx.cardview.widget.CardView>

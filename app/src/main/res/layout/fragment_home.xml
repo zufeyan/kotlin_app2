@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_home"
-    style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.HomeFragment">
+    style="@style/Fragment.main_color"
+    tools:context="com.sctgold.wgold.android.fragments.HomeFragment">
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/home_refresh"
@@ -24,7 +24,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/home_product"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="6"
                 android:orientation="vertical" />
 
@@ -37,7 +37,7 @@
 
                 <LinearLayout
                     android:id="@+id/chat_line"
-                    style="@style/Button.Stroke.Fit"
+                    style="@style/Button.Stroke.Fit_linecontract"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

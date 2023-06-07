@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LTS Gold</string>
-    <string name="version">\u00a9 Powered by SCT Gold - </string>
+    <string name="app_name">gold invest</string>
+    <string name="version">All rights reserved \u00a9KHONGKHWAN YAOWARAT. All rights reserved.\nApplications gold invest </string>
+    <string name="version_text">Version </string>
 
     <!--google-->
     <string name="google_android_map_api_key">AIzaSyDIQv7d3q6IpxrW6dtvQb67ZCohgfvAByw</string>
@@ -235,14 +236,14 @@
     <!-- prefix || suffix -->
     <string name="pf_post">Posted : </string>
 
-    <!-- contact -->v
-    <string name="latitude">16.874069125132273</string>
-    <string name="longtitude">99.12410475476511</string>
-    <string name="branch">LTS Gold</string>
-    <string name="company">LTS Gold Co.,Ltd.</string>
-    <string name="brand">LTS Gold</string>
+    <!-- contact -->
+    <string name="latitude">13.65429406463696</string>
+    <string name="longtitude">100.52257892655302</string>
+    <string name="branch">Big C, Suksawat branch</string>
+    <string name="company">KHONGKHWAN YAOWARAT Co.,Ltd.</string>
+    <string name="brand">Big C, Suksawat branch</string>
     <string name="contact">Contact us</string>
-    <string name="info">LTS Gold Co.,Ltd.\n16-18 Soi Si Wiang, Prasart Withi Road, Mae Sot Subdistrict, Mae Sot District, Tak Province 63110\nTel. 055508928-9\n\nOrasa Gold 1\n765, 767, 769 Taksin Road, Rahang Subdistrict, Muang District, Tak 63000\nTel. 055-515998, 055-512623\n\nOrasa Gold 2\n23 Moo 14, Takaok Subdistrict, Bantak District, Tak 63120\nTel. 055-591292\n\nOrasa Gold 3\n24 Soi Sriwiang, Prasatwithi Road, Mae Sot Subdistrict, Mae Sot District, Tak 63110\nTel. 055-508791-2s\n\nFacebook : LTS Gold\nLine : @ltsgold</string>
+    <string name="info">Address: 94 Big C Wallet, Suksawat branch, 2nd floor, opposite No. 18,\nBang Phueng Subdistrict, Phra Pradaeng District,\nSamut Prakan 10130\n\u25CF\t\tcontact : 089-129-7478\n\t\t\t\t\t\t\t\t\t\t\t\t063-664-9646\n\u25CF\t\temail : info@goldinvestplus.com\n\u25CF\t\twebsite : www.goldinvestplus.com\n\u25CF\t\tLine Official : @140anals\n\u25CF\t\tFacebook : Gold invest</string>
     <string name="website">Website</string>
 
     <string name="title_confirm">Confirmation</string>

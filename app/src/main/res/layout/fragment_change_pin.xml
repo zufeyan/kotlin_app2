@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_change_pin"
-    style="@style/Fragment.Default"
+    style="@style/Fragment.main_color"
     android:padding="@dimen/pad_h"
-    tools:context="com.sctgold.ltsgold.android.fragments.ChangePinFragment">
+    tools:context="com.sctgold.wgold.android.fragments.ChangePinFragment">
 
     <LinearLayout
         android:id="@+id/change_pin_container"
@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="@dimen/card_pad"
+        android:background="@color/port_grey_bg"
         app:layout_constraintBaseline_toTopOf="parent">
 
         <EditText
@@ -38,7 +39,7 @@
 
         <Button
             android:id="@+id/change_pin_save"
-            style="@style/Button.Default"
+            style="@style/Button.authen"
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/d20"

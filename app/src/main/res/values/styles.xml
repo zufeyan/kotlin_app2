@@ -10,8 +10,8 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
 
-        <item name="android:actionMenuTextColor">@color/tint</item>
-        <item name="colorControlNormal">@color/tint</item>
+        <item name="android:actionMenuTextColor">@color/toolbar_text_bg</item>
+        <item name="colorControlNormal">@color/toolbar_text_bg</item>
 
         <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/Toolbar.Theme</item>
@@ -173,7 +173,31 @@
     <style name="Card" parent="CardView" />
 
     <style name="Card.Theme">
-        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardBackgroundColor">@color/white_history_detail</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="Card.Theme_defualt">
+        <item name="cardBackgroundColor">@color/white_black_card</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="Card.Theme_contact">
+        <item name="cardBackgroundColor">@color/white_card_contact</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="Card.Port">
+        <item name="cardBackgroundColor">@color/port_grey_bg</item>
         <item name="cardUseCompatPadding">true</item>
         <item name="cardElevation">4dp</item>
         <item name="cardCornerRadius">@dimen/card_corner</item>
@@ -314,6 +338,22 @@
         <item name="android:background">@drawable/bg_main</item>
     </style>
 
+    <style name="Fragment.main_color">
+        <item name="android:background">@color/bg_home</item>
+    </style>
+
+    <style name="Fragment.alert_page_color">
+        <item name="android:background">@color/bg_alert</item>
+    </style>
+
+    <style name="Fragment.color_black">
+        <item name="android:background">@color/bg_1</item>
+    </style>
+
+    <style name="Fragment.color_grey">
+        <item name="android:background">@color/port_grey_bg</item>
+    </style>
+
     <!--Segment Control Style-->
     <style name="Segment" parent="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
 
@@ -340,6 +380,19 @@
         <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_h</item>
         <item name="android:textSize">@dimen/lb_segment_trade_size</item>
         <item name="android:textColor">@drawable/btn_seg_text</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="Segment.Trade_wg" parent="Segment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@drawable/btn_seg_active_trad</item>
+        <item name="android:paddingTop">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingBottom">@dimen/lb_segment_trade_pad_v</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_h</item>
+        <item name="android:textSize">@dimen/lb_segment_trade_size</item>
+        <item name="android:textColor">@drawable/btn_seg_text_trad</item>
         <item name="android:textAlignment">center</item>
     </style>
 
@@ -412,7 +465,49 @@
         <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
         <item name="android:minWidth">@dimen/s100</item>
         <item name="android:textSize">@dimen/btn_title_size</item>
+        <item name="android:textColor">@color/wo1</item>
+        <item name="android:padding">@dimen/neu_btn_pad_v</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.Default_price_alert">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_neu_price_alert</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_title_size</item>
+        <item name="android:textColor">@color/wo2</item>
+        <item name="android:padding">@dimen/neu_btn_pad_v</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.authen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_authen</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_title_size</item>
         <item name="android:textColor">@color/wo</item>
+        <item name="android:padding">@dimen/neu_btn_pad_v</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.logout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_logout_morepage</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_title_size</item>
+        <item name="android:textColor">@color/logout_button_text</item>
         <item name="android:padding">@dimen/neu_btn_pad_v</item>
         <item name="android:singleLine">true</item>
         <item name="android:maxLines">1</item>
@@ -427,6 +522,19 @@
         <item name="android:minWidth">@dimen/s100</item>
         <item name="android:textSize">@dimen/btn_qty_size</item>
         <item name="android:textColor">@color/tint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Button.Stroke_alertpage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_btn_border_alertpage</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:minWidth">@dimen/s100</item>
+        <item name="android:textSize">@dimen/btn_qty_size</item>
+        <item name="android:textColor">@color/tint3</item>
         <item name="android:singleLine">true</item>
         <item name="android:maxLines">1</item>
     </style>
@@ -484,13 +592,24 @@
         <item name="android:textColor">@color/tint</item>
     </style>
 
+    <style name="Button.Stroke.Fit_linecontract">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--        <item name="android:layout_gravity">center_vertical</item>-->
+        <item name="android:background">@drawable/bg_btn_primary_border_line</item>
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <!--        <item name="android:minWidth">@dimen/s100</item>-->
+        <!--        <item name="android:textSize">@dimen/btn_qty_size</item>-->
+        <item name="android:textColor">@color/tint2</item>
+    </style>
+
     <style name="Button.Text">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/lb_contact</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@color/tint</item>
+        <item name="android:textColor">@color/tint_line_text_button</item>
     </style>
 
     <!--Date Time Picker-->
@@ -516,11 +635,26 @@
 
     <style name="EditText.Default">
         <item name="android:textSize">@dimen/edit_text_size</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text3_edit_text</item>
         <item name="android:textColorHint">@color/g9b</item>
         <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_edit_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">@dimen/edit_text_bottom</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="EditText.Default_price_alert">
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:textColor">@color/text3_edit_text</item>
+        <item name="android:textColorHint">@color/wo2</item>
+        <!--        <item name="android:fontFamily">@font/pridi_regular</item>-->
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_edit_text_price_alert</item>
         <item name="android:cursorVisible">true</item>
         <item name="android:textCursorDrawable">@drawable/cursor_edit_text</item>
         <item name="android:textAlignment">center</item>
@@ -563,7 +697,15 @@
         <item name="android:textSize">@dimen/lb_status_size</item>
         <item name="android:paddingTop">@dimen/lb_status_pad</item>
         <item name="android:paddingBottom">@dimen/lb_status_pad</item>
-        <item name="android:textColor">@color/tint</item>
+        <item name="android:textColor">@color/tint_status_trad_dicision</item>
+    </style>
+
+    <style name="Label.Status_sign_in">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/lb_status_size</item>
+        <item name="android:paddingTop">@dimen/lb_status_pad</item>
+        <item name="android:paddingBottom">@dimen/lb_status_pad</item>
+        <item name="android:textColor">@color/tint_status</item>
     </style>
 
     <style name="Label.Version">
@@ -606,7 +748,7 @@
 
     <style name="Label.News">
         <item name="android:textSize">@dimen/lb_sub</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_home_highlight</item>
         <item name="android:paddingTop">@dimen/pad_all</item>
         <item name="android:paddingStart">@dimen/pad_h</item>
         <item name="android:paddingEnd">@dimen/pad_h</item>
@@ -615,7 +757,12 @@
 
     <style name="Label.Row">
         <item name="android:textSize">@dimen/lb_text</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_edit_product</item>
+    </style>
+
+    <style name="Label.Row_alert">
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text_row_alert</item>
     </style>
 
     <style name="Label.Row.Fit">
@@ -625,11 +772,18 @@
         <item name="autoSizeStepGranularity">@dimen/btn_step_size</item>
         <item name="android:textColor">@color/text</item>
     </style>
+    <style name="Label.Row.Fit.product_name">
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">@dimen/btn_min_size</item>
+        <item name="autoSizeMaxTextSize">@dimen/lb_text</item>
+        <item name="autoSizeStepGranularity">@dimen/btn_step_size</item>
+        <item name="android:textColor">@color/text_product_name</item>
+    </style>
 
     <style name="Label.TitleNews">
         <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
         <item name="android:textSize">@dimen/lb_text</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_news_title</item>
         <item name="android:textStyle">bold</item>
         <item name="android:maxLines">1</item>
         <item name="android:ellipsize">end</item>
@@ -654,7 +808,7 @@
 
     <style name="Label.TitleTrade">
         <item name="android:textSize">@dimen/lb_header</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_credit_limit</item>
         <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
         <item name="android:textAlignment">center</item>
         <item name="android:layout_marginBottom">@dimen/seg_b</item>
@@ -673,7 +827,7 @@
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/lb_text</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_credit_limit</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -682,7 +836,18 @@
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/lb_header</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_credit_limit_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_v</item>
+    </style>
+
+    <style name="Label.Prefix_price">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text_credit_limit</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">textEnd</item>
         <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_v</item>
@@ -693,7 +858,18 @@
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/lb_header</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_credit_limit_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>
+    </style>
+
+    <style name="Label.Postfix_price">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_header</item>
+        <item name="android:textColor">@color/text_credit_limit</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>
@@ -704,7 +880,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/lb_header</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/port_black_text1</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:padding">@dimen/lb_segment_trade_pad_v</item>
@@ -728,11 +904,21 @@
         <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
     </style>
 
+    <style name="Label.TBLabel_detail">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/text2_detail</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_h</item>
+    </style>
+
     <style name="Label.TBValueFit">
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/lb_cell</item>
-        <item name="android:textColor">@color/tint</item>
+        <item name="android:textColor">@color/tint2</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:maxLines">1</item>
@@ -747,7 +933,7 @@
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/lb_cell</item>
-        <item name="android:textColor">@color/tint</item>
+        <item name="android:textColor">@color/tint2</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>
@@ -759,6 +945,22 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/lb_cell</item>
         <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/fs15</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/lb_cell</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <!--        <item name="android:paddingEnd">@dimen/lb_segment_trade_pad_v</item>-->
+        <!--        <item name="android:paddingStart">@dimen/lb_segment_trade_pad_v</item>-->
+    </style>
+
+    <style name="Label.TBUnit_detail">
+        <item name="android:minWidth">@dimen/unit_width</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/lb_cell</item>
+        <item name="android:textColor">@color/text2_detail</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:autoSizeTextType">uniform</item>
@@ -792,7 +994,14 @@
 
     <style name="Label.Card">
         <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/tint2</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.Card_clear_port">
+        <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
+        <item name="android:textColor">@color/text_clear_port</item>
         <item name="android:maxLines">1</item>
         <item name="android:ellipsize">end</item>
     </style>
@@ -853,12 +1062,17 @@
 
     <style name="Label.Normal">
         <item name="android:textSize">@dimen/lb_text</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_contract</item>///@color/text
+    </style>
+
+    <style name="Label.normal_contact">
+        <item name="android:textSize">@dimen/lb_text</item>
+        <item name="android:textColor">@color/text_contract</item>///@color/text
     </style>
 
     <style name="Label.CollapseTitle">
         <item name="android:textSize">@dimen/lb_text</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/notice_yellow</item>
         <item name="android:textStyle">bold</item>
         <item name="android:maxLines">1</item>
         <item name="android:ellipsize">end</item>

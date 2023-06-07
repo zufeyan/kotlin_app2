@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:background="@drawable/bg_main">
+        android:background="@color/toolbar_bg">
 
         <TextView
             android:id="@+id/title_main_text"
@@ -21,7 +21,7 @@
             android:gravity="center"
             android:text="@string/app_name"
             android:textAlignment="center"
-            android:textColor="@color/title"
+            android:textColor="@color/toolbar_text_bg"
             android:textSize="@dimen/title_size" />
 
         <RadioGroup

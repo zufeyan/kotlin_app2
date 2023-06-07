@@ -5,11 +5,11 @@
     android:viewportHeight="24">
   <path
       android:pathData="M2,4.38h20v1.99h-20z"
-      android:fillColor="@color/tint"/>
+      android:fillColor="@color/hamberger_icon_bg"/>
   <path
       android:pathData="M2,17.63h20v1.99h-20z"
-      android:fillColor="@color/tint"/>
+      android:fillColor="@color/hamberger_icon_bg"/>
   <path
       android:pathData="M2,11.01h20v1.99h-20z"
-      android:fillColor="@color/tint"/>
+      android:fillColor="@color/hamberger_icon_bg"/>
 </vector>

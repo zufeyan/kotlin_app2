@@ -11,7 +11,7 @@
         android:id="@+id/port_folio_row_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/port_grey_bg"
         android:orientation="vertical">
 
         <LinearLayout
@@ -28,14 +28,14 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:maxLines="1"
                 android:textAlignment="center"
                 android:textColor="@color/text"
                 android:textStyle="bold"
-                android:maxLines="1"
-                app:autoSizeTextType="uniform"
-                app:autoSizeMinTextSize="@dimen/btn_min_size"
                 app:autoSizeMaxTextSize="@dimen/lb_header"
-                app:autoSizeStepGranularity="@dimen/btn_step_size" />
+                app:autoSizeMinTextSize="@dimen/btn_min_size"
+                app:autoSizeStepGranularity="@dimen/btn_step_size"
+                app:autoSizeTextType="uniform" />
 
             <LinearLayout
                 android:id="@+id/port_folio_res_con"
@@ -59,13 +59,13 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:maxLines="1"
                     android:textAlignment="textEnd"
                     android:textColor="@color/bright_all"
-                    android:maxLines="1"
-                    app:autoSizeTextType="uniform"
-                    app:autoSizeMinTextSize="@dimen/btn_min_size"
                     app:autoSizeMaxTextSize="@dimen/lb_text"
+                    app:autoSizeMinTextSize="@dimen/btn_min_size"
                     app:autoSizeStepGranularity="@dimen/btn_step_size"
+                    app:autoSizeTextType="uniform"
                     tools:ignore="NestedWeights" />
 
             </LinearLayout>

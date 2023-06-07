@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/png" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/shadow_none" android:end="@dimen/shadow_none" android:start="@dimen/shadow_space" android:top="@dimen/shadow_radius">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/neu_light_shadow" />
+                    <corners android:radius="@dimen/shadow_radius" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/shadow_space" android:end="@dimen/shadow_space" android:start="@dimen/shadow_none" android:top="@dimen/shadow_none">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/neu_dark_shadow" />
+                    <corners android:radius="@dimen/shadow_radius" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/shadow_space" android:end="@dimen/shadow_space" android:start="@dimen/shadow_space" android:top="@dimen/shadow_space">
+                <shape android:shape="rectangle">
+                    <padding android:bottom="@dimen/neu_pad_v" android:left="@dimen/neu_pad_h" android:right="@dimen/neu_pad_h" android:top="@dimen/neu_pad_v" />
+                    <solid android:color="@color/white_edit_text_price_alert" />
+                    <corners android:radius="@dimen/inner_radius" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/png" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/shadow_none" android:end="@dimen/shadow_none" android:start="@dimen/shadow_space" android:top="@dimen/shadow_radius">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/neu_light_shadow" />
+                    <corners android:radius="@dimen/shadow_radius" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/shadow_space" android:end="@dimen/shadow_space" android:start="@dimen/shadow_none" android:top="@dimen/shadow_none">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/neu_dark_shadow" />
+                    <corners android:radius="@dimen/shadow_radius" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/shadow_space" android:end="@dimen/shadow_space" android:start="@dimen/shadow_space" android:top="@dimen/shadow_space">
+                <shape android:shape="rectangle">
+                    <padding android:bottom="@dimen/neu_pad_v" android:left="@dimen/neu_pad_h" android:right="@dimen/neu_pad_h" android:top="@dimen/neu_pad_v" />
+                    <solid android:color="@color/neu_press_price_alert" />
+                    <corners android:radius="@dimen/inner_radius" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

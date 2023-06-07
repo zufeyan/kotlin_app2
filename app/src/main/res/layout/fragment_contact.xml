@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_contact"
     style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.ContactFragment">
+    android:layout_height="match_parent"
+    tools:context="com.sctgold.wgold.android.fragments.ContactFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -22,7 +23,7 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contact_card"
-            style="@style/Card.Theme"
+            style="@style/Card.Theme_contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -36,7 +37,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:padding="@dimen/pad_h">
 
@@ -65,14 +66,14 @@
                                 android:id="@+id/contact_us"
                                 style="@style/Label.Contact"
                                 android:text="@string/contact"
-                                android:textColor="@color/tint"
+                                android:textColor="@color/tint_contract"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/contact_org"
                                 style="@style/Label.Brand"
                                 android:text="@string/brand"
-                                android:textColor="@color/text"
+                                android:textColor="@color/text_contract"
                                 android:textStyle="bold" />
 
                         </LinearLayout>
@@ -81,7 +82,7 @@
 
                     <TextView
                         android:id="@+id/contact_detail"
-                        style="@style/Label.Normal"
+                        style="@style/Label.normal_contact"
                         android:layout_marginTop="@dimen/pad_v"
                         android:layout_marginBottom="@dimen/pad_v" />
 

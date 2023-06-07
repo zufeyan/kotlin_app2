@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_force_change"
     style="@style/Fragment.Default"
-    tools:context="com.sctgold.ltsgold.android.fragments.ForceChangeFragment">
+    tools:context="com.sctgold.wgold.android.fragments.ForceChangeFragment">
 
     <ImageView
         android:id="@+id/logo_app_fc"
@@ -36,7 +36,7 @@
 
         <TextView
             android:id="@+id/lb_force_change"
-            style="@style/Label.Status"
+            style="@style/Label.Status_sign_in"
             android:layout_marginBottom="@dimen/lb_status_pad"
             android:text="@string/alert_change_new" />
 
@@ -70,7 +70,7 @@
 
         <Button
             android:id="@+id/sign_in"
-            style="@style/Button.Default"
+            style="@style/Button.authen"
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/d20"

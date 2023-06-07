@@ -143,51 +143,6 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:574887453412:android:b121b074744445f5",
-        "android_client_info": {
-          "package_name": "com.sctgold.ltsgold.android"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "574887453412-srphh0httnhlqms7710pd28kgt0ndgnd.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.sctgold.ltsgold.android",
-            "certificate_hash": "03cee46b8db68b09a129a9d054b27aa866d85cf2"
-          }
-        },
-        {
-          "client_id": "574887453412-r97v3tkhb4qhlqt8ad5dr42db2rpr0ro.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAEqkXIv793J-pFkhNxVwPIZ_f1RwKmsRs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "574887453412-r97v3tkhb4qhlqt8ad5dr42db2rpr0ro.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "574887453412-19ovq01no85u1quc73p6heud0plh459c.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "THOMSON-GOLD.Thomson-Gold",
-                "app_store_id": "1070818606"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:574887453412:android:a3189b6575b5d452",
         "android_client_info": {
           "package_name": "com.clevel.muangploy.android"

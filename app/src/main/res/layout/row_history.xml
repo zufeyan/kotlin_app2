@@ -35,7 +35,7 @@
             <TextView
                 android:id="@+id/history_row_price"
                 style="@style/Label.Card"
-                android:textColor="@color/text"
+                android:textColor="@color/text_card"
                 android:textSize="@dimen/cd_price"
                 android:textStyle="bold" />
 
@@ -48,7 +48,7 @@
             <TextView
                 android:id="@+id/history_row_date"
                 style="@style/Label.CardLight"
-                android:textColor="@color/text_tag"
+                android:textColor="@color/text_tag2"
                 android:textSize="@dimen/cd_date" />
 
         </LinearLayout>

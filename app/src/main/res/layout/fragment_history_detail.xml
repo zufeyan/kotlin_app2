@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_history_detail"
-    style="@style/Fragment.Default"
+    style="@style/Fragment.main_color"
     android:clickable="true"
-    tools:context="com.sctgold.ltsgold.android.fragments.HistoryDetailFragment">
+    tools:context="com.sctgold.wgold.android.fragments.HistoryDetailFragment">
 
     <androidx.cardview.widget.CardView
         style="@style/Card.Theme"
@@ -24,7 +24,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label1"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -42,7 +42,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label2"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -60,7 +60,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label3"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -78,7 +78,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label4"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -96,7 +96,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label5"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -114,7 +114,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label6"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -128,7 +128,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_unit6"
-                    style="@style/Label.TBUnit"
+                    style="@style/Label.TBUnit_detail"
                     android:layout_column="2"
                     app:autoSizeMaxTextSize="@dimen/lb_cell"
                     app:autoSizeMinTextSize="@dimen/lb_tag"
@@ -140,7 +140,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label7"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -154,7 +154,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_unit7"
-                    style="@style/Label.TBUnit"
+                    style="@style/Label.TBUnit_detail"
                     android:layout_column="2"
                     app:autoSizeMaxTextSize="@dimen/lb_cell"
                     app:autoSizeMinTextSize="@dimen/lb_tag"
@@ -166,7 +166,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label8"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -180,7 +180,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_unit8"
-                    style="@style/Label.TBUnit"
+                    style="@style/Label.TBUnit_detail"
                     android:layout_column="2"
                     app:autoSizeMaxTextSize="@dimen/lb_cell"
                     app:autoSizeMinTextSize="@dimen/lb_tag"
@@ -192,7 +192,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label9"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -210,7 +210,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label10"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -228,7 +228,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label11"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
@@ -246,7 +246,7 @@
 
                 <TextView
                     android:id="@+id/row_detail_label12"
-                    style="@style/Label.TBLabel"
+                    style="@style/Label.TBLabel_detail"
                     android:layout_column="0" />
 
                 <TextView
