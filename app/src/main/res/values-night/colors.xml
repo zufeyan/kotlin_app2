@@ -168,6 +168,7 @@
 
     <!--custom color-->
     <color name="white">#ff000000</color>
+    <color name="white_white">#ffffffff</color>
     <color name="white_black_card">#000000</color>
     <color name="white_home_header">#000000</color>
     <color name="white_history_detail">#FFFFFF</color>

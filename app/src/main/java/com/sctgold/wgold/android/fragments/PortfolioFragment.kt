@@ -268,7 +268,7 @@ class PortfolioFragment : Fragment() {
             dataSetSell.setDrawValues(false)
             // colors sell
             val colorsSell: ArrayList<Int> = ArrayList()
-            colorsSell.add(ContextCompat.getColor(context, R.color.pm_sell))
+            colorsSell.add(ContextCompat.getColor(context, R.color.pm_buy))
             colorsSell.add(ContextCompat.getColor(context, R.color.pm_track))
             dataSetSell.colors = colorsSell
             // set sell
@@ -314,12 +314,12 @@ class PortfolioFragment : Fragment() {
             val strSell = ManageData().numberFormatToDecimal(sellPie) + "%"
             holder.itemView.pie_chart_percent_sell.text = strSell
             holder.itemView.pie_chart_percent_sell.setTextColor(
-                ContextCompat.getColor(context, R.color.pm_sell)
+                ContextCompat.getColor(context, R.color.pm_buy)
             )
 
             holder.itemView.pie_chart_use_sell.text = df.format(data.minSell).toString()
             holder.itemView.pie_chart_use_sell.setTextColor(
-                ContextCompat.getColor(context, R.color.pm_sell)
+                ContextCompat.getColor(context, R.color.pm_buy)
             )
 
             holder.itemView.pie_chart_divider_sell.setBackgroundColor(
@@ -352,7 +352,7 @@ class PortfolioFragment : Fragment() {
             dataSetBuy.xValuePosition = PieDataSet.ValuePosition.OUTSIDE_SLICE
             // colors buy
             val colorsBuy: ArrayList<Int> = ArrayList()
-            colorsBuy.add(ContextCompat.getColor(context, R.color.pm_buy))
+            colorsBuy.add(ContextCompat.getColor(context, R.color.pm_sell))
             colorsBuy.add(ContextCompat.getColor(context, R.color.pm_track))
             dataSetBuy.colors = colorsBuy
             // set buy
@@ -399,12 +399,12 @@ class PortfolioFragment : Fragment() {
             val strBuy = ManageData().numberFormatToDecimal(buyPie) + "%"
             holder.itemView.pie_chart_percent_buy.text = strBuy
             holder.itemView.pie_chart_percent_buy.setTextColor(
-                ContextCompat.getColor(context, R.color.pm_buy)
+                ContextCompat.getColor(context, R.color.pm_sell)
             )
 
             holder.itemView.pie_chart_use_buy.text = df.format(data.minBuy).toString()
             holder.itemView.pie_chart_use_buy.setTextColor(
-                ContextCompat.getColor(context, R.color.pm_buy)
+                ContextCompat.getColor(context, R.color.pm_sell)
             )
 
             holder.itemView.pie_chart_divider_buy.setBackgroundColor(

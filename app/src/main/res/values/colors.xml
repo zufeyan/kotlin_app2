@@ -170,6 +170,7 @@
 
     <!--custom color-->
     <color name="white">#ffffffff</color>
+    <color name="white_white">#ffffffff</color>
     <color name="white_black_card">#ffffffff</color>
     <color name="white_home_header">#FFCB31</color>
     <color name="white_history_detail">#FFFFFF</color>
