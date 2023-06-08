@@ -4,7 +4,7 @@
     android:id="@+id/frag_port_detail"
     style="@style/Fragment.color_grey"
     android:layout_height="match_parent"
-    tools:context="com.sctgold.wgold.android.fragments.PortDetailFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.PortDetailFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

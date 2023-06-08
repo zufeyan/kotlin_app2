@@ -472,7 +472,7 @@ ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\Andro
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:108:13-47
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:107:13-54
-activity#com.clevel.tmgold.android.activities.LauncherActivity
+activity#com.clevel.goldinvest.android.activities.LauncherActivity
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:113:9-120:20
 	android:windowSoftInputMode
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:114:13-55
@@ -490,7 +490,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:118:17-77
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:118:27-74
-activity#com.clevel.tmgold.android.activities.MainActivity
+activity#com.clevel.goldinvest.android.activities.MainActivity
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:122:9-132:20
 	android:launchMode
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:126:13-43
@@ -504,7 +504,7 @@ ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\Andro
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:124:13-52
 intent-filter#action:name:.MainActivity+action:name:android.intent.action.VIEW
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:128:13-131:29
-action#com.clevel.tmgold.android.MainActivity
+action#com.clevel.goldinvest.android.MainActivity
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:129:17-56
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:129:25-53
@@ -512,13 +512,13 @@ action#android.intent.action.VIEW
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:130:17-69
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:130:25-66
-activity#com.clevel.tmgold.android.activities.HomeActivity
+activity#com.clevel.goldinvest.android.activities.HomeActivity
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:134:9-136:46
 	android:configChanges
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:136:13-43
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:135:13-52
-service#com.clevel.tmgold.android.fcm.MyFirebaseInstanceIDService
+service#com.clevel.goldinvest.android.fcm.MyFirebaseInstanceIDService
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:150:9-156:19
 	android:exported
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:152:13-37
@@ -530,7 +530,7 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:154:17-80
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:154:25-77
-service#com.clevel.tmgold.android.fcm.MyFirebaseMessagingService
+service#com.clevel.goldinvest.android.fcm.MyFirebaseMessagingService
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:158:9-164:19
 	android:exported
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:160:13-37
@@ -578,15 +578,15 @@ ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\Andro
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:194:13-34
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:193:13-65
-activity#com.clevel.tmgold.android.activities.DetailsActivity
+activity#com.clevel.goldinvest.android.activities.DetailsActivity
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:196:9-64
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:196:19-61
-service#com.clevel.tmgold.android.service.MobilePricingService
+service#com.clevel.goldinvest.android.service.MobilePricingService
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:198:9-64
 	android:name
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:198:18-62
-receiver#com.clevel.tmgold.android.ReplyReceiver
+receiver#com.clevel.goldinvest.android.ReplyReceiver
 ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:200:9-211:20
 	android:enabled
 		ADDED from C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:201:13-35

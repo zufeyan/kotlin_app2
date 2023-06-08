@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.clevel.tmgold.android"
+3    package="com.clevel.goldinvest.android"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -164,7 +164,7 @@
 76-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:67:61-85
 77
 78        <!-- &lt;!&ndash;        <meta-data&ndash;&gt; -->
-79        <!-- &lt;!&ndash;            android:name="com.clevel.tmgold.android.MORE_MENU_VISIBLE"&ndash;&gt; -->
+79        <!-- &lt;!&ndash;            android:name="com.clevel.goldinvest.android.MORE_MENU_VISIBLE"&ndash;&gt; -->
 80        <!-- &lt;!&ndash;            android:value="${MORE_MENU_LIST}" tools:replace="android:value"/>&ndash;&gt; -->
 81        <!-- <meta-data -->
 82        <!-- android:name="com.google.android.gms.version" -->
@@ -173,29 +173,29 @@
 85        <!-- android:name="com.google.android.geo.API_KE" -->
 86        <!-- android:value="AIzaSyBPGOFKmVqKEuuti6l0CG2-blgRJBafQH4"/> -->
 87        <!-- <meta-data -->
-88        <!-- android:name="com.clevel.tmgold.android.SECURITY_BASE_URL" -->
+88        <!-- android:name="com.clevel.goldinvest.android.SECURITY_BASE_URL" -->
 89        <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/api/v3.0/secure" tools:replace="android:value"/> -->
 90        <!-- <meta-data -->
-91        <!-- android:name="com.clevel.tmgold.android.API_BASE_URL" -->
+91        <!-- android:name="com.clevel.goldinvest.android.API_BASE_URL" -->
 92        <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/api/v3.0" tools:replace="android:value"/> -->
 93        <!-- &lt;!&ndash;        <meta-data&ndash;&gt; -->
-94        <!-- &lt;!&ndash;            android:name="com.clevel.tmgold.android.FILE_UPLOAD_URL"&ndash;&gt; -->
+94        <!-- &lt;!&ndash;            android:name="com.clevel.goldinvest.android.FILE_UPLOAD_URL"&ndash;&gt; -->
 95        <!-- &lt;!&ndash;            android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/upload" tools:replace="android:value"/>&ndash;&gt; -->
 96        <!-- <meta-data -->
-97        <!-- android:name="com.clevel.tmgold.android.BRANCH_CODE" -->
+97        <!-- android:name="com.clevel.goldinvest.android.BRANCH_CODE" -->
 98        <!-- android:value="${API_BRANCH_CODE}"/> -->
 99        <!-- &lt;!&ndash;        &lt;!&ndash;        ws://localhost:8080/sctgoldFO/primepush/productPrice/100/ONLINE/A&ndash;&gt;&ndash;&gt; -->
 100        <!-- <meta-data -->
-101        <!-- android:name="com.clevel.tmgold.android.FEED_SOCKET_URL" -->
+101        <!-- android:name="com.clevel.goldinvest.android.FEED_SOCKET_URL" -->
 102        <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/productPrice/${API_BRANCH_CODE}/ONLINE" tools:replace="android:value"/> -->
 103        <!-- <meta-data -->
-104        <!-- android:name="com.clevel.tmgold.android.CONFIG_SOCKET_URL" -->
+104        <!-- android:name="com.clevel.goldinvest.android.CONFIG_SOCKET_URL" -->
 105        <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/mobileSystemUpdate" tools:replace="android:value"/> -->
 106        <!-- <meta-data -->
-107        <!-- android:name="com.clevel.tmgold.android.EVENT_SOCKET_URL" -->
+107        <!-- android:name="com.clevel.goldinvest.android.EVENT_SOCKET_URL" -->
 108        <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/mobileEventNotify" tools:replace="android:value"/> -->
 109        <!-- <meta-data -->
-110        <!-- android:name="com.clevel.tmgold.android.SCT_API_URL" -->
+110        <!-- android:name="com.clevel.goldinvest.android.SCT_API_URL" -->
 111        <!-- android:value="http://www.sctgoldgroup.com:8080/sctAPIMobile/rest"/> -->
 112
 113        <meta-data
@@ -207,7 +207,7 @@
 116
 117        <activity
 117-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:113:9-120:20
-118            android:name="com.clevel.tmgold.android.activities.LauncherActivity"
+118            android:name="com.clevel.goldinvest.android.activities.LauncherActivity"
 118-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:113:19-62
 119            android:exported="true"
 119-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:115:13-36
@@ -226,7 +226,7 @@
 126        </activity>
 127        <activity
 127-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:122:9-132:20
-128            android:name="com.clevel.tmgold.android.activities.MainActivity"
+128            android:name="com.clevel.goldinvest.android.activities.MainActivity"
 128-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:124:13-52
 129            android:configChanges="uiMode"
 129-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:125:13-43
@@ -248,7 +248,7 @@
 137        </activity>
 138        <activity
 138-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:134:9-136:46
-139            android:name="com.clevel.tmgold.android.activities.HomeActivity"
+139            android:name="com.clevel.goldinvest.android.activities.HomeActivity"
 139-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:135:13-52
 140            android:configChanges="uiMode" />
 140-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:136:13-43
@@ -256,7 +256,7 @@
 142        <provider
 143            android:name="androidx.core.content.FileProvider"
 143-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:140:13-62
-144            android:authorities="com.clevel.tmgold.android.provider"
+144            android:authorities="com.clevel.goldinvest.android.provider"
 144-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:141:13-60
 145            android:exported="false"
 145-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:142:13-37
@@ -272,7 +272,7 @@
 151
 152        <service
 152-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:150:9-156:19
-153            android:name="com.clevel.tmgold.android.fcm.MyFirebaseInstanceIDService"
+153            android:name="com.clevel.goldinvest.android.fcm.MyFirebaseInstanceIDService"
 153-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:151:13-91
 154            android:exported="false" >
 154-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:152:13-37
@@ -285,7 +285,7 @@
 158        </service>
 159        <service
 159-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:158:9-164:19
-160            android:name="com.clevel.tmgold.android.fcm.MyFirebaseMessagingService"
+160            android:name="com.clevel.goldinvest.android.fcm.MyFirebaseMessagingService"
 160-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:159:13-59
 161            android:exported="false" >
 161-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:160:13-37
@@ -341,17 +341,17 @@
 191            android:value="false" />
 191-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:194:13-34
 192
-193        <activity android:name="com.clevel.tmgold.android.activities.DetailsActivity" />
+193        <activity android:name="com.clevel.goldinvest.android.activities.DetailsActivity" />
 193-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:196:9-64
 193-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:196:19-61
 194
-195        <service android:name="com.clevel.tmgold.android.service.MobilePricingService" />
+195        <service android:name="com.clevel.goldinvest.android.service.MobilePricingService" />
 195-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:198:9-64
 195-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:198:18-62
 196
 197        <receiver
 197-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:200:9-211:20
-198            android:name="com.clevel.tmgold.android.ReplyReceiver"
+198            android:name="com.clevel.goldinvest.android.ReplyReceiver"
 198-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:200:19-48
 199            android:enabled="true"
 199-->C:\Users\nunnapat.t\Desktop\New folder (2)\SCTGold\app\src\main\AndroidManifest.xml:201:13-35
@@ -402,7 +402,7 @@
 222-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:38:9-46:20
 223            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
 223-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:39:13-83
-224            android:authorities="com.squareup.leakcanary.fileprovider.com.clevel.tmgold.android"
+224            android:authorities="com.squareup.leakcanary.fileprovider.com.clevel.goldinvest.android"
 224-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:40:13-88
 225            android:exported="false"
 225-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:41:13-37
@@ -428,7 +428,7 @@
 236-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:52:13-71
 237            android:process=":leakcanary"
 237-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:53:13-42
-238            android:taskAffinity="com.squareup.leakcanary.com.clevel.tmgold.android"
+238            android:taskAffinity="com.squareup.leakcanary.com.clevel.goldinvest.android"
 238-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:54:13-76
 239            android:theme="@style/leak_canary_LeakCanary.Base" >
 239-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:55:13-63
@@ -459,7 +459,7 @@
 252-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:68:13-42
 253            android:roundIcon="@mipmap/leak_canary_icon"
 253-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:69:13-57
-254            android:taskAffinity="com.squareup.leakcanary.com.clevel.tmgold.android"
+254            android:taskAffinity="com.squareup.leakcanary.com.clevel.goldinvest.android"
 254-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:70:13-76
 255            android:theme="@style/leak_canary_Theme.Transparent" />
 255-->[com.squareup.leakcanary:leakcanary-android:1.6.2] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\287230a17b38025af50c0b3738bb4577\jetified-leakcanary-android-1.6.2\AndroidManifest.xml:71:13-65
@@ -468,7 +468,7 @@
 257-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:14:9-18:39
 258            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
 258-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:15:13-82
-259            android:authorities="com.clevel.tmgold.android.firebaseperfprovider"
+259            android:authorities="com.clevel.goldinvest.android.firebaseperfprovider"
 259-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:16:13-72
 260            android:exported="false"
 260-->[com.google.firebase:firebase-perf:19.1.1] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\530c203e331338af83aa83d0107c311c\jetified-firebase-perf-19.1.1\AndroidManifest.xml:17:13-37
@@ -639,7 +639,7 @@
 354-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:28:9-34:35
 355            android:name="androidx.work.impl.WorkManagerInitializer"
 355-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:29:13-69
-356            android:authorities="com.clevel.tmgold.android.workmanager-init"
+356            android:authorities="com.clevel.goldinvest.android.workmanager-init"
 356-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:30:13-68
 357            android:directBootAware="false"
 357-->[androidx.work:work-runtime:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\58aacea4e9fcc86ee0909693a32361fa\work-runtime-2.0.0\AndroidManifest.xml:31:13-44
@@ -803,7 +803,7 @@
 438-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 439            android:name="com.google.firebase.provider.FirebaseInitProvider"
 439-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-440            android:authorities="com.clevel.tmgold.android.firebaseinitprovider"
+440            android:authorities="com.clevel.goldinvest.android.firebaseinitprovider"
 440-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 441            android:directBootAware="true"
 441-->[com.google.firebase:firebase-common:19.5.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\f4b1ea6d11edd2694cf6bd6ab6f296d9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
@@ -853,7 +853,7 @@
 466-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 467            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 467-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-468            android:authorities="com.clevel.tmgold.android.lifecycle-process"
+468            android:authorities="com.clevel.goldinvest.android.lifecycle-process"
 468-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 469            android:exported="false"
 469-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\nunnapat.t\.gradle\caches\transforms-2\files-2.1\5c730ec43a455823e515564394072982\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_clear_port"
     style="@style/Fragment.main_color"
-    tools:context="com.sctgold.wgold.android.fragments.ClearPortFragment"
+    tools:context="com.sctgold.goldinvest.android.fragments.ClearPortFragment"
     android:clickable="true">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

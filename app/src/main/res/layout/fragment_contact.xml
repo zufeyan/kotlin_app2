@@ -5,7 +5,7 @@
     android:id="@+id/frag_contact"
     style="@style/Fragment.Default"
     android:layout_height="match_parent"
-    tools:context="com.sctgold.wgold.android.fragments.ContactFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.ContactFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

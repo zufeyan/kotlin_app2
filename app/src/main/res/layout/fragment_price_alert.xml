@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_price_alert"
     style="@style/Fragment.alert_page_color"
-    tools:context="com.sctgold.wgold.android.fragments.PriceAlertFragment"
+    tools:context="com.sctgold.goldinvest.android.fragments.PriceAlertFragment"
     android:clickable="true" >
 
     <LinearLayout

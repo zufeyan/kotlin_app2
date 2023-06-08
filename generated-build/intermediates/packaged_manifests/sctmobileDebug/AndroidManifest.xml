@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.clevel.tmgold.android"
+    package="com.clevel.goldinvest.android"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -76,7 +76,7 @@
             android:required="false" />
 
         <!-- &lt;!&ndash;        <meta-data&ndash;&gt; -->
-        <!-- &lt;!&ndash;            android:name="com.clevel.tmgold.android.MORE_MENU_VISIBLE"&ndash;&gt; -->
+        <!-- &lt;!&ndash;            android:name="com.clevel.goldinvest.android.MORE_MENU_VISIBLE"&ndash;&gt; -->
         <!-- &lt;!&ndash;            android:value="${MORE_MENU_LIST}" tools:replace="android:value"/>&ndash;&gt; -->
         <!-- <meta-data -->
         <!-- android:name="com.google.android.gms.version" -->
@@ -85,29 +85,29 @@
         <!-- android:name="com.google.android.geo.API_KE" -->
         <!-- android:value="AIzaSyBPGOFKmVqKEuuti6l0CG2-blgRJBafQH4"/> -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.SECURITY_BASE_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.SECURITY_BASE_URL" -->
         <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/api/v3.0/secure" tools:replace="android:value"/> -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.API_BASE_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.API_BASE_URL" -->
         <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/api/v3.0" tools:replace="android:value"/> -->
         <!-- &lt;!&ndash;        <meta-data&ndash;&gt; -->
-        <!-- &lt;!&ndash;            android:name="com.clevel.tmgold.android.FILE_UPLOAD_URL"&ndash;&gt; -->
+        <!-- &lt;!&ndash;            android:name="com.clevel.goldinvest.android.FILE_UPLOAD_URL"&ndash;&gt; -->
         <!-- &lt;!&ndash;            android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/upload" tools:replace="android:value"/>&ndash;&gt; -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.BRANCH_CODE" -->
+        <!-- android:name="com.clevel.goldinvest.android.BRANCH_CODE" -->
         <!-- android:value="${API_BRANCH_CODE}"/> -->
         <!-- &lt;!&ndash;        &lt;!&ndash;        ws://localhost:8080/sctgoldFO/primepush/productPrice/100/ONLINE/A&ndash;&gt;&ndash;&gt; -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.FEED_SOCKET_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.FEED_SOCKET_URL" -->
         <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/productPrice/${API_BRANCH_CODE}/ONLINE" tools:replace="android:value"/> -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.CONFIG_SOCKET_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.CONFIG_SOCKET_URL" -->
         <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/mobileSystemUpdate" tools:replace="android:value"/> -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.EVENT_SOCKET_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.EVENT_SOCKET_URL" -->
         <!-- android:value="${API_SOCKET_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/primepush/mobileEventNotify" tools:replace="android:value"/> -->
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.SCT_API_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.SCT_API_URL" -->
         <!-- android:value="http://www.sctgoldgroup.com:8080/sctAPIMobile/rest"/> -->
 
         <meta-data
@@ -115,7 +115,7 @@
             android:resource="@xml/file_paths" />
 
         <activity
-            android:name="com.sctgold.wgold.ltsgold.activities.LauncherActivity"
+            android:name="com.sctgold.goldinvest.ltsgold.activities.LauncherActivity"
             android:exported="true"
             android:windowSoftInputMode="stateVisible" >
             <intent-filter>
@@ -125,7 +125,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sctgold.wgold.ltsgold.activities.MainActivity"
+            android:name="com.sctgold.goldinvest.ltsgold.activities.MainActivity"
             android:configChanges="uiMode"
             android:exported="true"
             android:launchMode="singleTop"
@@ -136,7 +136,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sctgold.wgold.ltsgold.activities.HomeActivity"
+            android:name="com.sctgold.goldinvest.ltsgold.activities.HomeActivity"
             android:configChanges="uiMode" />
 
         <provider
@@ -150,14 +150,14 @@
         </provider>
 
         <service
-            android:name="com.sctgold.wgold.ltsgold.fcm.MyFirebaseInstanceIDService"
+            android:name="com.sctgold.goldinvest.ltsgold.fcm.MyFirebaseInstanceIDService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.sctgold.wgold.ltsgold.fcm.MyFirebaseMessagingService"
+            android:name="com.sctgold.goldinvest.ltsgold.fcm.MyFirebaseMessagingService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -190,12 +190,12 @@
             android:name="firebase_analytics_collection_enabled"
             android:value="false" />
 
-        <activity android:name="com.sctgold.wgold.ltsgold.activities.DetailsActivity" />
+        <activity android:name="com.sctgold.goldinvest.ltsgold.activities.DetailsActivity" />
 
-        <service android:name="com.sctgold.wgold.ltsgold.service.MobilePricingService" />
+        <service android:name="com.sctgold.goldinvest.ltsgold.service.MobilePricingService" />
 
         <receiver
-            android:name="com.sctgold.wgold.ltsgold.ReplyReceiver"
+            android:name="com.sctgold.goldinvest.ltsgold.ReplyReceiver"
             android:enabled="true"
             android:exported="false"
             android:stopWithTask="false" >

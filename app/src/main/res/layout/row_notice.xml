@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.sctgold.wgold.android.ExpandableLayout
+    <com.sctgold.goldinvest.android.ExpandableLayout
         android:id="@+id/expand_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,6 +59,6 @@
         </LinearLayout>
 
 
-    </com.sctgold.wgold.android.ExpandableLayout>
+    </com.sctgold.goldinvest.android.ExpandableLayout>
 
 </androidx.cardview.widget.CardView>

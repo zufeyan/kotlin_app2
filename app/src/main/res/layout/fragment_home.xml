@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_home"
     style="@style/Fragment.main_color"
-    tools:context="com.sctgold.wgold.android.fragments.HomeFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.HomeFragment">
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/home_refresh"

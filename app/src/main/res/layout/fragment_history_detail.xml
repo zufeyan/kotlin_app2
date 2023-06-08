@@ -5,7 +5,7 @@
     android:id="@+id/frag_history_detail"
     style="@style/Fragment.main_color"
     android:clickable="true"
-    tools:context="com.sctgold.wgold.android.fragments.HistoryDetailFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.HistoryDetailFragment">
 
     <androidx.cardview.widget.CardView
         style="@style/Card.Theme"

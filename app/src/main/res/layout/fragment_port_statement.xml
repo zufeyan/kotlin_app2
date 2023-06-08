@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_port_state"
     style="@style/Fragment.color_grey"
-    tools:context="com.sctgold.wgold.android.fragments.PortStatementFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.PortStatementFragment">
 
     <LinearLayout
         android:id="@+id/layout_post_statement"

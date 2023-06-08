@@ -1,11 +1,11 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.sctgold.wgold.ltsgold;
+package com.sctgold.goldinvest.ltsgold;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.clevel.tmgold.android";
+  public static final String APPLICATION_ID = "com.clevel.goldinvest.android";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "sctmobile";
   public static final int VERSION_CODE = 1;

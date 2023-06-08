@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_graph"
     style="@style/Fragment.main_color"
-    tools:context="com.sctgold.wgold.android.fragments.GraphFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.GraphFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

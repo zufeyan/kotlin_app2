@@ -1,2 +1,2 @@
 com/goldconnect/sctgold/android/BuildConfig.java
- com.clevel.tmgold.android.BuildConfig
+ com.clevel.goldinvest.android.BuildConfig

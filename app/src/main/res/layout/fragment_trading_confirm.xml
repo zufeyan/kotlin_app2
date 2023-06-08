@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_trading_confirm"
     style="@style/Fragment.color_black"
-    tools:context="com.sctgold.wgold.android.fragments.TradingConfirmFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.TradingConfirmFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

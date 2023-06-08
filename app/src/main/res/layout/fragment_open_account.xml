@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_open_account"
     style="@style/Fragment.Default"
-    tools:context="com.sctgold.wgold.android.fragments.OpenAccountFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.OpenAccountFragment">
 
     <WebView
         android:id="@+id/web_open_account"

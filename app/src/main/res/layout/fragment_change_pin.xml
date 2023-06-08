@@ -5,7 +5,7 @@
     android:id="@+id/frag_change_pin"
     style="@style/Fragment.main_color"
     android:padding="@dimen/pad_h"
-    tools:context="com.sctgold.wgold.android.fragments.ChangePinFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.ChangePinFragment">
 
     <LinearLayout
         android:id="@+id/change_pin_container"

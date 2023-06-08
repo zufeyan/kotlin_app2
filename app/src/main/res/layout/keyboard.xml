@@ -120,7 +120,7 @@
 
         <LinearLayout style="@style/Keyboard.Cell">
 
-            <com.sctgold.wgold.android.IconifiedTextView
+            <com.sctgold.goldinvest.android.IconifiedTextView
                 android:id="@+id/keyRemove"
                 style="@style/Keyboard.Key"
                 android:text="&#xe14a;"

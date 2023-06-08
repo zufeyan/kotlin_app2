@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_trade"
     style="@style/Fragment.main_color"
-    tools:context="com.sctgold.wgold.android.fragments.TradingFragment"
+    tools:context="com.sctgold.goldinvest.android.fragments.TradingFragment"
     android:imeOptions="actionDone">
 
 <!--    <androidx.constraintlayout.widget.ConstraintLayout-->

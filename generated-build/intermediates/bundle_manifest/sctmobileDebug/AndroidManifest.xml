@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.clevel.tmgold.android"
+    package="com.clevel.goldinvest.android"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -76,7 +76,7 @@
             android:required="false" />
 
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.MORE_MENU_VISIBLE" -->
+        <!-- android:name="com.clevel.goldinvest.android.MORE_MENU_VISIBLE" -->
         <!-- android:value="${MORE_MENU_LIST}" tools:replace="android:value"/> -->
         <meta-data
             android:name="com.google.android.gms.version"
@@ -91,7 +91,7 @@
             android:name="com.clevel.tmgold.ltsgold.API_BASE_URL"
             android:value="https://www.sctgoldspot.com/sctgoldFO/mobile/api/v3.0" />
         <!-- <meta-data -->
-        <!-- android:name="com.clevel.tmgold.android.FILE_UPLOAD_URL" -->
+        <!-- android:name="com.clevel.goldinvest.android.FILE_UPLOAD_URL" -->
         <!-- android:value="${API_SERVICE_PROTOCOL}://${API_RELEASE_PATH}/${CONTEXT_PATH}/mobile/upload" tools:replace="android:value"/> -->
         <meta-data
             android:name="com.clevel.tmgold.ltsgold.BRANCH_CODE"
@@ -114,7 +114,7 @@
             android:resource="@xml/file_paths" />
 
         <activity
-            android:name="com.sctgold.wgold.ltsgold.activities.LauncherActivity"
+            android:name="com.sctgold.goldinvest.ltsgold.activities.LauncherActivity"
             android:exported="true"
             android:windowSoftInputMode="stateVisible" >
             <intent-filter>
@@ -124,7 +124,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sctgold.wgold.ltsgold.activities.MainActivity"
+            android:name="com.sctgold.goldinvest.ltsgold.activities.MainActivity"
             android:configChanges="uiMode"
             android:exported="true"
             android:launchMode="singleTop"
@@ -135,7 +135,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sctgold.wgold.ltsgold.activities.HomeActivity"
+            android:name="com.sctgold.goldinvest.ltsgold.activities.HomeActivity"
             android:configChanges="uiMode" />
 
         <provider
@@ -149,14 +149,14 @@
         </provider>
 
         <service
-            android:name="com.sctgold.wgold.ltsgold.fcm.MyFirebaseInstanceIDService"
+            android:name="com.sctgold.goldinvest.ltsgold.fcm.MyFirebaseInstanceIDService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.sctgold.wgold.ltsgold.fcm.MyFirebaseMessagingService"
+            android:name="com.sctgold.goldinvest.ltsgold.fcm.MyFirebaseMessagingService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -189,12 +189,12 @@
             android:name="firebase_analytics_collection_enabled"
             android:value="false" />
 
-        <activity android:name="com.sctgold.wgold.ltsgold.activities.DetailsActivity" />
+        <activity android:name="com.sctgold.goldinvest.ltsgold.activities.DetailsActivity" />
 
-        <service android:name="com.sctgold.wgold.ltsgold.service.MobilePricingService" />
+        <service android:name="com.sctgold.goldinvest.ltsgold.service.MobilePricingService" />
 
         <receiver
-            android:name="com.sctgold.wgold.ltsgold.ReplyReceiver"
+            android:name="com.sctgold.goldinvest.ltsgold.ReplyReceiver"
             android:enabled="true"
             android:exported="false"
             android:stopWithTask="false" >

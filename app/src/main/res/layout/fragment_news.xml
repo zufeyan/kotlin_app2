@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_news"
     style="@style/Fragment.main_color"
-    tools:context="com.sctgold.wgold.android.fragments.NewsFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.NewsFragment">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/news_refresh"

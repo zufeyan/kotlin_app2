@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_port_folio"
     style="@style/Fragment.color_grey"
-    tools:context="com.sctgold.wgold.android.fragments.PortfolioFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.PortfolioFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

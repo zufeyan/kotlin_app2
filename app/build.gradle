@@ -27,8 +27,8 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.clevel.tmgold.android"
-        //applicationId "com.sctgold.wgold.android"
+        applicationId "com.clevel.goldinvest.android"
+        //applicationId "com.sctgold.goldinvest.android"
         minSdkVersion 28
         targetSdkVersion 33
         versionCode 700001
@@ -84,7 +84,7 @@ android {
         maven { url "https://maven.google.com" }
     }
 
-    namespace 'com.sctgold.wgold.android'
+    namespace 'com.sctgold.goldinvest.android'
     buildFeatures {
         viewBinding = true
         dataBinding true

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag_sign_in"
     style="@style/Fragment.Default"
-    tools:context="com.sctgold.wgold.android.fragments.SignInFragment">
+    tools:context="com.sctgold.goldinvest.android.fragments.SignInFragment">
 
     <ImageView
         android:id="@+id/logo_app"
