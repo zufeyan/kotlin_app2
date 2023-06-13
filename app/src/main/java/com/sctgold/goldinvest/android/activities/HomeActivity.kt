@@ -29,6 +29,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.hardware.fingerprint.FingerprintManagerCompat
 import androidx.core.os.bundleOf
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
@@ -128,6 +129,7 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        val imageView2 = findViewById<ImageView>(R.id.imageView2)
         val toolbar = findViewById<Toolbar>(R.id.main_toolbar)
         setSupportActionBar(toolbar)
 
@@ -139,6 +141,55 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
 //                Log.d("testddddddddddd  ", "asdasdasggggggggggg ")
 //            }
 //        }
+
+        imageView2.setImageResource(R.drawable.ic_v_call)
+
+        imageView2.setOnClickListener {
+            val MY_PERMISSIONS_REQUEST_CALL_PHONE = 1
+            val mIntent = Intent(Intent.ACTION_CALL)
+            val number = "tel:" + PropertiesKotlin.phoneNumber
+            mIntent.data = Uri.parse(number)
+            if (ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.CALL_PHONE
+                )
+                != PackageManager.PERMISSION_GRANTED
+            ) {
+                ActivityCompat.requestPermissions(
+                    this, arrayOf(Manifest.permission.CALL_PHONE),
+                    MY_PERMISSIONS_REQUEST_CALL_PHONE
+                )
+
+                // MY_PERMISSIONS_REQUEST_CALL_PHONE is an
+                // app-defined int constant. The callback method gets the
+                // result of the request.
+            } else {
+                //You already have permission
+                try {
+
+                    val builder: AlertDialog.Builder? = this.let {
+                        AlertDialog.Builder(it)
+                    }
+                    builder?.setTitle(getString(R.string.btn_call_hotline))
+                        ?.setMessage(PropertiesKotlin.phoneNumber)
+                        ?.setPositiveButton(getString(R.string.btn_call),
+                            DialogInterface.OnClickListener { dialog, id ->
+                                startActivity(mIntent)
+                                builder.create().dismiss()
+                            })
+                        ?.setNegativeButton(getString(R.string.btn_close),
+                            DialogInterface.OnClickListener { dialog, id ->
+                                builder.create().dismiss()
+                            })
+                    builder?.create()?.show()
+
+
+                } catch (e: SecurityException) {
+                    e.printStackTrace()
+                }
+            }
+        }
+
         appContext = this
         titles = findViewById(R.id.title_main_text)
 //        titles.text = getString(R.string.app_name)
@@ -156,7 +207,7 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
         createTab()
         var sharedPreferences: SharedPreferences? = getSharedPreferences(
             getString(R.string.key_prefs_session_initialized),
-            Context.MODE_PRIVATE
+            MODE_PRIVATE
         )
         if (sharedPreferences != null) {
             checkNightTheme = sharedPreferences.getBoolean("NIGHT_THEME", false)
@@ -321,7 +372,7 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                 when (PropertiesKotlin.state) {
                     "HomeFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
-                        item1.isVisible = true
+                        item1.isVisible = false
                         val item2 = menu.findItem(R.id.to_edit_product)
                         item2.isVisible = true
                         val item3 = menu.findItem(R.id.to_checked)
@@ -334,6 +385,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = true
                     }
 
                     "TradingFragment" -> {
@@ -351,6 +404,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
 
                     }
                     "TradingConfirmFragment" -> {
@@ -368,7 +423,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
-
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "TradingDecisionFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -385,7 +441,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
-
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "ManageFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -402,6 +459,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "SupportRequestManagerFragment" -> {
                         val item2 = menu.findItem(R.id.to_price_alert)
@@ -414,6 +473,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
 
                     "MoreFragment" -> {
@@ -431,7 +492,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
-
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "NewsFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -448,7 +510,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
-
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "NewsDetailFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -465,7 +528,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
-
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "" -> {
 
@@ -485,6 +549,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                                 item6.isVisible = false
                                 val item7 = menu.findItem(R.id.to_www)
                                 item7.isVisible = false
+                                val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                                imageView2.isVisible = false
                             }
                             "TradingFragment" -> {
                                 val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -501,7 +567,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                                 item6.isVisible = false
                                 val item7 = menu.findItem(R.id.to_www)
                                 item7.isVisible = false
-
+                                val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                                imageView2.isVisible = false
                             }
                             else -> {
                                 val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -518,6 +585,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                                 item6.isVisible = false
                                 val item7 = menu.findItem(R.id.to_www)
                                 item7.isVisible = false
+                                val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                                imageView2.isVisible = false
                             }
                         }
                     }
@@ -536,6 +605,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
 
 
@@ -559,6 +630,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = true
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "NoticeFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -575,6 +648,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
 
                     "HistoryDetailFragment" -> {
@@ -592,6 +667,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = PropertiesKotlin.checkTradeType
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "GraphFragment" -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -608,7 +685,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
-
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     "ClearPortActionFragment" -> {
                         val title = this.findViewById<TextView>(R.id.title_main_text)
@@ -627,6 +705,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                     else -> {
                         val item1 = menu.findItem(R.id.to_call_hot_line)
@@ -643,6 +723,8 @@ open class HomeActivity : AppCompatActivity(), OnEventUpdateListener {
                         item6.isVisible = false
                         val item7 = menu.findItem(R.id.to_www)
                         item7.isVisible = false
+                        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+                        imageView2.isVisible = false
                     }
                 }
 

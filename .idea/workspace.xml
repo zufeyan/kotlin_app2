@@ -18,204 +18,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sctgold/wgold/android/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/ActionSheetListViewDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/BootReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/DragListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/ExpandableLayout.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/GoldSpotApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/GoldSpotCache.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/KeyboardView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/MyWorker.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/ReplyReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/SwipeLockableViewPager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/SwipeToDelete.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/BaseActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/DetailsActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/HomeActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/IntentActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/IntentActivityUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/LauncherActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/activities/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/adapter/ActionSheetAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/adapter/CustomAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/adapter/HomeProductListAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dialogs/ProgressDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dialogs/StandardDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ActionResult.kt.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/CreditLimitDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/DetailRealtimeSpotDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/EventDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/FinalPriceView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/HomeProduct.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/MobileProductSetting.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/MobileVersion.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/NewsListDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/NotificationDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/NotifyEvent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/PortfolioProductDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/PriceAlertsDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ProcessClearPortDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ProductDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ProductPrice.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ProductPriceServer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ProductServer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ResponseDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/ServiceStatus.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/SpotPriceDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/TradeDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/TradeHistoryDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/VersionResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/dto/selectDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fcm/MyFirebaseInstanceIDService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fcm/MyFirebaseMessagingService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fcm/NotifyMessagingService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/AnalysisFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ChangePasswordFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ChangePinFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ClearPortActionFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ClearPortFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ContactFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ForceChangeFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ForgetPasswordFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/GraphFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/GuideFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/HistoryDetailFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/HistoryFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/HomeFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/MainFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/ManageFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/MoreFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/NewsDetailFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/NewsFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/NoticeFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/OpenAccountFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PassCodeFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PaymentFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortDeptFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortDetailFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortMoneyFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortPagerFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortSendingFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortStatementFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortfolioFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PortfolioMainFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/PriceAlertFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/SettingsFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/SignInFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/TradingConfirmFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/TradingDecisionFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/TradingFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/fragments/UserDeletionFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnActionResultListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnBackPressedListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnClickDialogListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnEventUpdateListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnNavigationIconListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnNewsSelectedListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnPADeleteListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnPortfolioChangeListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnPriceAlertListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnPriceFeedListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnReloadDataFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnResultPermissionCallbackListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnRightMenuListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnStateChangeListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/listener/OnSystemUpdateListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/network/AppSocket.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/network/FlowSocketManagerImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/network/PlatformSocket.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/receiver/ConnectivityReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/receiver/MobileEventReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/receiver/MobilePricingReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/receiver/MobileSystemReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/receiver/PriceAlertReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/rest/MobileFrontService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/rest/NewsService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/rest/ServiceApiSpot.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/service/MobileEventService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/service/MobilePricingService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/service/MobileSystemService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/service/UploadService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/AppConstants.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/AppUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/ApplicationLanguageHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/ConnectionLiveData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/DecimalDigitsInputFilter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/EncryptUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/ImageInputHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/ManageData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/MyItemDetailsLookup.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/MyItemKeyProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/NetworkUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/OnItemClickListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/PagerAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/ProgressDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/PropertiesKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/RSAKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/Tls12SocketFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/TokenUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/URIPathHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/wgold/android/util/UploadUtility.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_analysis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_analysis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_pin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_pin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_clear_port.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_clear_port.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_clear_port_action.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_clear_port_action.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contact.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_force_change.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_force_change.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forget_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forget_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_guide.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_manage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_more.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notice.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_open_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_open_account.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pass_code.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pass_code.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_dept.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_dept.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_money.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_money.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_pager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_pager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_sending.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_sending.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_statement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_port_statement.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_portfolio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_price_alert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_price_alert.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trading.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trading.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trading_confirm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trading_confirm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trading_decision.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trading_decision.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_deletion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_deletion.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/keyboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/keyboard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_notice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_notice.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/sctgold/wgold/android/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/generated/data_binding_trigger/sctmobileDebug/com/goldconnect/sctgold/android/DataBindingTriggerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/generated/data_binding_trigger/sctmobileDebug/com/goldconnect/sctgold/android/DataBindingTriggerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/generated/source/buildConfig/sctmobile/debug/com/goldconnect/sctgold/android/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/generated/source/buildConfig/sctmobile/debug/com/goldconnect/sctgold/android/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/bundle_ide_model/sctmobileDebug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/bundle_ide_model/sctmobileDebug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/bundle_manifest/sctmobileDebug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/bundle_manifest/sctmobileDebug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/compatible_screen_manifest/sctmobileDebug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/compatible_screen_manifest/sctmobileDebug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/manifest_merge_blame_file/sctmobileDebug/manifest-merger-blame-sctmobile-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/manifest_merge_blame_file/sctmobileDebug/manifest-merger-blame-sctmobile-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/merged_manifest/sctmobileDebug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/merged_manifest/sctmobileDebug/out/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/merged_manifests/sctmobileDebug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/merged_manifests/sctmobileDebug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/merged_manifests/sctmobileDebug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/merged_manifests/sctmobileDebug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/packaged_manifests/sctmobileDebug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/packaged_manifests/sctmobileDebug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/packaged_manifests/sctmobileDebug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/packaged_manifests/sctmobileDebug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/processed_res/sctmobileDebug/out/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/processed_res/sctmobileDebug/out/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/intermediates/symbol_list_with_package_name/sctmobileDebug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/intermediates/symbol_list_with_package_name/sctmobileDebug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/outputs/apk/sctmobile/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/outputs/apk/sctmobile/debug/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/outputs/logs/manifest-merger-sctmobile-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/outputs/logs/manifest-merger-sctmobile-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated-build/tmp/compileSctmobileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generated-build/tmp/compileSctmobileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sctgold/goldinvest/android/activities/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sctgold/goldinvest/android/activities/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +60,7 @@
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="EXPORT_PRIVATE_KEY" value="false" />
-    <option name="KEY_STORE_PATH" value="C:\Users\ASUS\Documents\mykeystore\keystore1.jks" />
+    <option name="KEY_STORE_PATH" value="C:\Users\ASUS\Documents\keystore_work\work_2_goldinvest\keystore1.jks" />
     <option name="KEY_ALIAS" value="key0" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
@@ -258,7 +71,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PVILQGAqqnZGJKW0GvsBCtnUB4" />
   <component name="ProjectLevelVcsManager">
@@ -268,32 +81,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ApkExportedModule&quot;: &quot;WatcharinGold.app&quot;,
-    &quot;BundleExportedModule&quot;: &quot;WatcharinGold.app&quot;,
-    &quot;ExportApk.ApkPathForWatcharinGold.app&quot;: &quot;C:\\Users\\ASUS\\Documents\\GitHub\\kotlin_app\\app&quot;,
-    &quot;ExportBundle.BundlePathForWatcharinGold.app&quot;: &quot;C:\\Users\\ASUS\\Documents\\GitHub\\kotlin_app\\app&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/GitHub/kotlin_app2/app/src/main/res/drawable&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Variables&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "goldinvest.app",
+    "BundleExportedModule": "goldinvest.app",
+    "ExportApk.ApkPathForWatcharinGold.app": "C:\\Users\\ASUS\\Documents\\GitHub\\kotlin_app2\\app",
+    "ExportApk.ApkPathForgoldinvest.app": "C:\\Users\\ASUS\\Documents\\GitHub\\kotlin_app2\\app",
+    "ExportBundle.BundlePathForWatcharinGold.app": "C:\\Users\\ASUS\\Documents\\GitHub\\kotlin_app2\\app",
+    "ExportBundle.BundlePathForgoldinvest.app": "C:\\Users\\ASUS\\Documents\\GitHub\\kotlin_app2\\app",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/ASUS/Documents/GitHub/kotlin_app2/app",
+    "project.structure.last.edited": "Variables",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "show.migrate.to.gradle.popup": "false"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ExportApk.BuildVariants&quot;: [
-      &quot;release&quot;
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\GitHub\kotlin_app2\app\src\main\res\drawable" />
@@ -306,7 +121,7 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="WatcharinGold.app.main" />
+      <module name="goldinvest.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
