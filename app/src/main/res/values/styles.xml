@@ -1036,7 +1036,7 @@
     <style name="Label.Topic">
         <!--        <item name="android:fontFamily">@font/pridi_medium</item>-->
         <item name="android:textSize">@dimen/lb_header</item>
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/text_menu_topic</item>
         <item name="android:maxLines">1</item>
         <item name="android:ellipsize">end</item>
     </style>

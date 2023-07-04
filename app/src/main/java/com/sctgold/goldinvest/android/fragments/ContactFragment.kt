@@ -112,6 +112,7 @@ class ContactFragment : Fragment(), OnMapReadyCallback {
         super.onViewCreated(view, savedInstanceState)
         map.getMapAsync(this)
         map.onCreate(savedInstanceState)
+        map.onResume()
 
         val valHeight = frame.layoutParams.height / 2
         contact.layoutParams.height = valHeight

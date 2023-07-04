@@ -172,15 +172,15 @@ class TradingDecisionFragment : Fragment() {
         when (tradeType) {
             "REALTIME" -> {
                 type = getString(R.string.un_rt)
-                frame.setBackgroundResource(R.color.bg_de)
+                frame.setBackgroundResource(R.color.bg_de_red)
             }
             "PLACE_ORDER" -> {
                 type = getString(R.string.un_po)
-                frame.setBackgroundResource(R.color.bg_po)
+                frame.setBackgroundResource(R.color.bg_de_red)
             }
             "STOP_ORDER" -> {
                 type = getString(R.string.un_so)
-                frame.setBackgroundResource(R.color.bg_so)
+                frame.setBackgroundResource(R.color.bg_de_red)
             }
         }
 
@@ -189,24 +189,24 @@ class TradingDecisionFragment : Fragment() {
         when (tradeSide) {
             "S" -> {
                 side = getString(R.string.sell)
-                vl1.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
-                vl2.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
-                vl3.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
-                vl4.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
-                vl5.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
-                vl6.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
-                vl7.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell))
+                vl1.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
+                vl2.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
+                vl3.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
+                vl4.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
+                vl5.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
+                vl6.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
+                vl7.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_sell_yellow))
 
             }
             "B" -> {
                 side = getString(R.string.buy)
-                vl1.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
-                vl2.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
-                vl3.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
-                vl4.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
-                vl5.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
-                vl6.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
-                vl7.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy))
+                vl1.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
+                vl2.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
+                vl3.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
+                vl4.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
+                vl5.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
+                vl6.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
+                vl7.setTextColor(ContextCompat.getColor(requireContext(), R.color.pm_buy_yellow))
             }
         }
 

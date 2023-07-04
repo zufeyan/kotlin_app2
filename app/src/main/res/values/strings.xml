@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">gold invest</string>
-    <string name="version">All rights reserved \u00a9KHONGKHWAN YAOWARAT. All rights reserved.\nApplications gold invest </string>
+    <string name="app_name">Gold Invest</string>
+    <string name="version">All rights reserved \u00a9KHONGKHWAN YAOWARAT. All rights reserved.\nApplications Gold Invest </string>
     <string name="version_text">Version </string>
 
     <!--google-->

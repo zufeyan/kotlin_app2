@@ -221,7 +221,7 @@ class HomeFragment : MainFragment(), OnReloadDataFragment, OnPriceFeedListener,
     )
 
     private fun chatLine() {
-        val uri = Uri.parse("https://lin.ee/QSLwSEf") // missing 'http://' will cause crashed
+        val uri = Uri.parse("https://lin.ee/OtCRv2u") // missing 'http://' will cause crashed
         val intent = Intent(Intent.ACTION_VIEW, uri)
         startActivity(intent)
     }

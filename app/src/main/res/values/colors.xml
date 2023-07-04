@@ -25,6 +25,7 @@
     <color name="tab_select">#FFFFFF</color>#ffE2C67F
     <color name="header">#990000</color>///#ff620715
     <color name="text">#FFFFFF</color>///#595858
+    <color name="text_menu_topic">#000000</color>
     <color name="text_black">#000000</color>
     <color name="text_product_name">#000000</color>///#595858
     <color name="text_credit_limit">#000000</color>///#595858
@@ -72,6 +73,7 @@
     <color name="bg_de2_start">#FFFFFF</color>
     <color name="bg_de2">#D7D7D7</color>
     <color name="bg_de2_onecolor">#000000</color>
+    <color name="bg_de_red">#990000</color>
 
 
     <!--background PLACE ORDER-->
@@ -105,6 +107,8 @@
     <color name="pm_buy_light">#FFF5FFEF</color>
     <color name="pm_track">#FFAAAAAA</color>
     <color name="pm_settled">#A836FF</color>
+    <color name="pm_sell_yellow">#FFCB31</color>
+    <color name="pm_buy_yellow">#FFCB31</color>
 
     <!--back set-->
     <color name="back_normal">#ffc10000</color>
